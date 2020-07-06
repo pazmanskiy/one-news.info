@@ -1,0 +1,89 @@
+/* Code tidied up by ScrapBook */
+body { margin: 0px; padding: 0px; }
+.wait__Discount { background: transparent url("popup-wait.svg") no-repeat scroll center center / cover ; }
+.popupsale__Discount { z-index: 1000; box-sizing: border-box; padding: 0px; margin: 0px; position: fixed; overflow: auto; left: 0px; top: 0px; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; background-color: rgba(29, 31, 32, 0.7); font-family: "Montserrat",sans-serif; }
+.popupsale__Discount * { padding: 0px; margin: 0px; box-sizing: border-box; }
+.popupsale__Discount .popupsale__window__Discount { position: relative; width: 770px; background-color: transparent; background-attachment: scroll, scroll, scroll, scroll; background-position: left top, right top, right bottom, left bottom; background-clip: border-box, border-box, border-box, border-box; background-origin: padding-box, padding-box, padding-box, padding-box; background-image: radial-gradient(circle at 0px 0px , rgba(204, 0, 0, 0) 0px, rgb(255, 255, 255) 0px), radial-gradient(circle at 100% 0px , rgba(204, 0, 0, 0) 20px, rgb(255, 255, 255) 21px), radial-gradient(circle at 100% 100% , rgba(204, 0, 0, 0) 0px, rgb(255, 255, 255) 0px), radial-gradient(circle at 0px 100% , rgba(204, 0, 0, 0) 0px, rgb(255, 255, 255) 0px); background-size: 51% 51%; background-repeat: no-repeat; border-radius: 20px; }
+.popupsale__Discount .popupsale__content__Discount { display: flex; padding: 0px; border-top-left-radius: 20px; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; color: rgb(18, 18, 18); position: relative; overflow: hidden; }
+.popupsale__Discount .popupsale__content__Discount::before { content: ""; position: absolute; left: -13px; top: -9px; width: 400px; height: 100%; border-radius: 20px; transform: rotate(3deg); box-shadow: 20px 0px 20px 0px rgba(0, 0, 0, 0.34); }
+.popupsale__Discount .popupsale__content__left__Discount { position: relative; width: 400px; min-height: 100%; background: rgb(239, 239, 239) url("bg-popup.jpg") no-repeat scroll left bottom; border-radius: 20px; text-align: center; font-family: Montserrat; font-size: 16px; font-weight: 400; line-height: 28px; padding: 40px 40px 0px; flex-shrink: 0; }
+.popupsale__Discount .popupsale__content__left__Discount::after { content: ""; position: absolute; bottom: 270px; right: -49px; width: 205px; height: 75px; background: transparent url("popup-arrow.png") repeat scroll 0% 0%; }
+.popupsale__Discount .popupsale__content__right__Discount { width: 100%; text-align: center; padding: 60px 40px 37px 60px; }
+.popupsale__Discount .popupsale__warning__Discount { background-color: rgb(255, 213, 19); padding: 3px 10px; }
+.popupsale__Discount .popupsale__form__Discount { margin-top: 20px; margin-bottom: 37px; float: unset; width: 300px; border: medium none; }
+.popupsale__Discount form .popupsale__input__Discount { width: 100%; border-radius: 4px; border: 1px solid rgb(204, 204, 204); background-color: rgb(255, 255, 255); margin-bottom: 4px; padding: 19px 1em; height: auto; font-size: 16px; }
+.popupsale__Discount form .popupsale__input__Discount:last-of-type { margin-bottom: 25px; }
+.popupsale__Discount form .popupsale__btn__Discount { display: block; position: relative; width: 100%; line-height: 1; padding: 26px 10px; border-radius: 36px; border: medium none; background-color: rgb(255, 0, 79); color: rgb(255, 255, 255); font-size: 22px; font-weight: 700; cursor: pointer; transition: all 0.3s ease-in-out 0s; }
+.popupsale__Discount .popupsale__btn__Discount::after { content: ""; position: absolute; top: -14px; right: 23px; width: 38px; height: 38px; background: transparent url("sale.png") no-repeat scroll 0% 0%; }
+.popupsale__Discount .popupsale__btn__Discount:hover { background-color: rgb(255, 71, 129); }
+.popupsale__Discount .popupsale__close__Discount { position: absolute; cursor: pointer; width: 41px; height: 41px; background: transparent url("popup-close.svg") no-repeat scroll center center / cover ; right: -25px; top: -25px; }
+.popupsale__Discount .popupsale__saletext__Discount { position: absolute; display: flex; align-items: flex-end; justify-content: center; z-index: 2; width: 160px; height: 89px; bottom: 155px; left: 69px; text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.45); color: rgb(236, 236, 236); font-size: 14px; font-weight: 700; line-height: 16px; text-align: left; padding-bottom: 16px; }
+.popupsale__Discount .popupsale__saletext__Discount span:nth-of-type(1) { text-shadow: 2px 1px 0px rgba(23, 20, 19, 0.4); color: rgb(255, 213, 19); font-size: 72px; font-weight: 900; line-height: 1; margin-right: 7px; position: relative; top: 7px; }
+.popupsale__Discount p { line-height: 1.6; margin: 0px 0px 10px; font-size: 16px; }
+.popupsale__Discount img { vertical-align: bottom; }
+.popupsale__Discount .popupsale__waiting__Discount { display: flex; flex-direction: column; align-items: center; font-size: 12px; }
+.popupsale__Discount .popupsale__waiting__Discount > div { margin-bottom: 5px; }
+.popupsale__Discount .popupsale__waiting__Discount > img { width: 36px; height: 28px; }
+.popupsale__Discount .popupsale__mobile__Discount { display: none; }
+.popupsale__Discount .fs-36__Discount { font-size: 36px; }
+.popupsale__Discount .fs-12__Discount { font-size: 12px; }
+.popupsale__Discount .c-purple__Discount { color: rgb(224, 7, 68); font-size: 36px; }
+@media screen and (max-width: 850px) {
+  .popupsale__Discount { padding: 28px 28px 0px; display: block; }
+  .popupsale__Discount .popupsale__saletext__Discount { bottom: 28px; padding-bottom: 10px; left: 50%; z-index: 1; font-size: 8px; line-height: 1.2; width: 82px; height: 40px; margin-left: -54px; }
+  .popupsale__Discount .popupsale__saletext__Discount span:nth-of-type(1) { font-size: 36px; top: 4px; }
+  .popupsale__Discount .popupsale__window__Discount { position: relative; width: 100%; }
+  .popupsale__Discount .popupsale__window__Discount::before, .popupsale__window__Discount::after { content: ""; position: absolute; width: 100%; height: 100px; }
+  .popupsale__Discount .popupsale__window__Discount::after { content: none; }
+  .popupsale__Discount .popupsale__content__Discount { flex-direction: column; padding: 23px 0px 14px; background: transparent none repeat scroll 0% 0%; z-index: 1; position: relative; }
+  .popupsale__Discount .popupsale__content__Discount::before { content: none; }
+  .popupsale__Discount .popupsale__content__left__Discount { width: 100%; padding: 0px 23px; font-size: 12px; line-height: 18px; margin-bottom: 10px; background: rgb(234, 234, 234) none repeat scroll 0% 0%; border-radius: 0px; }
+  .popupsale__Discount .popupsale__content__right__Discount { padding: 0px 2px; }
+  .popupsale__Discount .popupsale__warning__Discount { padding: 3px 5px; letter-spacing: -0.04em; }
+  .popupsale__Discount .popupsale__input__Discount { padding: 14px 1em; margin-bottom: 9px; }
+  .popupsale__Discount .popupsale__input__Discount:last-of-type { margin-bottom: 12px; }
+  .popupsale__Discount .popupsale__btn__Discount { font-size: 18px; padding: 20px 10px; }
+  .popupsale__Discount .popupsale__btn__Discount::after { width: 34px; height: 34px; background-size: cover; top: -13px; }
+  .popupsale__Discount .popupsale__form__Discount { width: 250px; margin-bottom: 16px; }
+  .popupsale__Discount .popupsale__waiting__Discount { flex-direction: row-reverse; justify-content: center; text-align: left; font-size: 11px; padding: 0px 10px; }
+  .popupsale__Discount .popupsale__waiting__Discount > img { margin-right: 6px; }
+  .popupsale__Discount .popupsale__mobile__Discount { display: block; margin: auto; width: 100%; height: 105px; background: transparent url("bg-popup-m.png") no-repeat scroll center bottom; }
+  .popupsale__Discount .fs-36__Discount { font-size: 24px; }
+}
+#zzzcpa { bottom: 25px; right: 10px; position: fixed; z-index: 10000; display: none; cursor: pointer; }
+.img-circle { background-color: rgb(41, 174, 227); box-sizing: content-box; }
+.circlephone { box-sizing: content-box; border: 2px solid rgb(41, 174, 227); width: 200px; height: 200px; bottom: -25px; right: 10px; position: absolute; border-radius: 100%; opacity: 0.5; animation: 2.4s ease-in-out 0s normal none infinite running circle-anim ! important; transition: all 0.5s ease 0s; }
+.circle-fill { box-sizing: content-box; background-color: rgb(41, 174, 227); width: 150px; height: 150px; bottom: 0px; right: 35px; position: absolute; border-radius: 100%; border: 2px solid transparent; animation: 2.3s ease-in-out 0s normal none infinite running circle-fill-anim; transition: all 0.5s ease 0s; }
+.img-circle { box-sizing: content-box; width: 122px; height: 122px; bottom: 14px; right: 49px; position: absolute; border-radius: 100%; border: 2px solid transparent; opacity: 0.7; }
+.img-circleblock { box-sizing: content-box; width: 122px; height: 122px; background-position: center center; background-repeat: no-repeat; }
+.img-circle:hover { opacity: 1; }
+@keyframes pulse {
+0% { transform: scale(0.9); opacity: 1; }
+50% { transform: scale(1); opacity: 1; }
+100% { transform: scale(0.9); opacity: 1; }
+}
+@keyframes tossing {
+0% { transform: rotate(-8deg); }
+50% { transform: rotate(8deg); }
+100% { transform: rotate(-8deg); }
+}
+@keyframes circle-anim {
+0% { transform: rotate(0deg) scale(0.5) skew(1deg); opacity: 0.1; }
+30% { transform: rotate(0deg) scale(0.7) skew(1deg); opacity: 0.5; }
+100% { transform: rotate(0deg) scale(1) skew(1deg); opacity: 0.6; }
+}
+@keyframes circle-anim {
+0% { transform: rotate(0deg) scale(0.5) skew(1deg); opacity: 0.1; }
+30% { transform: rotate(0deg) scale(0.7) skew(1deg); opacity: 0.5; }
+100% { transform: rotate(0deg) scale(1) skew(1deg); opacity: 0.1; }
+}
+@keyframes circle-fill-anim {
+0% { transform: rotate(0deg) scale(0.7) skew(1deg); opacity: 0.2; }
+50% { opacity: 0.2; }
+100% { transform: rotate(0deg) scale(0.7) skew(1deg); opacity: 0.2; }
+}
+@keyframes circle-fill-anim {
+0% { transform: rotate(0deg) scale(0.7) skew(1deg); opacity: 0.2; }
+50% { transform: rotate(0deg) scale(1) skew(1deg); opacity: 0.2; }
+100% { transform: rotate(0deg) scale(0.7) skew(1deg); opacity: 0.2; }
+}

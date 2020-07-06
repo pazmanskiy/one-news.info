@@ -1,0 +1,15 @@
+/* Code tidied up by ScrapBook */
+#form { max-width: 707px; text-align: left ! important; border-style: solid ! important; border-width: medium ! important; border-color: rgb(255, 98, 121) ! important; padding: 10px ! important; font-style: normal ! important; border-radius: 5px ! important; margin: 0px auto; }
+#form label { display: inline ! important; }
+#form h4 { text-align: center ! important; font-size: 25px ! important; color: rgb(0, 95, 158) ! important; }
+#form button { margin: 0px auto ! important; color: rgb(255, 255, 255) ! important; cursor: pointer ! important; font-weight: bold ! important; text-transform: uppercase ! important; background: rgb(255, 0, 0) none repeat scroll 0% 0% ! important; border: medium none ! important; border-radius: 8px ! important; padding: 20px 65px ! important; font-size: 18px ! important; text-align: center ! important; display: block ! important; text-decoration: none ! important; }
+#form button:hover { background-color: rgb(193, 31, 31) ! important; transition: all 0.2s ease 0s ! important; }
+#form input[type="text"], #form input[type="tel"] { height: 37px ! important; width: 100% ! important; box-sizing: border-box ! important; padding: 10px ! important; }
+#form form { width: 50%; margin: 0px auto 10px; }
+@media screen and (max-width: 1009px) {
+  #form form { width: 55%; }
+}
+@media screen and (max-width: 568px) {
+  #form form { width: 80%; min-width: 242px; }
+  #form button { padding: 20px 58px ! important; }
+}

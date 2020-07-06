@@ -1,0 +1,291 @@
+
+
+.screenLock { position: fixed; width: 100%; background: rgba(0, 0, 0, 0.7) none repeat scroll 0% 0%; top: 0px; left: 0px; z-index: 99999; display: none; }
+
+.msg { position: absolute; width: 620px; height: 240px; top: 150px; left: 50%; margin-left: -300px; background: rgb(20, 143, 185) none repeat scroll 0% 0%; border: 1px solid rgb(238, 238, 238); }
+
+.msg > h1 { color: rgb(255, 255, 255); text-align: center; font-size: 24px; margin-bottom: 30px; margin-top: 30px; }
+
+.msg > h2 { color: rgb(255, 255, 255); text-align: center; font-size: 20px; margin-bottom: 30px; margin-top: 30px; }
+
+.close { position: absolute; top: 1px; right: 5px; font-size: 40px; cursor: pointer; }
+
+.submit { margin: 10px auto; width: 400px; background-color: firebrick; color: rgb(255, 255, 255); font-size: 30px; border-radius: 3px; padding: 5px; border: 1px solid #FFF;}
+
+.wrapper {
+
+    max-width: 960px;
+
+    margin: 0 auto;
+
+}
+
+header {
+
+    position: relative;
+
+    width: 100%;
+
+}
+
+header * {
+
+    box-sizing: border-box;
+
+}
+
+#logo {
+
+    background: url("who-europe-logo-ru.png") left center no-repeat;
+
+    display: block;
+
+    float: left;
+
+    position: relative;
+
+    top: 0;
+
+    text-indent: -999em;
+
+    width: 600px;
+
+    height: 119px;
+
+    z-index: 1001;
+
+}
+
+#languagebar {
+
+    float: right;
+
+    margin: 10px .5em 0 0;
+
+    position: relative;
+
+    z-index: 952;
+
+}
+
+#languagebar ul {
+
+    position: relative;
+
+}
+
+#languagebar li {
+
+    color: #888;
+
+    display: block;
+
+    float: left;
+
+    margin: 0 0 0 10px;
+
+}
+
+#languagebar li a {
+
+    color: #34617E;
+
+    font-size: 14px;
+
+    text-decoration: none;
+
+}
+
+nav#main-nav {
+
+    /* position: relative; */
+
+    z-index: 850;
+
+    display: inline-block;
+
+    width: 100%;
+
+    margin-top: 0;
+
+}
+
+nav#main-nav ul.top-nav {
+
+    background-color: #00558F;
+
+    border-top: 2px solid #00558F;
+
+    clear: both;
+
+    margin: 0 auto;
+
+    /* margin-top: 150px; */
+
+    padding: 0;
+
+    max-width: 960px;
+
+    font-size: 0;
+
+    overflow: hidden;
+
+}
+
+nav#main-nav .top-nav > li {
+
+    margin: 0;
+
+    width: 14.28%;
+
+    height: 60px;
+
+    display: inline-block;
+
+    vertical-align: top;
+
+    font-size: 16px;
+
+}
+
+nav#main-nav .top-nav li {
+
+    list-style: none;
+
+    text-align: center;
+
+}
+
+nav#main-nav .top-nav a {
+
+    color: #fff;
+
+    display: block;
+
+    height: 100%;
+
+    padding: 10px 0;
+
+    position: relative;
+
+    text-decoration: none;
+
+    font-size: 12px;
+
+}
+
+nav#main-nav .top-nav > li > a:after {
+
+    background-color: #80a3bd;
+
+    content: " ";
+
+    position: absolute;
+
+    bottom: 7px;
+
+    right: -1px;
+
+    top: 7px;
+
+    width: 1px;
+
+}
+
+
+
+@media screen and (max-width: 768px){
+
+    header {
+
+        padding-bottom: 10px;
+
+    }
+
+    #languagebar {
+
+        display: none;
+
+    }
+
+    #logo {
+
+        float: none;
+
+        display: block;
+
+        margin: 0 auto 10px;
+
+    }
+
+    nav {
+
+        display: none !important;
+
+    }
+
+    nav#main-nav .top-nav > li {
+
+        display: block;
+
+        height: 50px;
+
+        width: 100%;
+
+        line-height: 25px;
+
+        font-size: 18px;
+
+    }
+
+    nav#main-nav .top-nav > li a{
+
+        font-size: inherit;
+
+        width: 90%;
+
+        margin: 0 auto;
+
+        border-bottom: 1px solid #bcb8d6;
+
+    }
+
+    nav#main-nav .top-nav > li:last-child a {
+
+        border: none;
+
+    }
+
+    nav#main-nav .top-nav > li > a:after {
+
+        display: none;
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 490px){
+
+    #logo {
+
+        width: 350px;
+
+        margin-bottom: 6px;
+
+        background-size: contain;
+
+    }
+
+    nav#main-nav .top-nav > li {
+
+        height: 40px;
+
+        font-size: 16px;
+
+        line-height: 20px;
+
+    }
+
+}

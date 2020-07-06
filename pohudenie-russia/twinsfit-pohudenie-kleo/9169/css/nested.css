@@ -1,0 +1,257 @@
+.contentelem-26 {
+	color: #7B7D80;
+	display: block;
+	font-size: 12px;
+	margin: 0;
+	line-height: 19px;
+	position: relative;
+}
+
+.contentelem-26 h2 {
+	border: 0;
+	display: inline-block;
+	padding-right: 45px;
+	position: relative;
+}
+
+.contentelem-26-2 {
+	display: block;
+	position: relative;
+}
+
+.contentelem-26-2 li {
+	position: relative;
+	/*margin: 15px 0;*/
+	padding: 15px 0;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.comments {
+	position: relative;
+	width: 100%;
+}
+
+.comments_content {
+	position: relative;
+	padding: 0 15px 0 60px;
+}
+
+.comments_photo {
+	position: absolute;
+	top: 0px;
+	left: -10px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.comments_photo img {
+	display: block;
+	width: 100%;
+	border-radius: 10px;
+}
+
+.comments_info {
+	margin: 0 0 4px 0;
+	font: bold 14px/20px Arial;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.comments_text {
+	margin: 0 0 3px 0;
+	font: normal normal 400 14px/23px Arial;
+	_color: #7B7D80;
+	color: #494949;
+}
+
+.comments_text img {
+	width: 90%;
+	margin-top: 10px;
+}
+
+.comments_link {
+	text-align: right;
+}
+
+.comments_link .contentlink-1 {
+	margin-left: 20px;
+}
+
+.comments_buttons {
+	position: relative;
+	float: right;
+	width: 66px;
+	margin-top: 5px;
+	text-align: left;
+}
+
+.minusbutton,
+.plusbutton {
+	border: 1px solid #BEBEBE;
+	display: block;
+	font-size: 0;
+	height: 13px;
+	position: relative;
+	text-decoration: none;
+	width: 13px;
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+
+	background: #F9F9F9;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#F9F9F9), to(#E7E7E7));
+	background: -webkit-linear-gradient(#F9F9F9, #E7E7E7);
+	background: -moz-linear-gradient(#F9F9F9, #E7E7E7);
+	background: -ms-linear-gradient(#F9F9F9, #E7E7E7);
+	background: -o-linear-gradient(#F9F9F9, #E7E7E7);
+	background: linear-gradient(#F9F9F9, #E7E7E7);
+	-pie-background: linear-gradient(#F9F9F9, #E7E7E7);
+
+	behavior: url("../PIE_1.php");
+}
+
+.comments_buttons .minusbutton {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.comments_buttons .plusbutton {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.contentelem-26-2-3-1 {
+	color: #464646;
+	display: block;
+	font-size: 10px;
+	margin: -2px 0 0 0;
+	text-align: center;
+}
+
+.contentelem-27 {
+	position: relative;
+	padding: 26px 30px;
+	margin: 0 0 0 -30px;
+	width: 612px;
+	background: url("../images/background-9.jpg") left top repeat #F3F3F3;
+	border-top: 1px solid #EBEBEB;
+	border-bottom: 1px solid #EBEBEB;
+}
+
+.contentelem-27 .decor-1 {
+	position: absolute;
+	left: 28px;
+	top: 30px;
+	height: 45px;
+	width: 45px;
+	font-size: 0;
+}
+
+.contentelem-27 .decor-1 {
+	background: url("../images/contentdecor-45.png") left top no-repeat;
+}
+
+.contentelem-27.withnick .decor-1 {
+	z-index: 2;
+}
+
+.contentelem-27.withnick .decor-1-1 {
+	z-index: 1;
+	position: absolute;
+	top: 26px;
+	left: 31px;
+	background: #f3f3f3;
+	height: 46px;
+	width: 45px;
+	border: 3px solid #f3f3f3;
+	border-radius: 40px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+
+	behavior: url("../PIE_1.php");
+}
+
+.contentelem-27.withnick .decor-3 {
+	z-index: 0;
+	position: relative;
+	top: 6px;
+	left: 0;
+	background: rgb(226, 226, 226);
+	width: 550px;
+	height: 30px;
+	padding: 12px 0 0 65px;
+	text-shadow: 1px 1px rgb(245, 245, 245);
+	border: 0;
+	border-radius: 40px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+
+	behavior: url("../PIE_1.php");
+}
+
+.contentelem-27.withnick .nick {
+	font-weight: bold;
+	margin-right: 70px;
+}
+
+.contentelem-27.withnick #yournick {
+	position: relative;
+	top: 2px;
+	margin-right: 5px;
+}
+
+.contentelem-27-1 {
+	padding: 0 0 0 59px;
+}
+
+.contentelem-27.withnick .contentelem-27-1 {
+	padding: 35px 0 0 59px;
+}
+
+.contentelem-27-1_arrow {
+	position: absolute;
+	top: -10px;
+	right: 80px;
+	display: block;
+	width: 20px;
+	height: 11px;
+	background: url(../images/contentdecor-2.png) -1px -301px no-repeat;
+}
+
+.commentform fieldset {
+	overflow: hidden;
+	position: relative;
+}
+
+.commentform .commentform-footbox .contentbutton-3-2,
+.commentform .commentform-footbox .contentbutton-3 .appeared-1 {
+	color: #7B7D80 !important;
+	font-size: 13px !important;
+	font-weight: bold !important;
+}
+
+.commentform .commentform-footbox .contentbutton-3 .appeared-1 {
+	color: #333 !important;
+}
+
+.show_top_commentform {
+	height: 20px;
+	border: 1px solid silver;
+	margin: 10px 0 30px 0;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.show_top_commentform:hover {
+	-webkit-box-shadow: 1px 1px 8px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 1px 1px 8px rgba(50, 50, 50, 0.75);
+	box-shadow: 1px 1px 8px rgba(50, 50, 50, 0.75);
+}

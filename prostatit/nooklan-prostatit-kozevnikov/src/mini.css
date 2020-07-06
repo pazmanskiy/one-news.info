@@ -1,0 +1,240 @@
+.content__title-first {
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.content__subtitle-first {
+    opacity: 0.72;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-bottom: 5px!important;
+
+}
+.content__title-second {
+    opacity: 0.77;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+}
+.content__text-first {
+    font-size: 1.4rem!important;
+    opacity: 0.9;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500!important;
+    line-height: normal!important;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-content__title {
+    opacity: 0.93;
+    color: #de2d4f;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 625px;
+    text-align: center;
+}
+.form-content__title span {
+    color: #000000;
+}
+.form-content__subtitle {
+    max-width: 715px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.form-content__text-small {
+    font-size: 11px!important;
+    opacity: 0.77;
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-weight: 600;
+}
+.form-content__application {
+    margin-bottom: 75px;
+}
+.form-content__application-text p {
+    display: inline-block;
+    opacity: 0.93;
+    color: #232323;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 0!important;
+    margin-left: 90px;
+    text-align: right;
+}
+.form-content__application-text span {
+    color: #de2d4f;
+}
+.img-mobile {
+    display: none;
+}
+.form-content__form {
+    width: -webkit-fill-available;
+    min-width: 100%;
+    background-color: #dbdbdb;
+    margin: 0 -2rem 40px;
+    display: flex;
+}
+.form__inner-block {
+    border: 1px solid #707070;
+    background-color: #3b78b2;
+    height: auto;
+    width: 290px;
+    margin-left: 45px;
+    position: relative;
+}
+/*.form__inner-block:before {
+    content: '';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 85%;
+    height: 2px;
+    background-color: #ffffff;
+    opacity: 0.69;
+}*/
+form {
+    padding: 20px;
+    width: 75%;
+}
+.form__title {
+    opacity: 0.77;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+.form-inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.form-input {
+    border: 1px solid #707070;
+    background-color: #ffffff;
+    opacity: 0.85;
+    height: 57px;
+    border-radius: 34px;
+    text-align: center;
+}
+.form-button {
+
+    height: 68px;
+    border-radius: 34px;
+    padding: 10px;
+    background-color: #3b78b2;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.form-content__bottom {
+    text-align: center;
+}
+.form-content__link {
+    display: inline-block;
+    margin: 35px auto;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.24);
+    background-color: #de2d4f;
+    color: #ffffff!important;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    line-height: normal;
+    font-weight: 700;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 1240px) {
+    form {
+        width: 100%;
+    }
+    .form-content__form {
+        justify-content: center;
+    }
+    .form__inner-block {
+        display: none;
+    }
+}
+@media screen and (max-width: 999px) {
+    .form-inner {
+        flex-direction: column;
+    }
+    .form-input {
+        margin-bottom: 15px;
+    }
+    .form-button {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 641px) {
+    .form__title {
+        font-size: 20px;
+        text-align: center;
+    }
+    .link-title {
+        font-size: 20px;
+    }
+    .form-content__link {
+        font-size: 18px;
+    }
+    .img-desktop {
+        display: none;
+    }
+    .img-mobile {
+        display: block;
+    }
+    .form-content__application {
+        margin-bottom: 40px;
+    }
+    .form-content__application-text {
+        text-align: center;
+    }
+    .form-content__application-text p {
+        margin: 0 0 10px!important;
+    }
+    .form-content__application-text p br {
+        display: none;
+    }
+}
+.fixed-menu.fixed {
+    top: 0
+}
+.red::-webkit-input-placeholder
+{
+    color: red; /* WebKit, Blink, Edge */
+}
+.red:-moz-placeholder
+{
+    color: red; /* Mozilla Firefox 4 to 18 */
+}
+.red::-moz-placeholder
+{
+    color: red; /* Mozilla Firefox 19+ */
+}
+.red::-ms-input-placeholder
+{
+    color: red; /* Microsoft Edge */
+}
+.red:-ms-input-placeholder
+{
+    color: red; /* Internet Explorer 10-11 */
+}
+.red::placeholder
+{
+    color: red; /* Most modern browsers support this now. */
+}

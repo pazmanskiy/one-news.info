@@ -1,0 +1,123 @@
+/* ::::: //cdn.reallblog.net/cl_pro_Shape_Instadiet/css/style.css ::::: */
+
+@font-face {
+	font-family: "ArialNarrow";
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/arialnarrow.eot')
+    format("embedded-opentype"),
+    url('../fonts/arialnarrow.woff')
+    format("woff"),
+    url('../fonts/arialnarrow.ttf')
+    format("truetype"),
+    url('../fonts/arialnarrow.svg')
+    format("svg");
+}
+.clearfix::after { content: ""; display: block; clear: both; }
+.wrapper { width: 1050px; margin: 0px auto; }
+.container { float: left; width: 780px; }
+.menu_line { float: left; width: 100%; }
+.logo { float: left; width: 173px; height: 74px; background: rgb(245, 0, 87) none repeat scroll 0% 0%; margin: 0px; display: table; }
+.logo a { width: 100%; display: table-cell; vertical-align: middle; height: 100%; text-decoration: none; font-family: "ArialNarrow"; font-size: 30px; color: rgb(255, 255, 255); text-align: center; }
+.logo a span { font-size: 18px; }
+.menu { float: left; width: 515px; margin: 35px 0px 0px 35px; }
+.menu a { float: left; display: block; color: rgb(245, 0, 87); font-family: "Arial"; font-size: 17px; text-decoration: none; margin: 0px 25px 0px 0px; }
+.name { float: left; width: 100%; margin: 15px 0px 40px; }
+.name h2 { float: left; display: block; font-family: "Arial"; font-size: 30px; color: rgb(49, 49, 49); font-weight: bold; }
+.description { float: left; width: 100%; }
+.persona { float: left; display: table; background: rgb(245, 246, 178) none repeat scroll 0% 0%; padding: 20px; }
+.per_img { float: left; width: 120px; height: 120px; border-radius: 50%; background: transparent url('../img/avatar.png') repeat scroll 0% 0%; margin-right: 15px; }
+.per_name { display: table-cell; vertical-align: middle; }
+.per_name span { float: left; width: 100%; margin: 0px 0px 8px; color: rgb(246, 100, 123); font-size: 20px; font-family: "Arial"; }
+.per_name p { float: left; width: 100%; color: rgb(43, 43, 43); font-size: 16px; font-family: "Arial"; }
+.per_name p span { float: none; color: rgb(248, 92, 143); margin: 0px 0px 0px 5px; }
+.block { float: left; width: 100%; margin: 35px 0px 0px; text-align: justify; }
+.block span b { color: rgb(0, 0, 0); }
+.block span { float: left; width: 100%; color: rgb(0, 0, 5); font-size: 16px; font-family: "Arial"; margin: 0px; line-height: 1.5; }
+.block span:nth-child(1) { margin: 0px 0px 35px; }
+.image_box { float: left; width: 100%; margin: 20px 0px 28px; }
+.one { float: left; width: 342px; height: 343px; }
+.two { float: right; width: 414px; height: 343px; }
+.three { float: left; width: 415px; height: 400px; }
+.four { float: right; width: 346px; height: 400px; }
+.five { float: left; width: 397px; height: 396px; }
+.six { float: right; width: 355px; height: 396px; }
+.seven { margin: 0px auto; width: 423px; height: 363px; }
+.eight { margin: 0px auto; width: 362px; height: 362px; }
+.nine { margin: 0px auto; width: 498px; height: 489px; }
+.one_1 { float: left; width: 377px; height: 378px; }
+.two_2 { float: right; width: 376px; height: 378px; }
+.three_3 { float: left; width: 393px; height: 395px; }
+.four_4 { float: right; width: 366px; height: 395px; }
+.five_5 { margin: 0px auto; width: 613px; height: 612px; }
+.six_6 { float: left; width: 414px; height: 417px; }
+.seven_7 { float: right; width: 346px; height: 417px; }
+.image_box img { display: block; width: 100%; }
+span:nth-child(n+5):nth-child(-n+8) { margin: 0px 0px 30px; }
+span:nth-child(n+10):nth-child(-n+12) { margin: 0px 0px 30px; }
+span:nth-child(n+16):nth-child(-n+20) { margin: 0px 0px 30px; }
+span:nth-child(n+22):nth-child(-n+25) { margin: 0px 0px 30px; }
+span:nth-child(n+31):nth-child(-n+33) { margin: 0px 0px 30px; }
+span:nth-child(36) { margin: 0px 0px 30px; }
+.block span a { text-decoration: none; color: rgb(236, 60, 118); }
+.border { border-bottom: 1px solid rgb(236, 60, 118); color: rgb(236, 60, 118); }
+.button_line { float: left; width: 100%; margin: 50px 0px 47px; }
+.button {
+    margin: 0px auto;
+    display: block;
+    width: 365px;
+    height: 44px;
+    border: medium none;
+    outline: medium none;
+    color: rgb(250, 250, 250);
+    font-size: 24px;
+    font-family: "Arial";
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 2px 13px 0px rgba(0, 0, 0, 0.5);
+    background: rgb(232, 46, 118) linear-gradient(135deg, rgb(233, 76, 133) 0%, rgb(236, 60, 139) 14%, rgb(236, 60, 139) 28%, rgb(236, 60, 139) 50%, rgb(229, 37, 120) 54%, rgb(228, 32, 117) 76%, rgb(229, 72, 129) 100%) repeat scroll 0% 0%;
+    transition: all 0.7s ease-out 0s;
+    display: block;
+    text-align: center;
+    line-height: 1.8;
+    text-decoration: none;
+}
+.button:hover { box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5); transform: scale(1.1); }
+.comment_block { float: left; width: 100%; border-top: 1px solid rgb(245, 190, 208); }
+.comment_block h2 { float: left; width: 100%; margin: 20px 0px 30px; color: rgb(69, 67, 67); font-family: "Arial"; font-size: 30px; font-weight: bold; }
+.com_box { float: right; width: 747px; }
+.com_line { float: left; width: 100%; border-bottom: 1px solid rgb(245, 190, 208); margin: 0px 0px 35px; }
+.com_img { float: left; width: 74px; height: 74px; margin: 0px 0px 30px; }
+.com_img img { display: block; width: 100%; }
+.com_txt { float: right; width: 655px; margin: 0px 0px 25px; }
+.com_txt h2 { float: left; width: 100%; color: rgb(0, 0, 0); font-family: "Arial"; font-size: 16px; font-weight: bold; margin: 7px 0px 12px; }
+.com_txt span { float: left; width: 100%; color: rgb(0, 0, 0); font-family: "Arial"; font-size: 16px; }
+.no_border { border: medium none; }
+.extra { margin: 40px 0px; }
+.comment_img { float: left; width: 472px; height: 254px; margin: 12px 0px 0px; }
+.comment_img img { display: block; width: 100%; }
+.sidebar { float: left; width: 215px; margin: 37px 0px 0px 37px; padding-left: 15px; border-left: 1px solid rgb(204, 204, 204); }
+.post { float: left; width: 100%; margin: 0px 0px 20px; text-align: center; }
+.post_img { float: left; width: 100%; }
+.post_img img { display: block; width: 100%; }
+.post a { float: left; width: 100%; color: rgb(248, 92, 143); font-family: "Arial"; font-size: 16px; margin: 12px 0px 0px; line-height: 1.2; text-decoration: none; }
+.post a:hover { text-decoration: underline; }
+.post_box { width: 225px; margin: 0px auto; }
+@media only screen and (max-device-width: 1024px) and (orientation: landscape) {
+	.container { width: 770px; margin-right: 20px; padding-left: 10px; }
+	.sidebar { float: left; width: 215px; margin: 37px 0px 0px; padding-left: 15px; border-left: 1px solid rgb(204, 204, 204); }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+	.wrapper { width: 100%; }
+	.container { width: 100%; padding: 0px 15px; }
+	.one, .three, .five, .one_1, .three_3, .six_6 { margin-left: 100px; }
+	.two, .four, .six, .two_2, .four_4, .seven_7 { float: left; }
+	.com_box { float: left; }
+	.sidebar { display: none; }
+}
+/* ::::: //cdn.reallblog.net/cl_pro_Shape_Instadiet/css/reset.css ::::: */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0px; padding: 0px; border: 0px none; font-size: 100%; vertical-align: baseline; }
+body { line-height: 1; }
+blockquote::before, blockquote::after, q::before, q::after { content: none; }

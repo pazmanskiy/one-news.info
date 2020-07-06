@@ -1,0 +1,897 @@
+@charset "UTF-8";
+
+body {
+  font: 13px/15px Arial, Tahoma, Sans-Serif;
+  color: #555;
+  /*background: transparent url("@{root}/main_bg-russia1.jpg") 50% -90px no-repeat;*/
+  background: transparent url("../images/main_bg-russia1-new.jpg") 50% -90px no-repeat;
+  /* background: transparent url("@{root}/main_bg-russia1-new.jpg") 50% -90px no-repeat;*/
+}
+body a {
+  color: #555;
+  text-decoration: none;
+}
+/**
+ * INPUTS
+----------------------------------------------------------------------------- */
+input {
+  font: 13px/15px Arial, Tahoma, Sans-Serif;
+}
+/**
+ * HEADERS
+
+    H4 используется в заголовках блоков с картинками или в заголовках с подписями и/или линией посередине
+----------------------------------------------------------------------------- */
+h1,
+h2,
+h3,
+h4 {
+  font-family: "RussiaRegular";
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  color: #555;
+  text-transform: uppercase;
+}
+h1,
+h1 a {
+  width: auto;
+  float: left;
+  font-size: 38px;
+  line-height: 38px;
+}
+h2 {
+  font-size: 22px;
+  line-height: 24px;
+}
+/* Цветовые настройки лежат в project/theming.less */
+h4 {
+  min-height: 22px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 25px;
+  position: relative;
+}
+h4 span {
+  /*.dIblock;*/
+  margin-bottom: -5px;
+}
+h4 a.icon {
+  display: -moz-inline-stack;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: auto;
+  cursor: default;
+}
+/* Если есть ссылка */
+/* Под текстом - линия по центру */
+h4.line a.icon {
+  padding-right: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+h4.line p.line {
+  display: block;
+  height: 1px !important;
+  border-bottom-width: 0;
+  border-bottom-style: none;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  zindex: 1;
+  margin: 0;
+  padding: 0;
+  margin-top: 0;
+  font-size: 1px;
+  line-height: 1px;
+}
+h4.line p.line_wide {
+  width: 672px;
+}
+/* subtitle находится справа от заголовка */
+/* subtitle находится под заголовком */
+/* По центру с линией наверху */
+/**
+ * CONTAINER
+----------------------------------------------------------------------------- */
+#container {
+  width: 1020px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  position: relative;
+}
+#container div.wrapper {
+  overflow: hidden;
+}
+/**
+ * HEADER
+----------------------------------------------------------------------------- */
+header {
+  height: 40px;
+  margin-top: 17px;
+  position: relative;
+  /*  Морда юзверя  */
+}
+header ul.vgtrk_soc_links {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 123px;
+  width: 140px;
+  height: 24px;
+  background: #3e3e3e;
+  background: linear-gradient(#3e3e3e, #1b1c1d);
+  background: -webkit-gradient(linear, 0, 0, 0 bottom, from(#3e3e3e), to(#1b1c1d));
+  background: -webkit-linear-gradient(#3e3e3e, #1b1c1d);
+  background: -ms-linear-gradient(#3e3e3e, #1b1c1d);
+  background: -moz-linear-gradient(#3e3e3e, #1b1c1d);
+  background: -o-linear-gradient(#3e3e3e, #1b1c1d);
+  border-top: 1px solid #636363;
+  border-bottom: 1px solid #1b1d26;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+header ul.vgtrk_soc_links li {
+  float: left;
+  display: -moz-inline-stack;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  position: relative;
+  width: 28px;
+  height: 24px;
+}
+header ul.vgtrk_soc_links li div {
+  position: relative;
+  width: 1px;
+  height: 24px;
+}
+header ul.vgtrk_soc_links li div.border-left {
+  float: left;
+  background: #515151;
+  background: linear-gradient(#515151, #202021);
+  background: -webkit-gradient(linear, 0, 0, 0 bottom, from(#515151), to(#202021));
+  background: -webkit-linear-gradient(#515151, #202021);
+  background: -ms-linear-gradient(#515151, #202021);
+  background: -moz-linear-gradient(#515151, #202021);
+  background: -o-linear-gradient(#515151, #202021);
+}
+header ul.vgtrk_soc_links li div.border-right {
+  float: right;
+  background: #3c3c3c;
+  background: linear-gradient(#3c3c3c, #151516);
+  background: -webkit-gradient(linear, 0, 0, 0 bottom, from(#3c3c3c), to(#151516));
+  background: -webkit-linear-gradient(#3c3c3c, #151516);
+  background: -ms-linear-gradient(#3c3c3c, #151516);
+  background: -moz-linear-gradient(#3c3c3c, #151516);
+  background: -o-linear-gradient(#3c3c3c, #151516);
+}
+header ul.vgtrk_soc_links li a {
+  display: block;
+  float: left;
+  width: 26px;
+  height: 24px;
+  background-image: url("../images/vgtrk-soc-links-sprite.png");
+  background-repeat: no-repeat;
+}
+header ul.vgtrk_soc_links li a.fb {
+  background-position: 10px center;
+}
+header ul.vgtrk_soc_links li a.vk {
+  background-position: -18px center;
+}
+header ul.vgtrk_soc_links li a.cm {
+  background-position: -46px center;
+}
+header ul.vgtrk_soc_links li a.tv {
+  background-position: -101px center;
+}
+header ul.vgtrk_soc_links li a.insta {
+  background-position: -133px center;
+}
+header ul.vgtrk_soc_links li a.yt {
+  background-position: -161px center;
+}
+header ul.vgtrk_soc_links li a.tamtam {
+  background-position: -190px center;
+}
+header ul.vgtrk_soc_links li:first-child {
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+header ul.vgtrk_soc_links li:first-child div.border-left {
+  display: none;
+}
+header ul.vgtrk_soc_links li:last-child {
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+header ul.vgtrk_soc_links li:last-child div.border-right {
+  display: none;
+}
+header ul.vgtrk_soc_links li:hover {
+  background: #f01e28;
+  background: linear-gradient(#f01e28, #c40000);
+  background: -webkit-gradient(linear, 0, 0, 0 bottom, from(#f01e28), to(#c40000));
+  background: -webkit-linear-gradient(#f01e28, #c40000);
+  background: -ms-linear-gradient(#f01e28, #c40000);
+  background: -moz-linear-gradient(#f01e28, #c40000);
+  background: -o-linear-gradient(#f01e28, #c40000);
+}
+header ul.vgtrk_bar {
+  display: block;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+header ul.vgtrk_bar li.root {
+  float: left;
+  display: -moz-inline-stack;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  position: relative;
+}
+header ul.vgtrk_bar li.root .root {
+  width: 105px;
+}
+header ul.vgtrk_bar li.root:hover ul {
+  display: block;
+}
+header ul.vgtrk_bar li.root .root {
+  width: 104px;
+  height: 26px;
+  display: block;
+  background: #424242;
+  background: linear-gradient(#424242, #252627);
+  background: -webkit-gradient(linear, 0, 0, 0 bottom, from(#424242), to(#252627));
+  background: -webkit-linear-gradient(#424242, #252627);
+  background: -ms-linear-gradient(#424242, #252627);
+  background: -moz-linear-gradient(#424242, #252627);
+  background: -o-linear-gradient(#424242, #252627);
+  color: #fff;
+  text-shadow: 1px 1px 0 #222;
+  font-size: 13px;
+  line-height: 25px;
+  font-family: "RussiaRegular";
+  border-right: 1px solid #000;
+  border-left: 1px solid #494949;
+  text-align: center;
+}
+header ul.vgtrk_bar li.root .root:hover {
+  background: #f01e28;
+  background: linear-gradient(#f01e28, #c40000);
+  background: -webkit-gradient(linear, 0, 0, 0 bottom, from(#f01e28), to(#c40000));
+  background: -webkit-linear-gradient(#f01e28, #c40000);
+  background: -ms-linear-gradient(#f01e28, #c40000);
+  background: -moz-linear-gradient(#f01e28, #c40000);
+  background: -o-linear-gradient(#f01e28, #c40000);
+  border-top-color: #a61b19;
+  border-left-color: #92201e;
+}
+header ul.vgtrk_bar li.first .root {
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border-left: 0;
+}
+header ul.vgtrk_bar li.last .root {
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border-right: 0;
+  width: 160px;
+}
+header ul.vgtrk_bar li.last .root span {
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+header ul.vgtrk_bar li.dropdown a span.drop {
+  float: right;
+  display: inline-block;
+  width: 31px;
+  height: 26px;
+  background: transparent url('../images/dropdown_arrow.png') 100% 0 no-repeat;
+}
+header ul.vgtrk_bar li.dropdown a:hover span {
+  background-position: 0 -26px;
+}
+header ul.vgtrk_bar ul {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 26px;
+  z-index: 100;
+  min-width: 106px;
+  background: #47484d;
+  background: linear-gradient(#47484d, #1d1e20);
+  background: -webkit-gradient(linear, 0, 0, 0 bottom, from(#47484d), to(#1d1e20));
+  background: -webkit-linear-gradient(#47484d, #1d1e20);
+  background: -ms-linear-gradient(#47484d, #1d1e20);
+  background: -moz-linear-gradient(#47484d, #1d1e20);
+  background: -o-linear-gradient(#47484d, #1d1e20);
+  -webkit-border-radius: 0 0 4px 4px;
+  -moz-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+header ul.vgtrk_bar ul li {
+  height: 26px;
+  border-top: 1px solid #1d1e20;
+}
+header ul.vgtrk_bar ul li a {
+  display: block;
+  padding: 0 15px;
+  color: #fff;
+  font-size: 13px;
+  line-height: 26px;
+  text-shadow: 1px 1px 0 #000;
+  position: relative;
+}
+header ul.vgtrk_bar ul li a:hover {
+  background: transparent url("../images/vgtrk_bar_item_hover.png") 0 0 repeat-x;
+}
+header ul.vgtrk_bar ul li a:last-child {
+  -webkit-border-radius: 0 0 4px 4px;
+  -moz-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+header div.header-current-date {
+  position: relative;
+  left: 422px;
+  margin-right: 14px;
+  margin-top: 7px;
+  width: 216px;
+  float: left;
+  text-align: center;
+  font: 11px normal 'Tahoma';
+  text-shadow: 0 1px 0 #fff;
+}
+header a.init_auth {
+  width: 100px;
+  height: 26px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  background: #424242;
+  background: linear-gradient(#424242, #252627);
+  background: -webkit-gradient(linear, 0, 0, 0 bottom, from(#424242), to(#252627));
+  background: -webkit-linear-gradient(#424242, #252627);
+  background: -ms-linear-gradient(#424242, #252627);
+  background: -moz-linear-gradient(#424242, #252627);
+  background: -o-linear-gradient(#424242, #252627);
+  color: #fff;
+  text-shadow: 1px 1px 0 #222;
+  font-size: 13px;
+  line-height: 25px;
+  font-family: "RussiaRegular";
+  border-right: 1px solid #000;
+  border-left: 1px solid #494949;
+  text-align: center;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+header a.init_auth:hover {
+  background: #f01e28;
+  background: linear-gradient(#f01e28, #c40000);
+  background: -webkit-gradient(linear, 0, 0, 0 bottom, from(#f01e28), to(#c40000));
+  background: -webkit-linear-gradient(#f01e28, #c40000);
+  background: -ms-linear-gradient(#f01e28, #c40000);
+  background: -moz-linear-gradient(#f01e28, #c40000);
+  background: -o-linear-gradient(#f01e28, #c40000);
+  border-top-color: #a61b19;
+  border-left-color: #92201e;
+}
+header a.init_auth span.drop {
+  float: right;
+  display: inline-block;
+  width: 31px;
+  height: 26px;
+  background: transparent url('../images/dropdown_arrow.png') 100% 0 no-repeat;
+}
+header a.init_auth:hover span {
+  background-position: 0 -26px;
+}
+/**
+ * PROMO
+----------------------------------------------------------------------------- */
+#promo {
+  position: relative;
+  border-radius: 4px 4px 4px 4px;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  /* Есть промо-картинка */
+  /* Нет промо-картинки (только в брендах) */
+  /* Нет промо-картинки (везде, кроме брендов) */
+  /* Логотип. Ваш КО */
+  /* Ссылка высотой и шириной с промо-блок */
+  /* Основное меню */
+  /* Форма поиска в основном меню */
+  /* Менюшка с иконками слева внизу */
+  /* Расписание на брендах */
+  /* Список форумов */
+  /* Заголовки на всех основных страниц */
+  /* Заголовок бренда для дефолтной темы */
+  /* Маленькая картинка бренда для дефолтной темы */
+  /* Список брендов в шапке */
+  /* Жанры видео */
+}
+#promo.high { 
+}
+#promo.high div.wrap {
+  height: 100%;
+}
+#promo a.logo {
+  width: 184px;
+  height: 42px;
+  display: block;
+  top: 31px;
+  left: 0;
+  position: absolute;
+  z-index: 10;
+  background: url("../images/standart-russia1.png") 0 0 no-repeat;
+}
+#promo a.to_brand {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  border-radius: 4px 4px 4px 4px;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+#promo nav {
+  height: 40px;
+  position: absolute;
+  top: 31px;
+  right: 0;
+  z-index: 10;
+  padding: 0 26px 0 13px;
+  background: #ebebeb;
+  background: linear-gradient(#ebebeb, #c4c4c4);
+  background: -webkit-gradient(linear, 0, 0, 0 bottom, from(#ebebeb), to(#c4c4c4));
+  background: -webkit-linear-gradient(#ebebeb, #c4c4c4);
+  background: -ms-linear-gradient(#ebebeb, #c4c4c4);
+  background: -moz-linear-gradient(#ebebeb, #c4c4c4);
+  background: -o-linear-gradient(#ebebeb, #c4c4c4);
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #7c868e;
+  z-index: 11;
+}
+#promo nav ul.menu {
+  float: left;
+}
+#promo nav ul.menu li {
+  float: left;
+}
+#promo nav ul.menu li a {
+  display: block;
+  width: auto;
+  padding: 0 8px;
+  color: #333;
+  text-shadow: 0px 1px 0 #eee;
+  font-size: 14px;
+  line-height: 44px;
+  font-family: "RussiaBold";
+  text-transform: uppercase;
+  text-align: center;
+}
+#promo nav ul.menu li a:hover {
+  color: #a81c1a;
+}
+#promo nav ul.menu li a sup {
+  color: #a81c1a;
+}
+#promo div.search {
+  width: 165px;
+  height: 22px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  padding: 5px 0;
+  margin-left: 13px;
+  border-bottom: 1px solid #fff;
+  position: relative;
+  float: right;
+}
+#promo div.search input {
+  width: 115px;
+  height: 21px;
+  padding: 3px 33px 3px 15px;
+  border: 1px solid #cfd0d2;
+  background: #fefefe;
+  background: linear-gradient(#fefefe, #dedede);
+  background: -webkit-gradient(linear, 0, 0, 0 bottom, from(#fefefe), to(#dedede));
+  background: -webkit-linear-gradient(#fefefe, #dedede);
+  background: -ms-linear-gradient(#fefefe, #dedede);
+  background: -moz-linear-gradient(#fefefe, #dedede);
+  background: -o-linear-gradient(#fefefe, #dedede);
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  font-size: 10px;
+  line-height: 20px;
+  font-family: Tahoma;
+  text-transform: uppercase;
+}
+#promo div.search input:focus {
+  background-color: #fefefe;
+}
+#promo div.search a.go {
+  width: 16px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  top: 12px;
+  right: 9px;
+  background: transparent url("../images/search.png") 0 0 no-repeat;
+}
+#promo ul.brand_menu {
+  position: absolute;
+  left: -65px;
+  bottom: 0;
+  z-index: 15;
+  width: 55px;
+}
+#promo ul.brand_menu li {
+  height: 55px;
+  background: rgba(0, 0, 0, 0.6);
+  margin-top: 1px;
+  display: block;
+}
+#promo ul.brand_menu li a {
+  opacity: 0.5;
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  filter: "alpha(opacity=50)";
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  position: relative;
+  margin: 16px 15px;
+}
+#promo ul.brand_menu li a.active {
+  opacity: 1;
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  filter: "alpha(opacity=100)";
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+#promo ul.brand_menu li a.active span {
+  display: block;
+}
+#promo ul.brand_menu li a:hover {
+  opacity: 1;
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  filter: "alpha(opacity=100)";
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+#promo ul.brand_menu li a span {
+  display: none;
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  margin-left: -6px;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  /* левый наклон стрелки */
+  border-right: 6px solid transparent;
+  /* правый наклон стрелки */
+  border-bottom: 6px solid transparent;
+  /* низ, указываем цвет стрелки */
+}
+#promo .brand_schedule-wrap {
+  background: transparent url('../images/menu_bg.png') 0 0 repeat-x;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 5;
+  padding: 11px 20px;
+  width: 974px;
+  height: 22px;
+}
+#promo div.brand_schedule {
+  height: 44px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 5;
+  text-align: right;
+  color: #fff;
+}
+#promo div.brand_schedule div.days {
+  margin: 8px 180px 0 0;
+  font-size: 13px;
+  line-height: 15px;
+  font-family: "RussiaRegular";
+  text-align: right;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+#promo div.brand_schedule div.days p {
+  text-align: right;
+}
+#promo div.brand_schedule div.days ul {
+  margin-left: 0;
+  text-align: right;
+}
+#promo div.brand_schedule div.days ul li {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -0.36em;
+  *display: inline;
+  *zoom: 1;
+  *margin-left: 0;
+}
+#promo div.brand_schedule div.days ul li:first-child {
+  margin-left: 0;
+}
+#promo div.brand_schedule div.days ul li {
+  margin-left: 20px;
+}
+#promo div.brand_schedule div.time {
+  width: 118px;
+  height: 100%;
+  float: right;
+  vertical-align: top;
+  font-family: "DINCondensedCRegular";
+  font-size: 36px;
+  line-height: 48px;
+  text-align: left;
+  padding: 0 22px;
+  background: transparent url('../images/sheldule_bg.png') 0 0 repeat;
+}
+#promo div.brand_schedule div.time div.parental {
+  width: 31px;
+  height: 31px;
+  margin-top: 7px;
+  float: right;
+}
+/* #promo div.brand_schedule div.age_12 {
+  background: url('../images/age-sprite.png') -2px -71px no-repeat;
+} */
+#promo h1.brand_title.brand_title--with-promo-pic {
+  width: 600px;
+  position: absolute;
+  bottom: 0px;
+  left: 23px;
+  color: #fff;
+  text-transform: uppercase;
+  float: none;
+  font-size: 18px;
+  line-height: 44px;
+  height: 44px;
+  z-index: 9;
+  display: block;
+}
+#promo h1.brand_title.brand_title--with-promo-pic span.title {
+  display: inline-block;
+  line-height: 18px;
+}
+#promo h1.brand_title.brand_title--with-promo-pic span.title.title {
+  display: block;
+  transform: translateY(-50%);
+  top: 50%;
+  position: relative;
+}
+#promo h1.brand_title.brand_title--with-promo-pic a {
+  color: #fff;
+  font-size: 14px !important;
+  line-height: 18px !important;
+  font-family: "RussiaRegular";
+  float: none;
+}
+#promo div.brand_small_pic {
+  width: 320px;
+  height: 240px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 4;
+}
+#promo div.brand_small_pic img {
+  width: 100%;
+}
+/**
+ * MAIN
+----------------------------------------------------------------------------- */
+#main {
+  overflow: hidden;
+  padding: 20px;
+}
+#main div.content {
+  vertical-align: top; 
+}
+/**
+ * FOOTER
+----------------------------------------------------------------------------- */
+footer {
+  background-color: #ededed;
+  overflow: hidden;
+  /* Плашка меню вверху футера */
+  /* Ссылки на бренды */
+  /* Многобукв */
+  /* Счетчики */
+}
+footer div.wrap {
+  padding: 0 20px;
+}
+footer div.wrapper {
+  padding-bottom: 20px;
+}
+footer div.bottom_menu {
+  background: #ebebeb;
+  background: linear-gradient(#ebebeb, #c4c4c4);
+  background: -webkit-gradient(linear, 0, 0, 0 bottom, from(#ebebeb), to(#c4c4c4));
+  background: -webkit-linear-gradient(#ebebeb, #c4c4c4);
+  background: -ms-linear-gradient(#ebebeb, #c4c4c4);
+  background: -moz-linear-gradient(#ebebeb, #c4c4c4);
+  background: -o-linear-gradient(#ebebeb, #c4c4c4);
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #7c868e;
+  width: 100%;
+  height: 40px;
+  position: relative;
+  margin-bottom: 40px;
+}
+footer div.bottom_menu ul {
+  margin-left: 0;
+}
+footer div.bottom_menu ul li {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -0.36em;
+  *display: inline;
+  *zoom: 1;
+  *margin-left: 0;
+}
+footer div.bottom_menu ul li:first-child {
+  margin-left: 0;
+}
+footer div.bottom_menu ul li a {
+  display: block;
+  width: auto;
+  padding: 0 24px;
+  text-align: center;
+  color: #333;
+  text-shadow: 0px 1px 0 #eee;
+  font-size: 14px;
+  line-height: 44px;
+  font-family: "RussiaBold";
+}
+footer div.bottom_menu ul li a:hover {
+  color: #a81c1a;
+}
+footer div.bottom_menu ul li a sup {
+  color: #a81c1a;
+}
+/* footer div.bottom_menu ul li.border a {
+  background: transparent url("../images/footer_menu.png") 100% 50% no-repeat;
+  padding-right: 26px;
+} */
+footer div.bottom_menu ul.content a:hover {
+  color: #a81c1a;
+}
+footer div.bottom_menu ul.about {
+  width: auto;
+  height: 40px;
+  background: #dcdcdc;
+  background: linear-gradient(#dcdcdc, #b2b2b2);
+  background: -webkit-gradient(linear, 0, 0, 0 bottom, from(#dcdcdc), to(#b2b2b2));
+  background: -webkit-linear-gradient(#dcdcdc, #b2b2b2);
+  background: -ms-linear-gradient(#dcdcdc, #b2b2b2);
+  background: -moz-linear-gradient(#dcdcdc, #b2b2b2);
+  background: -o-linear-gradient(#dcdcdc, #b2b2b2);
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #7c868e;
+  position: absolute;
+  top: -1px;
+  right: 0;
+}
+footer div.bottom_menu ul.about a {
+  text-transform: uppercase;
+}
+footer div.bottom_menu ul.about a:hover {
+  color: #a81c1a;
+}
+footer div.items_menu {
+  margin: 45px 0;
+  overflow: hidden;
+}
+footer div.items_menu div {
+  float: left;
+}
+footer div.items_menu ul {
+  width: 165px;
+  margin-right: 20px;
+  float: left;
+}
+footer div.items_menu ul li {
+  padding: 8px 0;
+  border-top: 1px solid #e1e1e1;
+}
+footer div.items_menu ul li:first-child {
+  border-top: 0;
+}
+footer div.items_menu ul li a {
+  color: #87898b;
+  font-size: 11px;
+  line-height: 13px;
+}
+footer div.items_menu ul li a:hover {
+  text-decoration: underline;
+}
+footer div.copy {
+  color: #87898b;
+  font-size: 11px;
+  line-height: 13px;
+  margin-right: 100px;
+}
+/**
+ * Большие кнопки архив/звезды
+----------------------------------------------------------------------------- */
+/**
+ * Шаринг
+----------------------------------------------------------------------------- */
+/* Autocomplete */
+div.search {
+  position: relative;
+}
+/* PUSH*/

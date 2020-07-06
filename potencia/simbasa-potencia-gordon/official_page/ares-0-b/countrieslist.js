@@ -1,0 +1,1 @@
+(function(){'use strict';window.countryList={ua:{name:'Украина',code:'ua',price:5390,oldPrice:10780,labelPrice:' тг.',phoneHelper:'Например +998 123456789',nameHelper:'Айжаксым Омарова',nameError:'Имя обязательно для заполнения',phoneError:'Телефон обязателен для заполнения',countryError:'Страна обязательна для заполнения',isDefault:true}};})();

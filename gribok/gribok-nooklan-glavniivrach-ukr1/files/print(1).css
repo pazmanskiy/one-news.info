@@ -1,0 +1,7 @@
+﻿/* Code tidied up by ScrapBook */
+* { background-image: none; }
+#comments, #footer, #header, #left, #main_news, #mobile_menu, #right, #subfooter, #upB, ._newsBN, .inject, .openComments, .open_comments, .related, .underNews, .ya-share2, a.printPage, div.categories, span.tags { display: none !important; }
+#__main__, ._content { padding: 0px !important; margin: 0px !important; }
+#body, #bodyContainer, #center, .news_content { width: 100% !important; }
+article div.gallery p.caption { position: relative !important; }
+.news_content { padding: 0px !important; }

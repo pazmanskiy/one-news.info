@@ -1,0 +1,111 @@
+/*! Social Likes v3.1.1 by Artem Sapegin - http://sapegin.github.com/social-likes - Licensed MIT */
+.social-likes,.social-likes__widget{
+    display:inline-block;padding:0;vertical-align:middle!important;word-spacing:0!important;text-indent:0!important;list-style:none!important}
+
+.social-likes {
+    opacity:0
+}
+.social-likes_visible{opacity:1;transition:opacity .1s ease-in}
+.social-likes>*{display:inline-block;visibility:hidden}
+.social-likes_visible>*{visibility:inherit}
+.social-likes__widget{display:inline-block;position:relative;white-space:nowrap}
+.social-likes__widget:before,.social-likes__widget:after{display:none!important}
+.social-likes__button,.social-likes__icon,.social-likes__counter{text-decoration:none;text-rendering:optimizeLegibility}
+.social-likes__button,.social-likes__counter{display:inline-block;margin:0;outline:0}
+.social-likes__button{position:relative;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.social-likes__button:before {
+    content:"";
+    display:inline-block;
+
+}
+.social-likes__icon { position:absolute;top:0;left:0 }
+.social-likes__counter{ display:none; position:relative }
+.social-likes_ready .social-likes__counter{display:inline-block}
+.social-likes_notext .social-likes__button{padding-left:0}
+
+.social-likes__widget {
+    display: inline-block;
+    border-radius: .3rem;
+    padding: .7rem;
+    margin-right: .6rem;
+}
+
+.social-likes__widget .social-likes__counter:nth-child(2) {
+    display:none;
+}
+
+.social-likes__button,
+.social-likes__counter {
+    vertical-align:middle;
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    font-size: 1.1rem;
+    cursor:pointer;
+    color:#fff;
+}
+
+.social-likes__counter{
+    min-width:12px;
+    padding:1px 0 1px 7px;
+    font-weight:400;
+    text-align:center;
+    border-left:1px solid #ccc;
+}
+
+.social-likes__widget:hover>.social-likes__counter,.social-likes__widget:focus>.social-likes__counter,.social-likes__widget:active>.social-likes__counter{position:relative;border-left-color:transparent}
+.social-likes__widget:hover>.social-likes__counter:before,.social-likes__widget:focus>.social-likes__counter:before,.social-likes__widget:active>.social-likes__counter:before{content:"";position:absolute;top:0;bottom:0;left:-1px;border-left:1px solid;opacity:.4}
+
+.social-likes_notext .social-likes__button {
+    min-width:23px;
+    height:16px;
+}
+
+.social-likes_notext .social-likes__button.social-likes__button_vkontakte {
+    width:27px;
+}
+
+.social-likes_notext .social-likes__button.social-likes__button_odnoklassniki {
+    width:29px;
+}
+
+.social-likes_notext .social-likes__icon {
+    width:100%;
+    height:16px;
+    background-position:left center;
+    background-repeat:no-repeat;
+}
+
+.social-likes__widget_facebook {
+    background-color: #395ba2;
+}
+
+
+.social-likes__icon_facebook {
+    background-image:url('fb_logo.png')
+}
+
+.social-likes__widget_twitter {
+    background-color: #55acee;
+}
+
+.social-likes__icon_twitter {
+    background-image:url('twi_logo.png')
+}
+
+.social-likes__widget_vkontakte {
+    background-color: #4c75a3;
+}
+
+
+.social-likes__icon_vkontakte {
+    background-image:url('vk_logo.png');
+    width:27px;
+}
+
+.social-likes__icon_odnoklassniki {
+    background-image:url('ok_logo.png');
+    width:22px;
+}
+
+.social-likes__widget_odnoklassniki {
+    background-color: #f60;
+}

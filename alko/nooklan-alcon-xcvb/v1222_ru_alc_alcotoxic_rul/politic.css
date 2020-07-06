@@ -1,0 +1,41 @@
+/* Code tidied up by ScrapBook */
+#footer { padding-top: 25px ! important; padding-bottom: 25px ! important; text-align: center ! important; font-size: 14px ! important; line-height: 22px ! important; color: black ! important; background: white none repeat scroll 0% 0% ! important; }
+#footer a { text-decoration: underline; line-height: 1.42857; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; color: black; }
+.modal-public-zdv .checkbox > input { display: inline-block; vertical-align: middle; color: black; width: 4%; height: 42px; }
+.modal-public-zdv .center-wrap { text-align: center; }
+.modal-public-zdv { z-index: 9999999; position: fixed; max-width: 600px; left: 50%; top: 25%; margin-left: -300px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.35); border: 1px solid rgb(58, 135, 173); animation: 1.2s ease 0s normal forwards 1 running iconosani; }
+.modal-public-zdv .padding-public-zdv { padding: 8px 17px; color: black; line-height: 1.42857; font-size: 16px; text-align: justify; }
+.modal-public-zdv p:not(:last-child) { margin-bottom: 0.5rem; color: black; }
+.modal-public-zdv .title-public-zdv { text-transform: uppercase; background: rgb(77, 131, 192) none repeat scroll 0% 0%; text-align: center; text-shadow: 1px 1px 0px rgb(58, 135, 173); border-bottom: 1px solid rgb(58, 135, 173); padding: 1rem; font-size: 18px; color: rgb(255, 255, 255); }
+.overlay-public-zdv { position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; background: rgba(0, 0, 0, 0.62) none repeat scroll 0% 0%; }
+.overlay-public-zdv-close { width: 50px; height: 50px; transform: rotateZ(45deg); position: absolute; right: 0px; top: 0px; overflow: hidden; border: medium none; text-indent: 200%; outline: medium none; color: transparent; z-index: 100; cursor: pointer; transition: all 0.2s ease 0s; }
+.overlay-public-zdv-close::before { position: absolute; top: 12%; left: 43%; content: ""; width: 0.45rem; height: 2.2rem; background: white none repeat scroll 0% 0%; display: inline-block; transition: all 500ms ease 0s; }
+.overlay-public-zdv-close::after { position: absolute; top: 12%; left: 43%; content: ""; width: 0.45rem; height: 2.2rem; background: white none repeat scroll 0% 0%; display: inline-block; transform: rotateZ(90deg); }
+.overlay-public-zdv-close:hover {  }
+.overlay-public-zdv-data { opacity: 0; visibility: hidden; transition: opacity 0.5s ease 0s, visibility 0s ease 0.5s; }
+.overlay-public-zdv-open { opacity: 1; visibility: visible; transition: opacity 0.5s ease 0s; z-index: 100; }
+@media screen and (max-width: 740px) {
+  .modal-public-zdv { max-width: 100%; height: 100%; left: 0px; top: 0px; margin-left: auto; margin-top: auto; }
+  .modal-public-zdv .content-public-zdv { padding: 1%; }
+  .modal-public-zdv .title-public-zdv { font-size: 15px; }
+  .modal-public-zdv .padding-public-zdv { font-size: 14px; }
+}
+.order-form__vat-not-incl { text-align: center; font-size: 0.8em; margin-top: 0.9em; }
+input.error, textarea.error, select.error, div.error { border: 1px solid red ! important; }
+input.error[type="text"] { border-width: 1px; border-style: solid; border-color: rgb(176, 170, 155) rgb(225, 225, 225) rgb(225, 225, 225) rgb(176, 170, 155); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; background: rgb(255, 234, 230) none repeat scroll 0% 0%; }
+.qtip { position: absolute; left: -28000px; top: -28000px; display: none; margin-top: 14px; max-width: 550px; min-width: 50px; font-size: 15px; line-height: 12px; direction: ltr; box-shadow: none; padding: 0px; }
+.qtip-content, .qtip-titlebar { position: relative; overflow: hidden; }
+.qtip-content { padding: 3px 7px; text-align: center; word-wrap: break-word; }
+.qtip-titlebar { padding: 5px 35px 5px 10px; border-width: 0px 0px 1px; font-weight: 700; }
+.qtip-titlebar + .qtip-content { border-top-width: 0px ! important; }
+.qtip-close { position: absolute; right: -9px; top: -9px; z-index: 11; cursor: pointer; outline: 0px none; border: 1px solid transparent; }
+.qtip-titlebar .qtip-close { right: 4px; top: 50%; margin-top: -9px; }
+* html .qtip-titlebar .qtip-close { top: 16px; }
+.qtip-icon .ui-icon, .qtip-titlebar .ui-icon { display: block; text-indent: -1000em; direction: ltr; }
+.qtip-icon, .qtip-icon .ui-icon { border-radius: 3px; text-decoration: none; }
+.qtip-icon .ui-icon { width: 18px; height: 14px; text-align: center; text-indent: 0px; font: 700 10px/13px Tahoma,sans-serif; color: inherit; background: transparent none no-repeat scroll -100em -100em; }
+.qtip-default { border: 1px solid rgb(255, 134, 138); background-color: rgb(217, 88, 92); color: rgb(255, 255, 255); }
+.qtip-default::after { content: ""; position: absolute; left: 50%; display: block; margin-top: -28px; margin-left: -10px; border-style: solid; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-color: rgb(217, 88, 92) transparent; border-width: 0px 10px 10px; }
+.qtip-default .qtip-titlebar { background-color: rgb(255, 239, 147); }
+.qtip-default .qtip-icon { border-color: rgb(204, 204, 204); background: rgb(241, 241, 241) none repeat scroll 0% 0%; color: rgb(119, 119, 119); }
+.qtip-default .qtip-titlebar .qtip-close { border-color: rgb(170, 170, 170); color: rgb(17, 17, 17); }

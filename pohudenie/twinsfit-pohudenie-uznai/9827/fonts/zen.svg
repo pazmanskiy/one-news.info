@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="25" height="25" viewBox="0 0 510 510" fill="#fff">
+	<g id="svgzen">
+		<defs>
+			<linearGradient x1="84.0066757%" y1="-143.469661%" x2="3.14755497%" y2="157.724256%" id="linearGradient-1">
+				<stop stop-color="#7f47b4" offset="0%"></stop>
+				<stop stop-color="#B00000" offset="21.6226212%"></stop>
+				<stop stop-color="#C90000" offset="46.9295134%"></stop>
+				<stop stop-color="#C20000" offset="69.2702004%"></stop>
+				<stop stop-color="#990000" offset="100%"></stop>
+			</linearGradient>
+			<polygon id="path-2" points="146.604712 193.476847 311.402263 198.20573 307.881995 251.577867 143.230723 247.588521"></polygon>
+		</defs>
+		<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+			<g  transform="translate(29.000000, 29.000000)">
+				
+				<g opacity="0.69752038" transform="translate(227.316493, 222.527357) rotate(-41.000000) translate(-227.316493, -222.527357) ">
+					<use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+					<use fill="#FFFFFF" xlink:href="#path-2"></use>
+				</g>
+				<polygon fill="#FFFFFF" points="147.341743 76.0137615 307.178899 138.490826 307.178899 191.59633 147.341743 129.639908"></polygon>
+				<path d="M147.341743,253.552752 C147.341743,253.552752 307.178899,315.695195 307.178899,316.029817 L307.178899,369.135321 L147.341743,307.178899 L147.341743,253.552752 Z"  fill="#FFFFFF"></path>
+			</g>
+		</g>
+	</g>
+</svg>

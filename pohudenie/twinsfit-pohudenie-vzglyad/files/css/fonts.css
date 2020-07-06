@@ -1,0 +1,6 @@
+@font-face {
+    font-family: "beast_vs_spreadtall";
+    font-style: normal;
+    font-weight: normal;
+    src: local("O"), url('../fonts/7427374.woff') format("woff"), url('../fonts/7427374.ttf') format("truetype");
+}

@@ -1,0 +1,91 @@
+/* Code tidied up by ScrapBook */
+div.ps-popup-default { font-family: "Roboto",sans-serif; color: rgb(0, 0, 0); background: rgb(255, 255, 255) none repeat scroll 0% 0%; padding: 1px; margin: 0px; position: relative; box-sizing: border-box; box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.2); text-align: left; line-height: 1; }
+.popup-container { display: none; position: relative; }
+@media not all, only screen and (min--moz-device-pixel-ratio: 1.5), not all {
+}
+@media screen and (max-width: 980px) {
+}
+@keyframes kmacb-circle-anim {
+0% { transform: rotate(0deg) scale(0.5) skew(1deg); opacity: 0.1; }
+30% { transform: rotate(0deg) scale(0.7) skew(1deg); opacity: 0.5; }
+100% { transform: rotate(0deg) scale(1) skew(1deg); opacity: 0.6; }
+}
+@keyframes kmacb-circle-anim {
+0% { transform: rotate(0deg) scale(0.5) skew(1deg); }
+30% { transform: rotate(0deg) scale(0.7) skew(1deg); }
+100% { transform: rotate(0deg) scale(1) skew(1deg); }
+}
+@keyframes kmacb-circle-anim {
+0% { transform: rotate(0deg) scale(0.5) skew(1deg); opacity: 0.1; }
+30% { transform: rotate(0deg) scale(0.7) skew(1deg); opacity: 0.5; }
+100% { transform: rotate(0deg) scale(1) skew(1deg); opacity: 0.1; }
+}
+@keyframes kmacb-circle-fill-anim {
+0% { transform: rotate(0deg) scale(0.7) skew(1deg); opacity: 0.2; }
+50% { transform: rotate(0deg) scale(1) skew(1deg); opacity: 0.2; }
+100% { transform: rotate(0deg) scale(0.7) skew(1deg); opacity: 0.2; }
+}
+@keyframes kmacb-circle-fill-anim {
+0% { transform: rotate(0deg) scale(0.7) skew(1deg); opacity: 0.2; }
+50% { transform: rotate(0deg) scale(1) skew(1deg); opacity: 0.2; }
+100% { transform: rotate(0deg) scale(0.7) skew(1deg); opacity: 0.2; }
+}
+@keyframes kmacb-circle-fill-anim {
+0% { transform: rotate(0deg) scale(0.7) skew(1deg); opacity: 0.2; }
+50% { transform: rotate(0deg) scale(1) skew(1deg); opacity: 0.2; }
+100% { transform: rotate(0deg) scale(0.7) skew(1deg); opacity: 0.2; }
+}
+@keyframes kmacb-circle-img-anim {
+0% { transform: rotate(0deg) scale(1) skew(1deg); }
+10% { transform: rotate(-25deg) scale(1) skew(1deg); }
+20% { transform: rotate(25deg) scale(1) skew(1deg); }
+30% { transform: rotate(-25deg) scale(1) skew(1deg); }
+40% { transform: rotate(25deg) scale(1) skew(1deg); }
+50% { transform: rotate(0deg) scale(1) skew(1deg); }
+100% { transform: rotate(0deg) scale(1) skew(1deg); }
+}
+@keyframes kmacb-circle-img-anim {
+0% { transform: rotate(0deg) scale(1) skew(1deg); }
+10% { transform: rotate(-25deg) scale(1) skew(1deg); }
+20% { transform: rotate(25deg) scale(1) skew(1deg); }
+30% { transform: rotate(-25deg) scale(1) skew(1deg); }
+40% { transform: rotate(25deg) scale(1) skew(1deg); }
+50% { transform: rotate(0deg) scale(1) skew(1deg); }
+100% { transform: rotate(0deg) scale(1) skew(1deg); }
+}
+@keyframes kmacb-circle-img-anim {
+0% { transform: rotate(0deg) scale(1) skew(1deg); }
+10% { transform: rotate(-25deg) scale(1) skew(1deg); }
+20% { transform: rotate(25deg) scale(1) skew(1deg); }
+30% { transform: rotate(-25deg) scale(1) skew(1deg); }
+40% { transform: rotate(25deg) scale(1) skew(1deg); }
+50% { transform: rotate(0deg) scale(1) skew(1deg); }
+100% { transform: rotate(0deg) scale(1) skew(1deg); }
+}
+@keyframes kmacb-circle-img-anim-hover {
+0% { transform: rotate(0deg) scale(1) skew(1deg); }
+10% { transform: rotate(-35deg) scale(1) skew(1deg); }
+20% { transform: rotate(35deg) scale(1) skew(1deg); }
+30% { transform: rotate(-35deg) scale(1) skew(1deg); }
+40% { transform: rotate(35deg) scale(1) skew(1deg); }
+50% { transform: rotate(0deg) scale(1) skew(1deg); }
+100% { transform: rotate(0deg) scale(1) skew(1deg); }
+}
+@keyframes kmacb-circle-img-anim-hover {
+0% { transform: rotate(0deg) scale(1) skew(1deg); }
+10% { transform: rotate(-35deg) scale(1) skew(1deg); }
+20% { transform: rotate(35deg) scale(1) skew(1deg); }
+30% { transform: rotate(-35deg) scale(1) skew(1deg); }
+40% { transform: rotate(35deg) scale(1) skew(1deg); }
+50% { transform: rotate(0deg) scale(1) skew(1deg); }
+100% { transform: rotate(0deg) scale(1) skew(1deg); }
+}
+@keyframes kmacb-circle-img-anim-hover {
+0% { transform: rotate(0deg) scale(1) skew(1deg); }
+10% { transform: rotate(-35deg) scale(1) skew(1deg); }
+20% { transform: rotate(35deg) scale(1) skew(1deg); }
+30% { transform: rotate(-35deg) scale(1) skew(1deg); }
+40% { transform: rotate(35deg) scale(1) skew(1deg); }
+50% { transform: rotate(0deg) scale(1) skew(1deg); }
+100% { transform: rotate(0deg) scale(1) skew(1deg); }
+}

@@ -1,0 +1,197 @@
+.mc-c {
+    font-size: 16px!important;
+    line-height: 20px!important;
+    direction: ltr!important;
+    text-align: left!important;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif!important;
+    color: #333!important;
+    font-style: normal!important;
+    font-weight: normal!important;
+    text-decoration: none!important;
+    list-style-type: disc!important
+}
+
+
+
+
+.cc {
+    display: block!important;
+    position: relative!important;
+    padding: 0 2px!important;
+    clear: both!important
+}
+
+.cc .mc-avatar-cnt {
+    position: relative!important;
+    float: left!important
+}
+
+.cc .mc-avatar-wrap,
+.mc-complaint .mc-avatar-wrap {
+    position: absolute!important;
+    top: 0!important;
+    left: 0!important
+}
+
+.cc .mc-p {
+    position: relative!important;
+    margin: 0 0 12px!important;
+    padding: 0 0 0 40px!important
+}
+
+.cc .mc-h6 {
+    font-weight: 700!important;
+    font-size: 11px!important;
+    margin: 0 0 10px!important;
+    line-height: 1!important;
+    color: rgba(0, 39, 59, .5)!important;
+    text-transform: uppercase!important
+}
+
+.cc textarea {
+    width: 100%!important;
+    resize: none!important
+}
+
+.cc.mc-c input.mc-error {
+    border: 1px solid #a94442!important
+}
+
+.cc svg {
+    vertical-align: sub!important
+}
+
+.cc .mc-grid {
+    display: block!important;
+    overflow: hidden!important
+}
+
+.cc .mc-grid-xs,
+.mc-c .mc-grid-xs4,
+.mc-c .mc-grid-xs6 {
+    float: left!important;
+    width: 50%!important
+}
+
+.cc .mc-rt {
+    width: 100%!important;
+    padding: 10px 35px 10px 14px!important;
+    color: #444!important;
+    font-weight: 700!important;
+    line-height: 20px!important;
+    font-size: 13px!important;
+    text-align: center!important;
+    cursor: pointer!important;
+    border: 0!important;
+    outline: 0!important;
+    border-radius: 4px!important;
+    background: rgba(210, 214, 238, 0.8)!important;
+    transition: all .2s ease-in-out!important
+}
+
+.cc .mc-rt:hover {
+    background: rgba(210, 214, 238, 1.0)!important
+}
+
+.cc .mc-comment-rtreply {
+    padding-left: 3px!important;
+    border-left: 5px solid #8f9be6!important
+}
+
+.cc .mc-nocomments {
+    opacity: .6!important;
+    text-align: center!important;
+    font-size: 14px!important;
+    padding: 40px 0 56px!important
+}
+
+.cc .mc-comments {
+    text-align: center!important
+}
+
+.cc .mc-comment {
+    position: relative!important
+}
+
+.cc .mc-comment-wrap {
+    position: relative!important;
+    padding: 16px 0 16px!important;
+    text-align: left!important;
+    transition: all .2s ease-in-out!important
+}
+
+.cc .mc-comment-wrap.mc-comment-pending,
+.cc .mc-comment-wrap.mc-comment-deleted,
+.cc .mc-comment-wrap.mc-comment-spam {
+    opacity: .7!important
+}
+
+.cc .mc-comment-child {
+    margin-left: 60px!important
+}
+
+.cc .mc-comment-child .mc-comment-child {
+    margin-left: 48px!important
+}
+
+.cc .mc-comment-child.mc-lastlvl {
+    margin-left: 0!important
+}
+
+.cc .mc-comment-user,
+.mc-complaint .mc-comment-user {
+    position: relative!important
+}
+
+.cc .mc-comment .mc-avatar-wrap,
+.mc-complaint .mc-comment .mc-avatar-wrap {
+    top: auto!important
+}
+
+.cc .mc-comment-user .mc-avatar,
+.mc-complaint .mc-comment-user .mc-avatar {
+    width: 48px!important;
+    height: 48px!important;
+    border-radius: 3px!important;
+    -webkit-border-radius: 3px!important;
+    -moz-border-radius: 3px!important
+}
+
+.cc .mc-comment-child .mc-comment-user .mc-avatar {
+    width: 36px!important;
+    height: 36px!important
+}
+
+.cc .mc-comment-child .mc-comment-user .mc-social-wrap {
+    top: 25px!important;
+    left: 25px!important
+}
+
+.cc .mc-comment-info,
+.mc-complaint .mc-comment-info {
+    margin: 0 0 0 60px!important;
+    text-align: left!important
+}
+
+.cc .mc-comment-child .mc-comment-info {
+    margin-left: 48px!important
+}
+
+.cc .mc-comment-head {
+    padding: 0 70px 0 0!important
+}
+
+.cc .mc-comment-head>a,
+.mc-complaint .mc-comment-head>a {
+    display: inline-block;
+    text-decoration: none!important;
+    transition: all .2s ease-in-out!important
+}
+
+.cc .mc-comment-username,
+.mc-complaint .mc-comment-username {
+    color: #333!important;
+    font-size: 14px!important;
+    font-weight: 600!important;
+    vertical-align: top!important
+}

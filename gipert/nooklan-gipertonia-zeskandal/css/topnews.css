@@ -1,0 +1,198 @@
+#life-novosti .open-novosti span {
+    writing-mode: tb-rl;
+    -ms-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    height: 120px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding: 0px 5px;
+}
+#life-novosti .open-novosti {
+    display: inline-block;
+    vertical-align: middle;
+    background: #3ab465;
+    padding: 5px;
+    margin-right: -5px;
+    line-height: 1.6;
+    padding-left: 0;
+    padding-top: 10px;
+    border-radius: 6px 0 0 6px;
+    border: 2px solid #1e9247;
+    border-right: 0;
+    border-bottom: 0;
+    cursor: pointer;
+    margin-bottom: 100px;
+    position: relative;
+}
+#life-novosti{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100000;
+    overflow: hidden;
+}
+#life-novosti iframe{
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: bottom;
+    height: 100vh;
+    border: none;
+    width: 0;
+    transition:0.3s;
+    padding-left: 10px;
+    background: white;
+    border-left: 1px solid #dedede;
+    margin-right: -19px;
+}
+#life-novosti .make-wider{
+    width: 300px !important;
+    margin-right:-19px !important;
+}
+#life-novosti-left .make-wider{
+    width: 300px !important;
+    margin-right:-19px !important;
+}
+@media all and (max-width:1820px){
+    #life-novosti iframe {
+        width: 0;
+    }
+}
+@media all and (max-width:1650px){
+    #jivostite-right-sidebar .novos-widget p {
+        max-height: 145px;
+    }
+    #life-novosti iframe {
+        width: 0;
+        padding-left: 0;
+    }
+    #life-novosti #life-novosti .open-novosti {
+        display: inline-block;
+        vertical-align: bottom;
+    }
+    #life-novosti #jivostite-right-sidebar .novos-widget .widget-news-cover span {
+        font-size:14px;
+    }
+}
+@media all and (max-width:1200px) {
+    #life-novosti iframe{
+        margin-right: -116px;
+    }
+}
+#life-novosti-left .open-novosti span {
+    writing-mode: tb-rl;
+    height: 100px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding: 5px 0 0 8px;
+}
+#life-novosti-left .open-novosti {
+    display: inline-block;
+    vertical-align: middle;
+    background: #3ab465;
+    padding: 5px;
+    margin-left: -5px;
+    line-height: 1.6;
+    padding-left: 0;
+    border-radius: 0 6px 6px 0;
+    border: 2px solid #1e9247;
+    border-left: 0;
+    border-bottom: 0;
+    cursor: pointer;
+    margin-bottom: 180px;
+    position: relative;
+}
+#life-novosti-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10999999;
+    overflow: hidden;
+}
+#life-novosti-left iframe{
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: bottom;
+    height: 100vh;
+    border: none;
+    width: 0px;
+    transition:0.3s;
+    padding-right: 5px;
+    background: white;
+    margin-right: -19px;
+}
+.cover-left-box {
+    display: inline-block;
+    overflow: hidden;
+    border-right: 1px solid #dedede;
+}
+@media all and (max-width:1820px){
+    #life-novosti-left iframe {
+        width: 0px;
+    }
+}
+@media all and (max-width:1650px){
+    #jivostite-left-sidebar .novos-widget p {
+        max-height: 145px;
+    }
+    #life-novosti-left iframe {
+        width: 0px;
+        padding-right: 4px;
+    }
+    #life-novosti-left .open-novosti {
+        display: inline-block;
+        vertical-align: bottom;
+    }
+    #life-novosti-left  #jivostite-left-sidebar .novos-widget .widget-news-cover span {
+        font-size:14px;
+    }
+}
+@media all and (max-width:1200px) {
+    #life-novosti-left iframe{
+        margin-right: -120px;
+    }
+}
+.widget_featured_posts .widget-title {
+    border-bottom: 2px solid #c57e1f;
+}
+.widget_featured_posts .widget-title span {
+    background-color: #c57e1f;
+    padding: 5px 3px;
+}
+.jivostite-left-sidebar {
+    margin-bottom: 0;
+}
+.widget_featured_posts .widget-title span {
+
+}
+#life-novosti .checking-cover, #life-novosti-left .checking-cover {
+    position: absolute;
+    top: 1px;
+    opacity: 0;
+    color: red;
+    width: 35px;
+    text-align: center;
+    transition: 0.3s;
+    right: 5px;
+}
+#life-novosti .checking, #life-novosti-left .checking {
+    width: 18px;
+    margin: 0 auto;
+    height: 19px;
+    border: 2px solid #FB675B;
+    font-size: 13px;
+    border-radius: 20px;
+    color: #FFF;
+    background-color: #FF6C60;
+    box-sizing: content-box;
+}
+#life-novosti-left .checking-cover {
+    right:0;
+}

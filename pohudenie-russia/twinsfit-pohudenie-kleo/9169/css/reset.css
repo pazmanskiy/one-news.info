@@ -1,0 +1,49 @@
+
+* {
+	background-color: transparent;
+	border: 0;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	/*list-style: none;
+	font-weight: normal;*/
+	margin: 0;
+	outline: 0;
+	padding: 0;
+}
+
+i {
+	font-style: italic;
+}
+
+b, strong {
+	font-weight: bold;
+}
+
+p {
+	color: inherit;
+	font: inherit;
+}
+
+/*My default styles*/
+
+.floatleft {
+	float: left !important;
+}
+
+.floatright {
+	float: right !important;
+}
+
+.resetmarginbottom {
+	margin-bottom: 0 !important;
+}
+
+.resetborderbottom {
+    border-bottom: 0 !important;
+}
+
+.overflowhidden {
+	overflow: hidden !important;
+}

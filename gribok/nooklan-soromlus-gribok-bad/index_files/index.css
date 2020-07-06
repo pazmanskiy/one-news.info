@@ -1,0 +1,395 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    width: 100%;
+}
+
+b {line-height: 22px;}
+
+a {
+    color: rgb(10, 120, 194);
+    outline: medium none;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    margin: 0 0 10px;
+    text-align: justify;
+}
+
+img {
+    border: medium none;
+    max-width: 100%;
+    margin: 10px auto;
+}
+
+input {
+    vertical-align: middle;
+}
+
+h2 {
+    margin: 10px 0px;
+    font-size: 19px;
+}
+
+h3 {
+    margin: 2px 0px 10px;
+    font-size: 18px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    margin: 10px 0px 25px;
+    font-size: 19px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+
+ul {
+    margin-bottom: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+#wrapper {
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+/*
+#header {
+    background: transparent url('../img/header00.jpg') no-repeat;
+    max-width: 960px;
+    height: 432px;
+    position: relative;
+}
+*/
+
+#middle {
+    width: 100%;
+    position: relative;
+}
+
+#middle::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#container {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    text-align: justify;
+}
+
+#content {
+    padding: 0px 270px 0px 0px;
+}
+
+#sideRight {
+    float: left;
+    width: 250px;
+    margin-left: -250px;
+    position: relative;
+    margin-top: 20px;
+}
+
+#footer {
+    height: 15px;
+    background: rgb(250, 246, 221) none repeat;
+    margin-top: 25px;
+    padding: 20px;
+    font-size: 12px;
+}
+
+.footer-text {
+    text-align: center;
+    margin: 0px auto;
+    max-width: 960px;
+}
+
+.vk_name {
+    font: bold 11px/140% Tahoma, Arial;
+    color: rgb(16, 99, 154);
+}
+
+.vk_text {
+    font: 11px/130% Tahoma, Arial;
+    color: rgb(0, 0, 0);
+}
+
+.vk_info {
+    font: 9px Tahoma, Arial;
+    color: rgb(119, 119, 119);
+    margin-top: 3px;
+}
+
+.comment-container {
+    max-width: 690px;
+}
+
+.item {
+    overflow: hidden;
+    margin-bottom: 15px;
+    clear: both;
+}
+
+.photo {
+    float: left;
+}
+
+.photo img {
+    display: block;
+    border-radius: 15px;
+    margin: 10px 0;
+}
+
+.area {
+    float: right;
+    max-width: 610px;
+}
+
+.name {
+    border: 1px solid rgb(231, 229, 222);
+    background: rgb(250, 250, 250) none repeat scroll 0% 0%;
+    padding: 0pt 11px;
+}
+
+.name span {
+    color: rgb(185, 0, 0);
+    display: block;
+    line-height: 20px;
+}
+
+.item .time {
+    float: right;
+    color: rgb(170, 170, 170);
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: normal;
+    padding: 0pt 0pt 0pt 20px;
+}
+
+.comment {
+    border-style: solid;
+    border-color: rgb(231, 229, 222);
+    padding: 5px 0pt 6px 11px;
+    border-width: 0pt 1px 1px;
+    background: white none repeat scroll 0% 0%;
+}
+
+.comment p {
+    margin: 0pt;
+    font-size: 12px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.comment img {
+    display: block;
+    margin-top: 15px;
+    max-width: 100%;
+}
+
+.paging {
+    text-align: center;
+    list-style: outside none none;
+}
+
+.paging li {
+    display: inline-block;
+    line-height: 16px;
+    margin-right: 6px;
+    text-align: center;
+}
+
+.paging a {
+    float: left;
+    color: rgb(8, 134, 38);
+    text-decoration: underline;
+}
+
+.paging a:hover {
+    text-decoration: none;
+}
+
+.paging .prev a, .paging .next a {
+    width: 22px;
+    height: 22px;
+    text-indent: -9999em;
+    overflow: hidden;
+}
+
+.paging .active a {
+    color: rgb(181, 178, 170);
+    text-decoration: none;
+}
+
+input.comment-name-email {
+    width: 35%;
+    height: 23px;
+    font-size: 13px;
+    font-family: Helvetica;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(241, 241, 241);
+}
+
+.comment-form {
+    background: whiteSmoke none repeat scroll 0% 0%;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+textarea#comment {
+    width: 95%;
+}
+
+textarea.comment-textarea {
+    width: 95%;
+    height: 110px;
+    font-size: 13px;
+    font-family: Helvetica;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(241, 241, 241);
+}
+
+textarea.comment-textarea:focus {
+    outline: medium none ! important;
+}
+
+.styled-outline {
+    outline: 0px none ! important;
+    border: 1px solid rgb(204, 204, 204) ! important;
+    border-radius: 6px ! important;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s ! important;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset ! important;
+}
+
+.styled-outline:focus {
+    outline: 0px none ! important;
+    border-color: rgba(79, 190, 226, 0.8) ! important;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 6px rgba(79, 190, 226, 0.6) ! important;
+}
+
+button.leave-comment-button {
+    background: transparent linear-gradient(to bottom, white 0%, rgb(229, 229, 229) 100%) repeat scroll 0% 0%;
+    border: 1px solid rgb(199, 199, 199);
+    height: 36px;
+    width: 184px;
+    cursor: pointer;
+    box-shadow: 0px 1px 1px white inset, 0px 1px 0px white;
+    border-radius: 5px;
+    color: rgb(112, 112, 112);
+    text-shadow: 1px 1px 0px white;
+    font-size: 12px;
+}
+
+button.leave-comment-button:hover {
+    box-shadow: 0px 1px 1px rgb(221, 221, 221) inset;
+    background: rgb(233, 233, 233) none repeat scroll 0% 0%;
+}
+
+.calendar {
+    width: 250px;
+    color: rgb(0, 0, 0);
+}
+
+.malahov-block {
+    background: transparent url('../img/malahov.png') no-repeat scroll 0 5px / 50px 50px;
+    padding-left: 65px;
+    min-height: 60px;
+    margin: 10px 0;
+}
+
+.devushka-block {
+    background: transparent url('../img/devushka.png') no-repeat scroll 0% 0% / 50px 50px;
+    padding-left: 65px;
+    min-height: 60px;
+    margin: 5px 0px;
+}
+
+.devushka-block img, .malahov-block img {
+    height: auto;
+    max-width: 100%;
+}
+
+.project {
+    background: transparent url('../img/project0.png') no-repeat;
+    width: 250px;
+    height: 370px;
+}
+
+.ui-helper-clearfix::before, .ui-helper-clearfix::after {
+    content: "";
+    display: table;
+    border-collapse: collapse;
+}
+
+.ui-helper-clearfix::after {
+    clear: both;
+}
+
+.blue-btn {
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: "proxima_nova_rgbold";
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px rgb(22, 78, 207);
+    max-width: 460px;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 1px 1px 2px grey;
+    background: #ccc; /* for non-css3 browsers */
+    background: -webkit-linear-gradient(top, #2BA6EA, #447BE2); /* для webkit-браузеров */
+    background: -moz-linear-gradient(top,  #2BA6EA, #447BE2); /* для firefox 3.6+ */
+    background: -o-linear-gradient(top,  #2BA6EA, #447BE2); /* для Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #2BA6EA, #447BE2); /* для IE10+, т.к. лично я пока не проверял нужен ли префикс */
+}
+
+.blue-btn:hover {
+    box-shadow: 3px 3px 4px grey;
+}
+
+@media screen and (max-width: 1000px) {
+    #wrapper {max-width: 767px;}
+    #content {padding: 20px; box-sizing: border-box;}
+
+    .sidebar {display: none;}
+
+    .comment-container {
+        max-width: 690px;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+    .none-1000 {display: none;}
+}
+
+@media screen and (max-width: 767px) {
+    #wrapper {max-width: 480px;}
+}
+
+@media screen and (max-width: 480px) {
+    #wrapper {max-width: 320px;}
+    #content {padding: 10px;}
+    #content, .comment p, p {text-align: left; line-height: 20px;}
+}
+

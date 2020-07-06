@@ -1,0 +1,35 @@
+﻿@charset "UTF-8";
+
+/**
+ * Load external font-faces
+ *      Russia
+ *
+ * @author      Viacheslav Glushko aka iXax <mail@ixax.ru>
+ * @version     1.0.201202.29.1
+ * @version     1.0.201202.1.1
+ * @link        http://ixax.ru/projects/html-css-framework/
+------------------------------------------------ */
+
+@font-face {
+    font-family: 'RussiaRegular';
+    src: url('../fonts/Russia.eot');
+    src: url('../fonts/Russia.woff') format('woff'),
+         url('../fonts/Russia.ttf') format('truetype'),
+         url('../fonts/Russia.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ }
+
+
+
+
+@font-face {
+    font-family: 'DINCondensedCRegular';
+    src: url('../fonts/dincondensedc-webfont.eot');
+    src: url('../fonts/dincondensedc-webfont.eot') format('embedded-opentype'),
+         url('../fonts/dincondensedc-webfont.woff') format('woff'),
+         url('../fonts/dincondensedc-webfont.ttf') format('truetype'),
+         url('../fonts/dincondensedc-webfont.svg#DINCondensedCRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

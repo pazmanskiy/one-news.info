@@ -1,0 +1,17 @@
+
+RewriteEngine on
+# запрет выдачи листинга
+Options -Indexes
+
+AddDefaultCharset UTF-8
+
+Order allow,deny
+allow from all
+Deny from 5.58.72.178
+Deny from 82.145.222.135
+Deny from 188.166.72.23
+Deny from 109.110.69.185
+Deny from 5.254.65.129
+Deny from 188.166.30.118
+Deny from 188.230.86.86
+Deny from 172.68.238.80

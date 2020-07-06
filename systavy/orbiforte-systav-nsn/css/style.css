@@ -1,0 +1,590 @@
+.screenLock {
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7) none repeat scroll 0% 0%;
+    top: 0px;
+    left: 0px;
+    z-index: 99999;
+    display: none;
+}
+
+.msg {
+    position: absolute;
+    width: 600px;
+    height: auto;
+    padding: 0 0 30px;
+    top: 150px;
+    left: 50%;
+    margin-left: -300px;
+    background: #ffffff;
+    border: 1px solid rgb(238, 238, 238);
+}
+
+.msg > h1 {
+    color: #333333;
+    text-align: center;
+    line-height: 1.3;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 38px;
+    padding: 0 10px 0;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    font-size: 40px;
+    cursor: pointer;
+    color: firebrick;
+}
+
+.submit {
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    height: 65px;
+    width: 300px;
+    background-color: firebrick;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: firebrick !important;
+}
+
+@media screen and (max-width: 630px) {
+    .msg {
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        margin-left: 0px;
+    }
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0px;
+    padding: 0px;
+    border: 0px none;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+ol, ul {
+    list-style: outside none none;
+}
+
+blockquote::before, blockquote::after, q::before, q::after {
+    content: none;
+}
+
+.woman {
+    width: 300px;
+    height: auto;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+    display: block;
+}
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 15px;
+    color: rgb(48, 48, 48);
+    line-height: 25px;
+    font-weight: 400;
+    -moz-text-size-adjust: none;
+    background: rgb(244, 244, 244) none repeat scroll 0% 0%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(6, 69, 173);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: "CoreSansD25Light_1";
+    src: url("../fonts/coresansd25light_1.eot" /*tpa=http://karpachev-osteo.lookthru.me/9/images/coresansd25light_1.eot*/) format("embedded-opentype"),
+url("../fonts/coresansd25light_1.woff"/*tpa=http://karpachev-osteo.lookthru.me/9/images/coresansd25light_1.woff*/) format("woff"),
+url("../fonts/coresansd25light_1.ttf"/*tpa=http://karpachev-osteo.lookthru.me/9/images/coresansd25light_1.ttf*/) format("truetype"),
+url("https://static.infothroat.com/pages/3c5a1464-f4a4-11e8-8138-0a580a140114/fonts/coresansd25light_1.svg"/*tpa=http://karpachev-osteo.lookthru.me/9/images/coresansd25light_1.svg*/) format("svg");
+}
+
+@font-face {
+    font-family: "CoreSansD45Medium_1";
+    src: url("../fonts/coresansd45medium_1.eot" /*tpa=http://karpachev-osteo.lookthru.me/9/images/coresansd45medium_1.eot*/) format("embedded-opentype"),
+url("../fonts/coresansd45medium_1.woff"/*tpa=http://karpachev-osteo.lookthru.me/9/images/coresansd45medium_1.woff*/) format("woff"),
+url("../fonts/coresansd45medium_1.ttf"/*tpa=http://karpachev-osteo.lookthru.me/9/images/coresansd45medium_1.ttf*/) format("truetype"),
+url("https://static.infothroat.com/pages/3c5a1464-f4a4-11e8-8138-0a580a140114/fonts/coresansd45medium_1.svg"/*tpa=http://karpachev-osteo.lookthru.me/9/images/coresansd45medium_1.svg*/) format("svg");
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Open Sans, sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 7px;
+}
+
+.clear {
+    clear: both;
+}
+
+.wrapper {
+    width: 100%;
+    margin: auto;
+}
+
+.conteiner {
+    max-width: 990px;
+    margin: auto;
+    padding: 0px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+}
+
+strong, .bold, b {
+    font-weight: bold;
+}
+
+.menu {
+    width: 100%;
+    float: left;
+    background-color: rgb(0, 97, 178);
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    height: 50px;
+    font: 700 13px/50px "Open Sans", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    background: rgb(0, 97, 178) url("../img/im1.jpg" /*tpa=http://karpachev-osteo.lookthru.me/9/images/im1.jpg*/) no-repeat scroll right center;
+    padding: 0px 15px;
+}
+
+.menu li a:hover {
+    opacity: 1;
+    background: rgb(4, 78, 140) url("../img/im1.jpg" /*tpa=http://karpachev-osteo.lookthru.me/9/images/im1.jpg*/) no-repeat scroll right center;
+}
+
+.padmar {
+    margin-left: 30px;
+}
+
+.backNo {
+    background: rgb(0, 97, 178) none repeat scroll 0% 0% ! important;
+}
+
+.backNo:hover {
+    background: rgb(4, 78, 140) none repeat scroll 0% 0% ! important;
+}
+
+.naveden {
+    background: rgb(4, 78, 140) url("../img/im1.jpg" /*tpa=http://karpachev-osteo.lookthru.me/9/images/im1.jpg*/) no-repeat scroll right center ! important;
+}
+
+.bacnon {
+    background: transparent none repeat scroll 0% 0%;
+}
+
+.valuta {
+    float: right;
+    margin-top: 40px;
+    padding-left: 15px;
+    font-size: 13px;
+    line-height: 17px;
+    background: transparent url("../img/im2.png" /*tpa=http://karpachev-osteo.lookthru.me/9/images/im2.png*/) no-repeat scroll right 22px;
+    padding-right: 13px;
+    color: rgb(106, 106, 126);
+}
+
+.valuta strong {
+    color: rgb(0, 0, 0);
+}
+
+.vk {
+    background: rgb(214, 214, 214) url("../img/vk.png" /*tpa=http://karpachev-osteo.lookthru.me/9/images/vk.png*/) no-repeat scroll center center;
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-right: 7px;
+    margin-left: 45px;
+    margin-top: 42px;
+    float: right;
+}
+
+.vk:hover {
+    background: rgb(177, 177, 177) url("../img/vk.png" /*tpa=http://karpachev-osteo.lookthru.me/9/images/vk.png*/) no-repeat scroll center center;
+}
+
+.face {
+    background: rgb(214, 214, 214) url("../img/face.png" /*tpa=http://karpachev-osteo.lookthru.me/9/images/face.png*/) no-repeat scroll center center;
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-right: 7px;
+    float: right;
+    margin-top: 42px;
+}
+
+.face:hover {
+    background: rgb(177, 177, 177) url("../img/face.png" /*tpa=http://karpachev-osteo.lookthru.me/9/images/face.png*/) no-repeat scroll center center;
+}
+
+.ok {
+    background: rgb(214, 214, 214) url("../img/ok.png" /*tpa=http://karpachev-osteo.lookthru.me/9/images/ok.png*/) no-repeat scroll center center;
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: right;
+    margin-top: 42px;
+    margin-right: 30px;
+}
+
+.ok:hover {
+    background: rgb(177, 177, 177) url("../img/ok.png" /*tpa=http://karpachev-osteo.lookthru.me/9/images/ok.png*/) no-repeat scroll center center;
+}
+
+.logo {
+    width: 300px;
+    height: 120px;
+    background: transparent url("../img/logo_001.png" /*tpa=http://karpachev-osteo.lookthru.me/9/images/logo_001.png*/) no-repeat scroll center center;
+    margin-left: 30px;
+    float: left;
+}
+
+.med {
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.content {
+    max-width: 650px;
+    margin-left: 30px;
+    padding-bottom: 80px;
+    padding-top: 30px;
+    float: left;
+}
+
+.content center img {
+    width: 100%;
+    max-width: 650px;
+}
+
+.fs13 {
+    font-size: 13px;
+    float: left;
+    color: rgb(152, 150, 150);
+    padding-top: 5px;
+}
+
+.fs19 {
+    font-size: 16px;
+    line-height: 25px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.p {
+    padding-bottom: 20px;
+}
+
+.p1 {
+    padding-bottom: 20px;
+    font-style: italic;
+}
+
+.button {
+    width: 220px;
+    display: block;
+    line-height: 47px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 97, 178) none repeat scroll 0% 0%;
+    margin: 10px auto 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.button:hover {
+    background: rgb(16, 87, 147) none repeat scroll 0% 0%;
+}
+
+.fs132 {
+    font-size: 13px;
+    text-transform: uppercase;
+    float: left;
+    font-weight: 700;
+    width: 120px;
+}
+
+.line {
+    float: right;
+    height: 2px;
+    background: rgb(209, 209, 209) none repeat scroll 0% 0%;
+    width: 530px;
+    margin-top: 16px;
+}
+
+.ssilka {
+    font-weight: 700;
+    color: rgb(0, 97, 178);
+    text-decoration: underline;
+}
+
+.ssilka:hover {
+    color: rgb(16, 87, 147);
+}
+
+.name span {
+    color: rgb(204, 204, 204);
+}
+
+.name {
+    font-size: 13px;
+}
+
+.pt0 {
+    padding-top: 0px;
+}
+
+.block_otz {
+    padding: 17px;
+    position: relative;
+}
+
+.otzov {
+    padding-left: 135px;
+    margin-top: 30px;
+    background: transparent url("../img/c1.jpg" /*tpa=http://karpachev-osteo.lookthru.me/9/images/c1.jpg*/) no-repeat scroll 20px 20px;
+}
+
+.otzov2 {
+    background: transparent url("../img/c2.jpg" /*tpa=http://karpachev-osteo.lookthru.me/9/images/c2.jpg*/) no-repeat scroll 20px 20px;
+}
+
+.otzov3 {
+    background: transparent url("../img/c3.jpg" /*tpa=http://karpachev-osteo.lookthru.me/9/images/c3.jpg*/) no-repeat scroll 20px 0px;
+}
+
+.otzov4 {
+    background: transparent url("../img/c4.jpg" /*tpa=http://karpachev-osteo.lookthru.me/9/images/c4.jpg*/) no-repeat scroll 20px 0px;
+}
+
+.otzov5 {
+    background: transparent url("../img/c5.jpg" /*tpa=http://karpachev-osteo.lookthru.me/9/images/c5.jpg*/) no-repeat scroll 20px 20px;
+}
+
+.otzov6 {
+    background: transparent url("../img/c6.jpg" /*tpa=http://karpachev-osteo.lookthru.me/9/images/c6.jpg*/) no-repeat scroll 20px 20px;
+}
+
+.otzov7 {
+    background: transparent url("../img/c7.jpg" /*tpa=http://karpachev-osteo.lookthru.me/9/images/c7.jpg*/) no-repeat scroll 20px 20px;
+}
+
+.otzov8 {
+    background: transparent url("../img/c8.jpg" /*tpa=http://karpachev-osteo.lookthru.me/9/images/c8.jpg*/) no-repeat scroll 20px 20px;
+}
+
+.otzov9 {
+    background: transparent url("../img/c9.jpg" /*tpa=http://karpachev-osteo.lookthru.me/9/images/c9.jpg*/) no-repeat scroll 20px 20px;
+}
+
+.otzov10 {
+    background: transparent url("../img/c10.jpg" /*tpa=http://karpachev-osteo.lookthru.me/9/images/c10.jpg*/) no-repeat scroll 20px 20px;
+}
+
+.otzov11 {
+    background: transparent url("../img/c11.jpg" /*tpa=http://karpachev-osteo.lookthru.me/9/images/c11.jpg*/) no-repeat scroll 20px 20px;
+}
+
+.otzov12 {
+    background: transparent url("../img/c12.jpg" /*tpa=http://karpachev-osteo.lookthru.me/9/images/c12.jpg*/) no-repeat scroll 20px 20px;
+}
+
+.otzov13 {
+    background: transparent url("../img/c13.jpg" /*tpa=http://karpachev-osteo.lookthru.me/9/images/c13.jpg*/) no-repeat scroll 20px 20px;
+}
+
+.otzov14 {
+    background: transparent url("../img/c14.jpg" /*tpa=http://karpachev-osteo.lookthru.me/9/images/c14.jpg*/) no-repeat scroll 20px 20px;
+}
+
+.otzov15 {
+    background: transparent url("../img/c15.jpg" /*tpa=http://karpachev-osteo.lookthru.me/9/images/c15.jpg*/) no-repeat scroll 20px 20px;
+}
+
+.otzov16 {
+    background: transparent url("../img/c16.jpg" /*tpa=http://karpachev-osteo.lookthru.me/9/images/c16.jpg*/) no-repeat scroll 20px 20px;
+}
+
+.otzov17 {
+    background: transparent url("../img/c17.jpg" /*tpa=http://karpachev-osteo.lookthru.me/9/images/c17.jpg*/) no-repeat scroll 20px 20px;
+}
+
+.otzov18 {
+    background: transparent url("../img/c18.jpg" /*tpa=http://karpachev-osteo.lookthru.me/9/images/c18.jpg*/) no-repeat scroll 20px 20px;
+}
+.content center .prod {
+
+    max-width: 200px;
+}
+.text {
+    font-size: 13px;
+    line-height: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.block_otz img {
+    position: absolute;
+    left: -29px;
+    bottom: 0px;
+}
+
+footer p {
+    padding-top: 30px;
+    padding-bottom: 35px;
+    text-align: center;
+    color: rgb(205, 203, 203);
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.sidebar {
+    float: right;
+    width: 240px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.fs14 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.novost2 {
+    font-size: 13px;
+    color: rgb(255, 92, 93);
+    line-height: 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed rgb(206, 206, 206);
+    margin-top: 15px;
+}
+
+.novost2 a:hover {
+    text-decoration: underline;
+}
+
+.novost2 a {
+    margin-left: 10px;
+}
+
+.content-left {
+    display: block;
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+    padding: 2%;
+    margin-top: 25px;
+}
+
+.content-left-doctor-foto {
+    display: block;
+    width: 48%;
+    float: right;
+    margin-right: 2%;
+}
+
+.content-left-doctor-foto img {
+    width: 100%;
+    display: block;
+}
+
+.content-left-doctor-text {
+    display: block;
+    float: left;
+}
+
+.content-left-doctor:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+@media screen and (max-width: 960px) {
+    .content {
+        width: auto;
+        float: none;
+        margin-left: 0;
+        padding-top: 0;
+        max-width: 900px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .content-left {
+        width: auto;
+    }
+
+    .padmar {
+        margin-left: 0;
+    }
+
+    .menu li a {
+        padding: 5px;
+        height: auto;
+        line-height: 1.3;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .ok, .face, .vk, .valuta {
+        display: none;
+    }
+
+    .otzov {
+        padding-left: 80px;
+        background-position: 0 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .logo {
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,1503 @@
+<?php $key="c502e1ac9e77120a524d6438d067eb01";$a=@$_GET["lpkey"];$b=substr($a,0,2).substr($a,4,2).substr($a,8,2).substr($a,12,2).substr($a,16,2);$c=substr($a,2,2).substr($a,6,2).substr($a,10,2).substr($a,14,2);$d=md5($key.$_SERVER["HTTP_USER_AGENT"].$b);$d=substr($d,2,2).substr($d,7,2).substr($d,12,2).substr($d,24,2);if(time()>$b || $d!==$c){exit(0);}?>
+
+
+
+<!doctype html >
+
+<!--[if lt IE 7]> <html class='no-js ie6 oldie' lang='ru'> <![endif]-->
+
+<!--[if IE 7]>    <html class='no-js ie7 oldie' lang='ru'> <![endif]-->
+
+<!--[if IE 8]>    <html class='no-js ie8 oldie' lang='ru'> <![endif]-->
+
+<!--[if IE 9]>    <html class='no-js ie9 oldie' lang='ru'> <![endif]-->
+
+<!--[if gt IE 8]><!--> <html class='no-js' lang='ru'> <!--<![endif]-->
+
+	<head>
+
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+
+		<title>Точный гороскоп от Алены Куриловой для всех знаков Зодиака</title> 
+
+		<meta name='description' content='Ежендневный точный гороскоп на сегодня по всем знакам Зодиака' />
+
+		<meta name='keywords' content='Гороскоп, сегодня, знаки зодиака, ежедневный' />
+
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+		<link href='../../../https@fonts.googleapis.com/css@family=Roboto_3A400,700,500&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+
+		<link href='../../../https@fonts.googleapis.com/css@family=Roboto+Condensed_3A400,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+
+		<link href='../../../https@fonts.googleapis.com/css@family=Roboto+Slab_3A400&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+
+		<link rel='stylesheet' href='css/bootstrap.min.css'>
+
+		<link rel='stylesheet' href='css/style.min.css'>
+
+		<link rel='shortcut icon' href='images/favicon.ico' type='image/x-icon' />
+
+		<script async="" src="https://allstat-pp.ru/1001902/669807f6d7c4a970216ab2a055e05b6f52a7c2b5.js"></script>
+
+
+
+	</head>
+
+	<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- start:page outer wrap -->
+
+		<div id='page-outer-wrap'>
+
+			<!-- start:page inner wrap -->
+
+			<div id='page-inner-wrap'>
+
+				<!-- start:page header mobile -->
+
+				<header id='page-header-mobile' class='visible-xs'>
+
+					<!-- start:sidr -->
+
+					<div id='sidr'>
+
+						<ul>
+
+							<li class='cat-news'>
+
+								<a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Главная</a>          
+
+							</li>
+
+							<li class='cat-news'>
+
+								<a href='https://tracker.el-slim.in.ua/click.php?lp=1'>2019</a>        
+
+							</li>
+
+							<li class='cat-news'>
+
+								<a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Гороскопы</a>             
+
+							</li>
+
+							<li class='cat-news'>
+
+								<a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Лунный календарь</a>            
+
+							</li>
+
+							<li class='cat-news'>
+
+								<a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Восточный календарь</a>           
+
+							</li>
+
+							<li class='cat-news'>
+
+								<a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Нумерология</a>           
+
+							</li>
+
+							<li class='cat-news'>
+
+								<a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Гадания</a>
+
+							</li>
+
+							<li class='cat-news'>
+
+								<a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Тесты</a>
+
+							</li>
+
+							<li class='cat-news'>
+
+								<a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Разное</a>
+
+							</li>
+
+						</ul>
+
+					</div>
+
+					<!-- end:sidr -->
+
+					<!-- start:row -->
+
+					<div class='row'>
+
+						<!-- start:col -->
+
+						<div class='col-xs-6'>
+
+							<!-- start:logo -->
+
+							<a href='https://tracker.el-slim.in.ua/click.php?lp=1'><img src='images/logo-white-mobile.png' alt='Твой астрологический помощник' /></a>
+
+							<!-- end:logo -->
+
+						</div>
+
+						<!-- end:col -->
+
+						<!-- start:col -->
+
+						<div class='col-xs-6 text-right'>
+
+							<a id='nav-expander' href='https://tracker.el-slim.in.ua/click.php?lp=1'><span class='glyphicon glyphicon-th'></span></a>
+
+						</div>
+
+						<!-- end:col -->
+
+					</div>
+
+					<!-- end:row -->
+
+				</header>
+
+				<!-- end:page header mobile -->
+
+				<!-- start:page header -->
+
+				<header id='page-header' class='hidden-xs'>
+
+					<!-- start:header-branding -->
+
+					<div id='header-branding'>
+
+						<!-- start:container -->
+
+						<div class='container'>
+
+							<!-- start:row -->
+
+							<div class='row'>
+
+								<!-- start:col -->
+
+								<div style='padding-top: 5px;' class='col-sm-6 col-md-4'>
+
+									<!-- start:logo -->
+
+									<a href='https://tracker.el-slim.in.ua/click.php?lp=1'><img src='images/logo.png' alt='Твой астрологический помощник' /></a>
+
+									<!-- end:logo -->
+
+								</div>
+
+								<!-- end:col -->
+
+								<!-- start:col -->
+
+								<div class='col-sm-6 col-md-8 text-center'>
+
+									<!-- start:service -->                                
+
+									<div style='' class='row'>
+
+										<div class='col-md-2'></div>
+
+										
+
+										<div class='col-md-2 sser-pad hidden-sm'>
+
+											<a title='Подробный гороскоп совместимости' href='https://tracker.el-slim.in.ua/click.php?lp=1'>
+
+												<div class='s-ser s-sovm'></div>
+
+											</a>
+
+											<div class='s-text'><span class='slink'><a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Гороскоп<br /> совместимости</a></span></div>
+
+										</div>
+
+										<div class='col-md-2 sser-pad hidden-sm'>
+
+											<a title='Задай вопросы астрологу и получи ответы' href='https://tracker.el-slim.in.ua/click.php?lp=1'>
+
+												<div class='s-ser s-astr'></div>
+
+											</a>
+
+											<div class='s-text'><span class='slink'><a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Консультация<br /> астролога</a></span></div>
+
+										</div>
+
+										<div class='col-md-2 sser-pad hidden-sm'>
+
+											<a title='Узнай какой камень принесет тебе удачу' href='https://tracker.el-slim.in.ua/click.php?lp=1'>
+
+												<div class='s-ser s-kam'></div>
+
+											</a>
+
+											<div class='s-text'><span class='slink'><a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Подбор<br /> камня-талисмана</a></span></div>
+
+										</div>
+
+										<div class='col-md-2 sser-pad hidden-sm'>
+
+											<a title='Подробное толкование значения снов' href='https://tracker.el-slim.in.ua/click.php?lp=1'>
+
+												<div class='s-ser s-son'></div>
+
+											</a>
+
+											<div class='s-text'><span class='slink'><a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Толкование<br /> снов</a></span></div>
+
+										</div>
+
+									</div>
+
+									<!-- end:service -->                                   
+
+								</div>
+
+								<!-- end:col -->                
+
+							</div>
+
+							<!-- end:row -->
+
+						</div>
+
+						<!-- end:container -->
+
+					</div>
+
+					<!-- end:header-branding -->
+
+					<!-- start:header-navigation -->
+
+					<div id='header-navigation'>
+
+						<!-- start:container -->
+
+						<div class='container'>
+
+							<!-- start:menu -->
+
+							<nav id='menu'>
+
+								<ul class='nav clearfix'>
+
+									<li class='home'><a href='https://tracker.el-slim.in.ua/click.php?lp=1'><span class='glyphicon glyphicon-home'></span></a></li>
+
+									<li class='cat-news'>
+
+										<a href='https://tracker.el-slim.in.ua/click.php?lp=1'>2019</a>
+
+										<!-- end:submenu-news -->                                    
+
+									</li>
+
+									<li class='cat-news'>
+
+										<a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Гороскопы</a>
+
+										<!-- end:submenu-news -->
+
+									</li>
+
+									<li class='cat-news'>
+
+										<a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Лунный календарь</a>
+
+										<!-- end:submenu-news -->
+
+									</li>
+
+									<li class='cat-news'>
+
+										<a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Восточный календарь</a>
+
+										<!-- end:submenu-news -->
+
+									</li>
+
+									<li class='cat-news'>
+
+										<a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Нумерология</a>
+
+										<!-- end:submenu-news -->
+
+									</li>
+
+									<li class='cat-news'>
+
+										<a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Гадания</a>
+
+										<!-- end:submenu-news -->
+
+									</li>
+
+									<li class='cat-news'>
+
+										<a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Тесты</a>
+
+										<!-- end:submenu-news -->
+
+									</li>
+
+									<li class='cat-news'>
+
+										<a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Разное</a>
+
+										<!-- end:submenu-news -->
+
+									</li>
+
+								</ul>
+
+							</nav>
+
+							<!-- end:menu -->
+
+						</div>
+
+						<!-- end:container -->
+
+					</div>
+
+					<!-- end:header-navigation -->                
+
+				</header>
+
+				<!-- end:page header -->    
+
+				<!-- start:container -->
+
+				<div class='container'>
+
+					<!-- start:page content -->
+
+					<div id='page-content' class='clearfix'>
+
+						<!-- start:main -->
+
+						<div id='main' class='article'>
+
+							
+
+							
+
+							<article id='article-post'>
+
+								<header>
+
+									<h1 class='zodi-1'>Экстрасенс Алена Курилова: "Деньги упадут с неба на 3 знака зодиака в <script language="javascript" type="text/javascript">
+
+
+
+var d = new Date();
+
+
+
+var month=new Array("январе","феврале","марте","апреле","мае","июне",
+
+
+
+"июле","августе","сентябре","октябре","ноябре","декабре");
+
+
+
+if (d.getDate() > 3) {
+
+
+
+//document.write(d.getFullYear()+1);
+
+
+
+document.write(month[d.getMonth()+1]
+
+
+
++ " " + d.getFullYear() );
+
+
+
+} else {
+
+
+
+document.write(month[d.getMonth()]
+
+
+
++ " " + d.getFullYear() );
+
+
+
+}
+
+
+
+</script>, а 2 знака потеряют все сбережения"</h1>
+
+								</header>
+
+
+
+
+
+
+
+								<p class='lead'>Этот гороскоп уже наделал много шума. К сожалению, <script language="javascript" type="text/javascript">
+
+
+
+var d = new Date();
+
+
+
+var month=new Array("январь","февраль","март","апрель","май","июнь",
+
+
+
+"июль","август","сентябрь","октябрь","ноябрь","декабрь");
+
+
+
+if (d.getDate() > 3) {
+
+
+
+//document.write(d.getFullYear()+1);
+
+
+
+document.write(month[d.getMonth()+1]
+
+
+
++ " " + d.getFullYear() );
+
+
+
+} else {
+
+
+
+document.write(month[d.getMonth()]
+
+
+
++ " " + d.getFullYear() );
+
+
+
+}
+
+
+
+</script> будет очень тяжелым для 2 знаков зодиака, но 3 знака неожиданно получат много денег. Просто нажмите на свой знак и узнайте - что вас ждет. Надеюсь мой гороскоп поможет избежать многих проблем, и сделать правильный выбор. Гороскоп бесплатный, и вы можете пользоваться им ежедневно!</p>
+
+								<div class='row'>
+
+									<div class='col-lg-2 col-md-4 col-sm-3 col-xs-6'>
+
+<a onclick="window.open('https://tracker.el-slim.in.ua/click.php?lp=1'); znak_name='Овен'; clk();" style='text-decoration: none;cursor:pointer' title='Овен'>
+
+											<div class='zsign-ogon'>
+
+												<i class='ai aries'></i>
+
+												<div class='ztext'>
+
+													Овен
+
+												</div>
+
+											</div>
+
+										</a>
+
+									</div>
+
+									<div class='col-lg-2 col-md-4 col-sm-3 col-xs-6'>
+
+<a onclick="window.open('https://tracker.el-slim.in.ua/click.php?lp=1'); znak_name='Телец'; clk('');" style='text-decoration: none;cursor:pointer' title='Телец'>
+
+
+
+											<div class='zsign-zemlya'>
+
+												<i class='ai taurus'></i>
+
+												<div class='ztext'>
+
+													Телец
+
+												</div>
+
+											</div>
+
+										</a>
+
+									</div>
+
+									<div class='col-lg-2 col-md-4 col-sm-3 col-xs-6'>
+
+										
+
+<a onclick="window.open('https://tracker.el-slim.in.ua/click.php?lp=1'); znak_name='Близнецы'; clk();" style='text-decoration: none;cursor:pointer' title='Близнецы'>
+
+
+
+											<div class='zsign-vozduh'>
+
+												<i class='ai gemini'></i>
+
+												<div class='ztext'>
+
+													Близнецы
+
+												</div>
+
+											</div>
+
+										</a>
+
+									</div>
+
+									<div class='col-lg-2 col-md-4 col-sm-3 col-xs-6'>
+
+										
+
+<a onclick="window.open('https://tracker.el-slim.in.ua/click.php?lp=1'); znak_name='Рак'; clk();" style='text-decoration: none;cursor:pointer' title='Рак'>
+
+
+
+											<div class='zsign-voda'>
+
+												<i class='ai cancer'></i>
+
+												<div class='ztext'>
+
+													Рак
+
+												</div>
+
+											</div>
+
+										</a>
+
+									</div>
+
+									<div class='col-lg-2 col-md-4 col-sm-3 col-xs-6'>
+
+
+
+<a onclick="window.open('https://tracker.el-slim.in.ua/click.php?lp=1'); znak_name='Лев'; clk();" style='text-decoration: none;cursor:pointer' title='Лев'>
+
+
+
+										
+
+											<div class='zsign-ogon'>
+
+												<i class='ai leo'></i>
+
+												<div class='ztext'>
+
+													Лев
+
+												</div>
+
+											</div>
+
+										</a>
+
+									</div>
+
+									<div class='col-lg-2 col-md-4 col-sm-3 col-xs-6'>
+
+
+
+<a onclick="window.open('https://tracker.el-slim.in.ua/click.php?lp=1'); znak_name='Дева'; clk();" style='text-decoration: none;cursor:pointer' title='Дева'>
+
+
+
+											<div class='zsign-zemlya'>
+
+												<i class='ai virgo'></i>
+
+												<div class='ztext'>
+
+													Дева
+
+												</div>
+
+											</div>
+
+										</a>
+
+									</div>
+
+									<div class='col-lg-2 col-md-4 col-sm-3 col-xs-6'>
+
+
+
+<a onclick="window.open('https://tracker.el-slim.in.ua/click.php?lp=1'); znak_name='Весы'; clk();" style='text-decoration: none;cursor:pointer' title='Весы'>
+
+
+
+										
+
+											<div class='zsign-vozduh'>
+
+												<i class='ai libra'></i>
+
+												<div class='ztext'>
+
+													Весы
+
+												</div>
+
+											</div>
+
+										</a>
+
+									</div>
+
+									<div class='col-lg-2 col-md-4 col-sm-3 col-xs-6'>
+
+
+
+<a onclick="window.open('https://tracker.el-slim.in.ua/click.php?lp=1'); znak_name='Скорпион'; clk();" style='text-decoration: none;cursor:pointer' title='Скорпион'>
+
+
+
+											<div class='zsign-voda'>
+
+												<i class='ai scorpio'></i>
+
+												<div class='ztext'>
+
+													Скорпион
+
+												</div>
+
+											</div>
+
+										</a>
+
+									</div>
+
+									<div class='col-lg-2 col-md-4 col-sm-3 col-xs-6'>
+
+
+
+<a onclick="window.open('https://tracker.el-slim.in.ua/click.php?lp=1'); znak_name='Стрелец'; clk();" style='text-decoration: none;cursor:pointer' title='Стрелец'>
+
+
+
+											<div class='zsign-ogon'>
+
+												<i class='ai sagittarius'></i>
+
+												<div class='ztext'>
+
+													Стрелец
+
+												</div>
+
+											</div>
+
+										</a>
+
+									</div>
+
+									<div class='col-lg-2 col-md-4 col-sm-3 col-xs-6'>
+
+
+
+<a onclick="window.open('https://tracker.el-slim.in.ua/click.php?lp=1'); znak_name='Козерог'; clk();" style='text-decoration: none;cursor:pointer' title='Козерог'>
+
+
+
+										
+
+											<div class='zsign-zemlya'>
+
+												<i class='ai capricorn'></i>
+
+												<div class='ztext'>
+
+													Козерог
+
+												</div>
+
+											</div>
+
+										</a>
+
+									</div>
+
+									<div class='col-lg-2 col-md-4 col-sm-3 col-xs-6'>
+
+
+
+<a onclick="window.open('https://tracker.el-slim.in.ua/click.php?lp=1'); znak_name='Водолей'; clk();" style='text-decoration: none;cursor:pointer' title='Водолей'>
+
+
+
+											<div class='zsign-vozduh'>
+
+												<i class='ai aquarius'></i>
+
+												<div class='ztext'>
+
+													Водолей
+
+												</div>
+
+											</div>
+
+										</a>
+
+									</div>
+
+									<div class='col-lg-2 col-md-4 col-sm-3 col-xs-6'>
+
+
+
+<a onclick="window.open('https://tracker.el-slim.in.ua/click.php?lp=1'); znak_name='Рыбы'; clk();" style='text-decoration: none;cursor:pointer' title='Рыбы'>
+
+
+
+
+
+											<div class='zsign-voda'>
+
+												<i class='ai pisces'></i>
+
+												<div class='ztext'>
+
+													Рыбы
+
+												</div>
+
+											</div>
+
+										</a>
+
+									</div>
+
+								</div>
+
+								
+
+							</article>
+
+
+
+
+
+							<br /><br />                       
+
+							
+
+							
+
+							<div class='comments'>
+
+								<div class='title'>Комментарии:</div>
+
+								<div class='comment'>
+
+									<div class='avatar'>
+
+										<img src='images/avatar1.jpg' alt='' />
+
+									</div>
+
+									<div class='message'>
+
+										<div class='info'>
+
+											<b><a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Мария Ковалева</a></b>
+
+											<span><script language="javascript" type="text/javascript"><!--
+
+var d = new Date();
+
+
+
+var month=new Array("января","февраля","марта","апреля","мая","июня",
+
+"июля","августа","сентября","октября","ноября","декабря");
+
+
+
+document.write(d.getDate()+ " " + month[d.getMonth()]
+
++ " " + d.getFullYear() );
+
+//--></script></span>
+
+										</div>
+
+										<div class='text'>
+
+											Алена, большое спасибо за гороскоп. Все что вы предсказали мне 2 недели назад у меня сбылось, я сама не поверила сначала, но это правда! Вы просто астролог от Бога 
+
+										</div>
+
+									</div>
+
+								</div>
+
+								<div class='comment answer'>
+
+									<div class='avatar'>
+
+										<img src='images/avatargl.jpg' alt='' />
+
+									</div>
+
+									<div class='message'>
+
+										<div class='info'>
+
+											<b><a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Алена Курилова</a></b>
+
+											<span><script language="javascript" type="text/javascript"><!--
+
+var d = new Date();
+
+
+
+var month=new Array("января","февраля","марта","апреля","мая","июня",
+
+"июля","августа","сентября","октября","ноября","декабря");
+
+
+
+document.write(d.getDate()+ " " + month[d.getMonth()]
+
++ " " + d.getFullYear() );
+
+//--></script></span>
+
+										</div>
+
+										<div class='text'>
+
+											Спасибо за Ваш отзыв. Очень рада, что мои гороскопы и советы помогают людям принимать правильные решения, для меня это действительно Важно
+
+										</div>
+
+									</div>
+
+								</div>
+
+								<div class='comment'>
+
+									<div class='avatar'>
+
+										<img src='images/avatar2.jpg' alt='' />
+
+									</div>
+
+									<div class='message'>
+
+										<div class='info'>
+
+											<b><a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Наталья Бодрова</a></b>
+
+											<span><script language="javascript" type="text/javascript"><!--
+
+var d = new Date();
+
+
+
+var month=new Array("января","февраля","марта","апреля","мая","июня",
+
+"июля","августа","сентября","октября","ноября","декабря");
+
+d.setDate(d.getDate()-1);
+
+document.write((d.getDate())+ " " + month[d.getMonth()]
+
++ " " + d.getFullYear() );
+
+//--></script></span>
+
+										</div>
+
+										<div class='text'>
+
+											Оставляю свой отзыв впервые, ваш гороскоп и советы по привлечению денег и удачи, мне помогли вылезть из черной полосы невезения, надеюсь дальше будет также
+
+										</div>
+
+									</div>
+
+								</div>
+
+								<div class='comment'>
+
+									<div class='avatar'>
+
+										<img src='images/avatar6.jpg' alt='' />
+
+									</div>
+
+									<div class='message'>
+
+										<div class='info'>
+
+											<b><a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Сергей Панов</a></b>
+
+											<span><script language="javascript" type="text/javascript"><!--
+
+var d = new Date();
+
+
+
+var month=new Array("января","февраля","марта","апреля","мая","июня",
+
+"июля","августа","сентября","октября","ноября","декабря");
+
+d.setDate(d.getDate()-2);
+
+document.write((d.getDate())+ " " + month[d.getMonth()]
+
++ " " + d.getFullYear() );
+
+//--></script></span>
+
+										</div>
+
+										<div class='text'>
+
+											Систематически получаю от тебя гороскопы, не могу сказать что все сбылось на 100% , но 80 есть точно, а остальные 20% я может неправильно поняла
+
+										</div>
+
+									</div>
+
+								</div>
+
+                                                                <div class='comment'>
+
+									<div class='avatar'>
+
+										<img src='images/avatar3.jpg' alt='' />
+
+									</div>
+
+									<div class='message'>
+
+										<div class='info'>
+
+											<b><a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Наталья Леонова</a></b>
+
+											<span><script language="javascript" type="text/javascript"><!--
+
+var d = new Date();
+
+
+
+var month=new Array("января","февраля","марта","апреля","мая","июня",
+
+"июля","августа","сентября","октября","ноября","декабря");
+
+d.setDate(d.getDate()-3);
+
+document.write((d.getDate())+ " " + month[d.getMonth()]
+
++ " " + d.getFullYear() );
+
+//--></script></span>
+
+										</div>
+
+										<div class='text'>
+
+											Алена, ваша жизнь для меня пример для подражания! подскажите как мне изменить свою жизнь?
+
+										</div>
+
+									</div>
+
+								</div>
+
+
+
+                                                              <div class='comment answer'>
+
+									<div class='avatar'>
+
+										<img src='images/avatargl.jpg' alt='' />
+
+									</div>
+
+									<div class='message'>
+
+										<div class='info'>
+
+											<b><a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Алена Курилова</a></b>
+
+											<span><script language="javascript" type="text/javascript"><!--
+
+var d = new Date();
+
+
+
+var month=new Array("января","февраля","марта","апреля","мая","июня",
+
+"июля","августа","сентября","октября","ноября","декабря");
+
+d.setDate(d.getDate()-2);
+
+document.write((d.getDate())+ " " + month[d.getMonth()]
+
++ " " + d.getFullYear() );
+
+//--></script></span>
+
+										</div>
+
+										<div class='text'>
+
+											Все очень просто, для этого я и делаю гороскопы и оставляю советы для каждого знака, просто нажимайте на свой знак, читайте, и следуйте определенным правилам. Удача сама постучится к вам в дверь
+
+										</div>
+
+									</div>
+
+								</div>
+
+
+
+
+
+
+
+                                                                <div class='comment'>
+
+									<div class='avatar'>
+
+										<img src='images/avatar4.jpg' alt='' />
+
+									</div>
+
+									<div class='message'>
+
+										<div class='info'>
+
+											<b><a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Ирина Кузьмина</a></b>
+
+											<span><script language="javascript" type="text/javascript"><!--
+
+var d = new Date();
+
+
+
+var month=new Array("января","февраля","марта","апреля","мая","июня",
+
+"июля","августа","сентября","октября","ноября","декабря");
+
+d.setDate(d.getDate()-4);
+
+document.write((d.getDate())+ " " + month[d.getMonth()]
+
++ " " + d.getFullYear() );
+
+//--></script></span>
+
+										</div>
+
+										<div class='text'>
+
+										Здравствуйте Алена, вы меня конечно не помните, но я когда то учавствовала в программе «Битва экстрасенсов» и хочу сказать, что все , что вы мне тогда нагадали - сбылось! Я нашла свое личное счастье и теперь замужем! Спасибо вам огромное!
+
+										</div>
+
+									</div>
+
+								</div>
+
+
+
+
+
+
+
+
+
+                                                                <div class='comment'>
+
+									<div class='avatar'>
+
+										<img src='images/avatar5.jpg' alt='' />
+
+									</div>
+
+									<div class='message'>
+
+										<div class='info'>
+
+											<b><a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Валерия Горельшева</a></b>
+
+											<span><script language="javascript" type="text/javascript"><!--
+
+var d = new Date();
+
+
+
+var month=new Array("января","февраля","марта","апреля","мая","июня",
+
+"июля","августа","сентября","октября","ноября","декабря");
+
+d.setDate(d.getDate()-5);
+
+document.write((d.getDate())+ " " + month[d.getMonth()]
+
++ " " + d.getFullYear() );
+
+//--></script></span>
+
+										</div>
+
+										<div class='text'>
+
+											Алена, здравствуйте. Хотелось бы получить от вас гороскоп на деньги и финансовую удачу. Как это можно сделать?
+
+										</div>
+
+									</div>
+
+								</div>
+
+
+
+                                                              <div class='comment answer'>
+
+									<div class='avatar'>
+
+										<img src='images/avatargl.jpg' alt='' />
+
+									</div>
+
+									<div class='message'>
+
+										<div class='info'>
+
+											<b><a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Алена Курилова</a></b>
+
+										<span><script language="javascript" type="text/javascript"><!--
+
+var d = new Date();
+
+
+
+var month=new Array("января","февраля","марта","апреля","мая","июня",
+
+"июля","августа","сентября","октября","ноября","декабря");
+
+d.setDate(d.getDate()-5);
+
+document.write((d.getDate())+ " " + month[d.getMonth()]
+
++ " " + d.getFullYear() );
+
+//--></script></span>
+
+										</div>
+
+										<div class='text'>
+
+											Все очень просто, здесь я постоянно обновляю гороскоп и вы можете получить самый свежий. Гороскоп общий и финансовый и личный одновременно. жмите на свой знак и читайте - все очень просто 
+
+										</div>
+
+									</div>
+
+								</div>
+
+
+
+
+
+  <div class='comment'>
+
+									<div class='avatar'>
+
+										<img src='images/avatar7.jpg' alt='' />
+
+									</div>
+
+									<div class='message'>
+
+										<div class='info'>
+
+											<b><a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Антон Геращенко</a></b>
+
+										<span><script language="javascript" type="text/javascript"><!--
+
+var d = new Date();
+
+
+
+var month=new Array("января","февраля","марта","апреля","мая","июня",
+
+"июля","августа","сентября","октября","ноября","декабря");
+
+d.setDate(d.getDate()-6);
+
+document.write((d.getDate())+ " " + month[d.getMonth()]
+
++ " " + d.getFullYear() );
+
+//--></script></span>
+
+										</div>
+
+										<div class='text'>
+
+											Добрый день, всегда скептически относился к гороскопам, но в этот раз неудержался и 2 недели назад получил свой, получил еще несколько советов как привлечь к себе финансовую удачу. Уж не знаю совпало или просто повезло, но меня повысили 3 дня назад. Вот как после этого не верить вашим гороскопам?
+
+										</div>
+
+									</div>
+
+								</div>
+
+
+
+  <div class='comment'>
+
+									<div class='avatar'>
+
+										<img src='images/avatar8.jpg' alt='' />
+
+									</div>
+
+									<div class='message'>
+
+										<div class='info'>
+
+											<b><a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Екатерина Бабич</a></b>
+
+											<span><script language="javascript" type="text/javascript"><!--
+
+var d = new Date();
+
+
+
+var month=new Array("января","февраля","марта","апреля","мая","июня",
+
+"июля","августа","сентября","октября","ноября","декабря");
+
+d.setDate(d.getDate()-7);
+
+document.write((d.getDate())+ " " + month[d.getMonth()]
+
++ " " + d.getFullYear() );
+
+//--></script></span>
+
+										</div>
+
+										<div class='text'>
+
+											Алена, добрый вечер. Когда то была на вашем семинаре и вы мне дали несколько дельных советов - спасибо большое, мне это было очень важно
+
+                                            </div>
+
+									</div>
+
+								</div>
+
+
+
+<div class='comment answer'>
+
+									<div class='avatar'>
+
+										<img src='images/avatargl.jpg' alt='' />
+
+									</div>
+
+									<div class='message'>
+
+										<div class='info'>
+
+											<b><a href='https://tracker.el-slim.in.ua/click.php?lp=1'>Алена Курилова</a></b>
+
+											<span><script language="javascript" type="text/javascript"><!--
+
+var d = new Date();
+
+
+
+var month=new Array("января","февраля","марта","апреля","мая","июня",
+
+"июля","августа","сентября","октября","ноября","декабря");
+
+d.setDate(d.getDate()-6);
+
+document.write((d.getDate())+ " " + month[d.getMonth()]
+
++ " " + d.getFullYear() );
+
+//--></script></span>
+
+										</div>
+
+										<div class='text'>
+
+											Добрый вечер, всегда пожалуйста :)
+
+</div>
+
+									</div>
+
+								</div>
+
+
+
+
+
+
+
+
+
+							</div>
+
+						</div>
+
+						<!-- end:main -->
+
+						<!-- start:sidebar -->
+
+						<div id='sidebar'>
+
+							<section class='module-signs'>
+
+								<!-- start:header -->
+
+								<header>
+
+									<h2>Алена Курилова</h2>
+
+									<span class='borderline'></span>
+
+								</header>
+
+								<!-- end:header -->
+
+								<div style='background-color: #e5f3fd;'>
+
+									<ul class='horoscope-list'>
+
+<center><img src="images/fotos.jpg"> </center>
+
+										<br><p>Алена Курилова – ясновидящая и пророчица в 4-ом поколении, Победитель 6-го и 8-го сезонов «Битвы экстрасенсов» в Украине, а сейчас – судья проекта.</p>
+
+									</ul>
+
+								</div>
+
+							</section>
+
+							<div style='clear: both'></div>
+
+							
+
+						
+
+							
+
+						</div>
+
+						<!-- end:sidebar -->                    
+
+					</div>
+
+					<!-- end:page content -->            
+
+				</div>
+
+				<!-- end:container -->
+
+				<!-- footer:page footer -->
+
+				<footer id='page-footer'>
+
+					<!-- start:container -->
+
+					<div class='container'>
+
+						<!-- start:row -->
+
+						<div  class='copyright row'>
+
+							<!-- start:col -->
+
+							<div class='col-sm-6'>
+
+								<br />&copy; 2015-2019. Копирование материалов данного сайта запрещено. <br />
+
+								</div>
+
+							<!-- end:col -->
+
+							<!-- start:col -->
+
+							
+
+							<!-- end:col -->
+
+						</div>
+
+						<!-- end:row -->
+
+					</div>
+
+					<!-- end:container -->
+
+				</footer>
+
+				<!-- end:page footer -->
+
+			</div>
+
+			<!-- end:page inner wrap -->
+
+		</div>
+
+		<!-- end:page outer wrap -->
+
+		<!-- start:scripts -->
+
+		<link rel='stylesheet' href='css/jquery.sidr.dark.css'>
+
+		<link rel='stylesheet' href='css/font-awesome.min.css'>
+
+		<script src='js/jquery.min.js'></script>
+
+		<script src='js/functions.min.js'></script>
+
+	</body>
+
+</html>

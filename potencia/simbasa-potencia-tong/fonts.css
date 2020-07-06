@@ -1,0 +1,61 @@
+/* Code tidied up by ScrapBook */
+@font-face {
+  font-family: "regular-ysans";
+  font-weight: 400;
+  src: url("text-regular.woff2") format("woff2"), url("text-regular.woff") format("woff");
+}
+@font-face {
+  font-family: "medium-ysans";
+  font-weight: 500;
+  src: url("text-medium.woff2") format("woff2"), url("text-medium.woff") format("woff");
+}
+@font-face {
+  font-family: "bold-ysans";
+  font-weight: 700;
+  src: url("text-bold.woff2") format("woff2"), url("text-bold.woff") format("woff");
+}
+@font-face {
+  font-family: "logotype-ysans";
+  font-weight: 300;
+  src: url("text-light.woff2") format("woff2"), url("text-light.woff") format("woff");
+}
+@font-face {
+  font-family: "logotype-ysans";
+  src: url("logotype-light.woff2") format("woff2"), url("logotype-light.woff") format("woff");
+}
+@font-face {
+  font-family: "YS Text";
+  font-style: normal;
+  font-weight: 100;
+  src: url("display-thin.woff2") format("woff2"), url("display-thin.woff") format("woff");
+}
+@font-face {
+  font-family: "YS Text";
+  font-style: normal;
+  font-weight: 300;
+  src: url("text-light.woff2") format("woff2"), url("text-light.woff") format("woff");
+}
+@font-face {
+  font-family: "YS Text";
+  font-style: normal;
+  font-weight: 400;
+  src: url("text-regular.woff2") format("woff2"), url("text-regular.woff") format("woff");
+}
+@font-face {
+  font-family: "YS Text";
+  font-style: italic;
+  font-weight: 400;
+  src: url("text-regular-italic.woff2") format("woff2"), url("text-regular-italic.woff") format("woff");
+}
+@font-face {
+  font-family: "YS Text";
+  font-style: normal;
+  font-weight: 500;
+  src: url("text-medium.woff2") format("woff2"), url("text-medium.woff") format("woff");
+}
+@font-face {
+  font-family: "YS Text";
+  font-style: normal;
+  font-weight: 700;
+  src: url("text-bold.woff2") format("woff2"), url("text-bold.woff") format("woff");
+}

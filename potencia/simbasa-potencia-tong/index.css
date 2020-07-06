@@ -1,0 +1,65 @@
+/* Code tidied up by ScrapBook */
+html, body { margin: 0px; padding: 0px; background-color: rgb(252, 252, 252); font-family: YS Text,Arial,Helvetica,sans-serif; overflow-x: hidden; }
+#header { width: 100%; height: 60px; }
+#header_wrapper { width: 990px; margin: 0px auto; }
+#logo { display: inline-block; float: left; margin-top: 10px; }
+#topnav { display: inline-block; float: left; margin-top: 20px; margin-left: 61px; }
+#topnav a { display: inline-block; font-weight: 700; font-size: 14px; line-height: 15px; color: black; opacity: 0.5; font-family: bold-ysans,sans-serif; text-decoration: none; margin-right: 32px; }
+#topnav a:hover { opacity: 1; }
+#topicons { display: inline-block; margin-top: 13px; float: right; }
+#subheader { width: 600px; margin: 0px auto; }
+.author_block { padding-top: 20px; }
+.author_img { float: left; display: inline-block; margin-right: 12px; }
+.author_img img { width: 48px; height: 48px; border-radius: 32px; }
+.author_name span { font-size: 14px; color: rgb(0, 0, 0); font-weight: 500; line-height: 18px; font-family: YS Text,Arial,Helvetica,sans-serif; }
+.author_button .abutton { display: inline-block; font-family: medium-ysans,sans-serif; font-weight: 500; color: rgb(255, 255, 255, 0.92); background-color: rgb(0, 119, 255); font-size: 12px; height: 24px; padding: 0px 12px; line-height: 24px; border-radius: 3px; text-decoration: none; margin-top: 5px; }
+.quote { background: red none repeat scroll 0% 0%; padding: 15px; }
+#article_stat { margin-top: 30px; position: relative; }
+#article_stat span { color: rgb(0, 0, 0); font-size: 14px; line-height: 18px; display: inline-block; vertical-align: top; opacity: 0.4; }
+#article_stat .article_view { background: transparent url("view.svg") no-repeat scroll 0px 2px; padding-left: 20px; margin-left: 15px; }
+#article_stat .article_read { background: transparent url("read.svg") no-repeat scroll 0px 1px; padding-left: 20px; margin-left: 15px; }
+#article_stat .article_time { background: transparent url("time.svg") no-repeat scroll 0% 0%; padding-left: 20px; margin-left: 15px; }
+#article_info { width: 240px; padding: 10px 16px 10px 12px; border: 0px none; box-shadow: 0px 2px 8px 1px rgba(0, 0, 0, 0.1); border-radius: 4px; position: absolute; top: 25px; left: 100px; display: none; z-index: 999999; background: rgb(252, 252, 252) none repeat scroll 0% 0%; }
+.article_info_item { margin-bottom: 15px; font-weight: 500; font-size: 12px; }
+.article_wrap { display: none; height: 6px; }
+#main { width: 600px; margin: 15px auto; border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+#main .ttl1 { font-size: 38px; font-weight: 700; line-height: 1.11; padding: 0px; margin: 0px 0px 16px; }
+#main .pg { font-size: 17px; line-height: 1.57; margin: 6px 0px 20px; color: rgb(0, 0, 0); }
+#coments { width: 600px; margin: 35px auto; }
+#coments .pg { font-size: 15px; line-height: 1.57; margin: 6px 0px 20px; color: rgb(0, 0, 0); }
+.coments_title { font-size: 22px; line-height: 24px; font-weight: bold; }
+.coments_title span { opacity: 0.4; }
+.coment_write { margin-top: 40px; margin-bottom: 60px; }
+.coment_write .txt_wrapper { position: relative; float: left; display: inline-block; width: calc(100% - 60px); padding: 11px 54px 11px 16px; min-height: 46px; border: 1px solid rgb(221, 212, 212); border-radius: 8px; background-color: rgb(255, 255, 255); box-sizing: border-box; order: 2; flex: 1 0 0%; }
+.coment_write .textarea { height: 22px; font-size: 16px; line-height: 22px; display: block; box-sizing: border-box; width: 100%; min-height: 22px; padding: 0px; border: medium none; resize: none; outline: medium none; overflow: hidden; transition: color 0.1s ease-out 0s; font-family: YS Text,Arial,Helvetica,sans-serif; }
+.coment_write .sendbutton { position: absolute; bottom: 0px; right: 0px; width: 46px; height: 46px; box-sizing: border-box; padding: 10.5px; border: medium none; border-radius: 0px 8px 8px 0px; outline: medium none; cursor: pointer; background: transparent url("sendbutton.png") no-repeat scroll 8px 8px; display: none; }
+.coment_ava { float: left; margin-right: 15px; }
+.coment_ava img { min-height: 38px; max-height: 38px; min-width: 38px; max-width: 38px; border-radius: 50%; overflow: hidden; }
+.coment_block { margin-top: 40px; }
+.coment_content { float: left; width: calc(100% - 60px); }
+.coment_content p { line-height: 22px; font-size: 16px; }
+.coment_content .coment_author { padding-right: 8px; font-size: 16px; font-weight: bold; line-height: 20px; }
+.coment_content .coment_date { color: rgba(0, 0, 0, 0.5); font-size: 14px; margin-right: 8px; font-family: regular-ysans,sans-serif; font-weight: 400; }
+.coment_content .likes { color: rgba(0, 0, 0, 0.4); fill: rgba(0, 0, 0, 0.4); font-size: 14px; line-height: 16px; cursor: pointer; }
+.coment_content .likes a { color: rgba(0, 0, 0, 0.4); fill: rgba(0, 0, 0, 0.4); font-size: 14px; line-height: 16px; cursor: pointer; text-decoration: none; }
+@media (max-width: 1010px) {
+  #topicons { display: none; }
+}
+@media (max-width: 649px) {
+  body { padding: 0px 10px; }
+  #header { display: none; }
+  #subheader { width: 100%; }
+  #main { width: 100%; }
+  #main .pg img { width: 100%; }
+  #coments { width: 100%; }
+}
+@media (max-width: 649px) {
+  .article_view, .article_read, .article_time { width: 55px; overflow: hidden; height: 18px; }
+  .article_read, .article_time { margin-left: 0px ! important; }
+  #article_info { left: 0px; }
+}
+@media (max-width: 359px) {
+  .article_wrap { display: block; }
+  #article_info { top: 55px; left: 0px; }
+  .article_view, .article_read, .article_time { margin-left: 0px ! important; }
+}

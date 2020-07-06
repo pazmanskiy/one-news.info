@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+body.theme_light {
+  /*background-color: @theme-light-bg;*/
+
+  background-color: #eeeff1;
+  /* background-color:@gradient-gray-border-top;*/
+
+}
+/* Standalone ссылки. Reflection будет делаться jQuery плагином */
+body.theme_light .icon-brand-home {
+  display: -moz-inline-stack;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 25px;
+  height: 24px;
+  background-image: url('../images/icons_sprite-3.png');
+  background-repeat: no-repeat;
+  background-position: -26px -453px;
+}
+body.theme_light .icon-brand-persons {
+  display: -moz-inline-stack;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 25px;
+  height: 24px;
+  background-image: url('../images/icons_sprite-3.png');
+  background-repeat: no-repeat;
+  background-position: -26px -512px;
+}
+body.theme_light .icon-brand-news {
+  display: -moz-inline-stack;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 25px;
+  height: 24px;
+  background-image: url('../images/icons_sprite-3.png');
+  background-repeat: no-repeat;
+  background-position: -26px -545px;
+}
+body.theme_light .icon-brand-photo {
+  display: -moz-inline-stack;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 25px;
+  height: 24px;
+  background-image: url('../images/icons_sprite-3.png');
+  background-repeat: no-repeat;
+  background-position: -26px -606px;
+}
+body.theme_light .icon-brand-video {
+  display: -moz-inline-stack;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 25px;
+  height: 24px;
+  background-image: url('../images/icons_sprite-3.png');
+  background-repeat: no-repeat;
+  background-position: -26px -636px;
+}
+/* Ссылки в brand-menu */
+.light a.icon-brand-home {
+  display: -moz-inline-stack;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 25px;
+  height: 24px;
+  background-image: url('../images/icons_sprite-3.png');
+  background-repeat: no-repeat;
+  background-position: -26px 1px;
+}
+.light a.icon-brand-persons {
+  display: -moz-inline-stack;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 25px;
+  height: 24px;
+  background-image: url('../images/icons_sprite-3.png');
+  background-repeat: no-repeat;
+  background-position: -26px -58px;
+}
+.light a.icon-brand-news {
+  display: -moz-inline-stack;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 25px;
+  height: 24px;
+  background-image: url('../images/icons_sprite-3.png');
+  background-repeat: no-repeat;
+  background-position: -26px -91px;
+}
+.light a.icon-brand-photo {
+  display: -moz-inline-stack;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 25px;
+  height: 24px;
+  background-image: url('../images/icons_sprite-3.png');
+  background-repeat: no-repeat;
+  background-position: -26px -152px;
+}
+.light a.icon-brand-video {
+  display: -moz-inline-stack;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 25px;
+  height: 24px;
+  background-image: url('../images/icons_sprite-3.png');
+  background-repeat: no-repeat;
+  background-position: -26px -182px;
+}
+/**
+ * Heads theming
+------------------------------------------------------------------------------ */
+body.theme_light h1,
+body.theme_light h1 a {
+  color: #566a8b;
+}
+h4.theme a.icon {
+  background-color: #ffffff !important;
+}
+body.theme_light h4.theme span.title {
+  color: #555555;
+  position: relative;
+  display: inline-block;
+  /*margin-left: 29px;*/
+
+  max-width: 420px !important;
+}
+body.theme_light h4.theme p.line {
+  background-color: #999999;
+  border-bottom-color: #fff;
+}
+/* Выключаем бордер у темных тем */
+/**
+ * Main content theming
+------------------------------------------------------------------------------ */
+body.theme_light #main {
+  background-color: #ffffff;
+}
+/**
+ * THEME HEADINGS TEXT-SHADOW
+------------------------------------------------------------------------------ */
+body.theme_light h4.theme span.title {
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.4);
+}

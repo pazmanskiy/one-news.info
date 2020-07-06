@@ -1,0 +1,1260 @@
+
+html, body, div, span, h1, h2, h3, h4, p, blockquote, a, cite, em, img, strong, b, center, ol, ul, li, form, label {
+    margin: 0px;
+    padding: 0px;
+    border: 0px none;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: outside none none;
+}
+
+blockquote {
+    quotes: none;
+}
+
+blockquote::before, blockquote::after {
+    content: none;
+}
+
+.comment-meta-2 {
+    color: rgb(153, 153, 153);
+}
+
+body {
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    color: rgb(68, 68, 68);
+    font: 100%/100% helvetica, arial, sans-serif;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a, a:visited {
+    color: rgb(0, 136, 214);
+    text-decoration: none;
+    transition: color 0.2s ease 0s;
+    cursor: pointer
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active, a:focus {
+    outline: medium none;
+}
+
+#site {
+
+    width: 100%;
+    margin-top: 36px;
+}
+
+.fixed-nav {
+    position: fixed ! important;
+    z-index: 2000;
+}
+
+#main-nav-wrapper {
+    background: rgb(36, 212, 135) url("nav-bg.png") /*tpa=http://p45.v.guarchibao.pro/files/img/nav-bg.png*/ repeat-x scroll center top;
+    border-bottom: 5px solid rgb(0, 166, 214);
+    box-shadow: 0px 4px 7px -5px rgb(85, 85, 85);
+
+    position: relative;
+    width: 100%;
+    z-index: 2000;
+}
+
+#nav {
+
+    position: relative;
+    width: 100%;
+}
+
+#main-nav {
+    margin: 0px auto;
+    position: relative;
+    width: 1000px;
+}
+
+#main-nav ul {
+    display: flex;
+
+    padding: 0px 20px;
+    position: relative;
+    width: 960px;
+}
+
+#main-nav ul li {
+    display: inline-block;
+
+    padding: 9px 20px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+
+#main-nav ul li:hover {
+    background: rgb(0, 166, 214) url("nav-bg_001.png") /*tpa=http://p45.v.guarchibao.pro/files/img/nav-bg_001.png*/ repeat-x scroll center top;
+}
+
+#main-nav ul li a {
+    color: rgb(255, 255, 255);
+    font: 700 16px/16px "Open Sans Condensed", sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#main-nav ul li:hover a, #main-nav li.current-post-parent a {
+    color: rgb(255, 255, 255);
+}
+
+#main-nav ul li ul {
+    display: none;
+}
+
+#main-nav ul li:hover ul {
+    background: rgb(0, 166, 214) none repeat scroll 0% 0%;
+    border-top: 5px solid rgb(0, 166, 214);
+    box-shadow: 0px 3px 4px -2px rgb(51, 51, 51);
+    display: block;
+    margin-top: 4px;
+    padding: 5px;
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    width: auto;
+}
+
+#main-nav ul li:hover ul li {
+    padding: 8px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    width: 200px;
+}
+
+#main-nav ul li:hover ul li:hover {
+    background: rgb(79, 190, 229) none repeat scroll 0% 0%;
+}
+
+#main-nav ul li:hover ul li a {
+    color: rgb(255, 255, 255);
+    font: 400 12px/12px "Open Sans", sans-serif;
+}
+
+#nav-mobi {
+    color: rgb(255, 255, 255);
+    display: none;
+    font: bold 16px/16px Arial, Verdana, sans-serif;
+    margin: 0px auto;
+    padding: 0px 10px;
+    position: relative;
+    text-align: left;
+    text-transform: uppercase;
+    width: 460px;
+    height: 38px;
+}
+
+#nav-mobi a {
+    color: rgb(255, 255, 255);
+}
+
+#nav-mobi a:hover, #nav-mobi a:active {
+    text-decoration: none;
+}
+
+#nav-mobi ul {
+    background: rgb(0, 166, 214) none repeat scroll 0% 0%;
+    display: block;
+
+    position: absolute;
+    top: 43px;
+    left: 0px;
+    width: 480px;
+}
+
+#nav-mobi ul li {
+    display: inline;
+
+    font: 700 18px/18px "Open Sans Condensed", sans-serif;
+    margin: 0px;
+    padding: 10px 12px;
+    position: relative;
+    width: 216px;
+}
+
+#nav-mobi ul li:hover {
+    background: rgb(79, 190, 229) none repeat scroll 0% 0%;
+}
+
+#nav-mobi ul li ul {
+    display: none;
+}
+
+.flip {
+    background: transparent url("mobi-menu.png") /*tpa=http://p45.v.guarchibao.pro/files/img/mobi-menu.png*/ no-repeat scroll left 50%;
+
+    width: 480px;
+    height: 38px;
+}
+
+.panel {
+    display: none;
+}
+
+#wrapper {
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+
+    position: relative;
+    width: 100%;
+}
+
+#content {
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    width: 960px;
+}
+
+#main-header-wrapper {
+    width: 100%;
+    height: 90px;
+    background: transparent url("header-bg.jpg") /*tpa=http://p45.v.guarchibao.pro/files/img/header-bg.jpg*/ no-repeat scroll center center;
+}
+
+#header {
+    margin: 0px auto;
+    position: relative;
+    width: 960px;
+    height: 90px;
+    display: flex;
+}
+
+#logo {
+
+    max-width: 420px;
+    margin: 20px 0;
+    overflow: hidden;
+    padding-right: 20px;
+}
+
+#header-info {
+
+    max-width: 210px;
+    margin: 25px 0px 10px;
+}
+
+#header-info h3 {
+    color: rgb(85, 85, 85);
+
+    font: 700 15px "Open Sans Condensed", serif;
+    overflow: hidden;
+}
+
+#header-info p {
+
+    clear: left;
+    font: 700 13px "Open Sans Condensed", serif;
+    max-width: 200px;
+    overflow: hidden;
+}
+
+#main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.middle-widget h3, h3#reply-title, h2.comments {
+    border-bottom: 1px dotted rgb(204, 204, 204);
+    color: rgb(0, 166, 214);
+    font: 700 14px/14px "Open Sans Condensed", sans-serif;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+ul.tabs li.active h4 a {
+    color: rgb(0, 166, 214);
+}
+
+.main-headline {
+    color: rgb(51, 51, 51);
+
+    font: 700 18px/22px "Open Sans Condensed", serif;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.main-headline:visited {
+    color: rgb(51, 51, 51);
+}
+
+.tabber-content ul li:first-child {
+    padding-top: 5px;
+}
+
+.tabber-content ul li:nth-child(2n+2) {
+    background: rgb(246, 246, 246) none repeat scroll 0% 0%;
+}
+
+.image-contain {
+
+    position: relative;
+    width: 160px;
+    height: 179px;
+}
+
+.image-contain img {
+    transition: all 0.3s ease 0s;
+}
+
+.image-contain img:hover {
+    opacity: 0.85;
+}
+
+.image-box {
+    background: transparent url("featured-bg.png") /*tpa=http://p45.v.guarchibao.pro/files/img/featured-bg.png*/ repeat scroll 0% 0%;
+
+    padding: 5px;
+    position: absolute;
+    bottom: 0px;
+    width: 150px;
+}
+
+.image-box a {
+    color: rgb(255, 255, 255);
+    font: 700 12px/16px "Open Sans Condensed", sans-serif;
+}
+
+.image-box a:visited {
+    color: rgb(255, 255, 255);
+}
+
+.middle-widget {
+
+    font: 400 12px "Open Sans", sans-serif;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.middle-widget h3 {
+    border-bottom: 1px dotted rgb(204, 204, 204);
+
+    font: 700 14px/14px "Open Sans Condensed", sans-serif;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.headlines-info {
+    color: rgb(153, 153, 153);
+
+    font: 10px/10px helvetica, arial, sans-serif;
+    margin-top: 6px;
+    width: 100%;
+}
+
+ul.headlines-info {
+    display: inline;
+
+    margin-top: 0px;
+}
+
+ul.headlines-info li {
+    border: medium none;
+    display: inline-block ! important;
+
+    margin: 0px;
+    padding: 2px 0px 0px ! important;
+    width: auto;
+}
+
+.ratings-icon {
+
+    background-color: transparent ! important;
+    margin-top: -4px ! important;
+    height: 18px ! important;
+}
+
+.time-ago {
+    margin-right: 10px ! important;
+}
+
+.rating {
+    color: rgb(102, 51, 51);
+}
+
+#post-area {font: 14px/20px helvetica, arial, sans-serif;overflow: hidden;position: relative;/* width: 620px; */}
+
+.content-area img {
+    width: auto;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.breadcrumb {
+    color: rgb(136, 136, 136);
+
+    font: 400 11px/11px "Open Sans", helvetica, arial, sans-serif;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.post-image {
+    border: 1px solid rgb(204, 204, 204);
+    float: right;
+    margin: 0px 0px 10px 10px;
+    padding: 2px;
+    width: 300px;
+}
+
+#post-area h1 {
+    color: rgb(51, 51, 51);
+    font: 700 32px/36px "Open Sans Condensed", sans-serif;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+#content-area h4 {
+    color: rgb(51, 51, 51);
+    font: 700 20px/24px "Open Sans Condensed", sans-serif;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+#post-area blockquote {
+    border-left: 1px solid rgb(204, 204, 204);
+    color: rgb(119, 119, 119);
+    font: italic 14px/22px Verdana, Arial, sans-serif;
+    margin: 10px;
+    padding-left: 20px;
+}
+
+#post-area .size-img {
+    text-align: center;
+}
+
+#post-area p {
+    display: block;
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+    #post-area p {
+        text-align: left;
+    }
+}
+
+#content-area {
+    display: block;
+
+    width: 100%;
+}
+
+#post-info {
+    clear: both;
+    color: rgb(136, 136, 136);
+
+    font: italic 12px/12px helvetica, arial, sans-serif;
+    margin-bottom: 10px;
+    position: relative;
+    width: 620px;
+    border-bottom: 1px dotted rgb(204, 204, 204);
+    border-top: 1px dotted rgb(204, 204, 204);
+    padding: 10px 0px;
+}
+
+.underpost {
+    margin: 10px 0px 0px;
+    width: auto;
+}
+
+.rating-stars {
+
+    padding: 0px 0px 15px;
+}
+
+.social-title {
+    font: 700 14px/14px "Open Sans Condensed", sans-serif;
+    margin-bottom: 10px;
+    color: rgb(0, 166, 214);
+}
+
+.comment-form-comment {
+    display: none;
+}
+
+#comments {
+    display: block;
+
+    font: 400 12px "Open Sans", sans-serif;
+    margin-top: 40px;
+    width: 620px;
+}
+
+#comments h3 {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.comment-inner {
+    border-bottom: 1px dotted rgb(221, 221, 221);
+    margin-bottom: 10px;
+    padding: 10px 0px;
+}
+
+#comments .comment-inner::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#comments .comment-avatar {
+    display: inline-block;
+    width: 46px;
+}
+
+#comments .avatar {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(221, 221, 221);
+    padding: 2px;
+}
+
+#comments .commentmeta {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 10px 10px;
+}
+
+.comment-reply {
+    background: rgb(0, 166, 214) none repeat scroll 0% 0%;
+    clear: both;
+    display: block;
+    margin-left: auto;
+    font: 700 14px/14px "Open Sans Condensed", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px 0;
+    width: 100px;
+}
+
+.comment-reply:hover {
+    background: rgb(0, 219, 134) none repeat scroll 0% 0%;
+}
+
+.comment-reply a {
+    color: rgb(255, 255, 255);
+}
+
+.comment-reply a:hover {
+    text-decoration: none;
+}
+
+ol.commentlist {
+
+    width: 100%;
+}
+
+#comments .comment-meta-1 {
+    display: block;
+    height: 18px;
+    margin: 0px 0px 6px;
+    padding: 4px 0px 2px;
+}
+
+#comments .comment-meta-1 .fn {
+    font-weight: bold;
+
+    width: auto;
+}
+
+#comments .comment-meta-2 {
+    font: 400 12px "Open Sans", sans-serif;
+    display: block;
+    margin: 0px;
+}
+
+#comments .text {
+    clear: both;
+    display: block;
+}
+
+#comments .c {
+    line-height: 20px;
+}
+
+#comments .c p {
+    display: block;
+    margin: 5px 0px;
+}
+
+#respond {
+    clear: both;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    padding: 10px 0px;
+}
+
+#respond p {
+    font: 400 12px "Open Sans", sans-serif;
+    margin: 0px;
+}
+
+#respond .comment-notes {
+    margin-bottom: 1em;
+}
+
+#respond .required {
+    color: rgb(255, 75, 51);
+    font-weight: bold;
+}
+
+#respond label {
+    color: rgb(136, 136, 136);
+    font-size: 12px;
+}
+
+#respond .input {
+    background: rgb(246, 246, 246) none repeat scroll 0% 0%;
+    border: 1px solid rgb(221, 221, 221);
+    box-shadow: 2px 2px 5px 0px rgb(238, 238, 238) inset;
+    margin: 0px 0px 9px;
+    padding: 5px;
+    width: 100%;
+    max-width: 300px;
+    height: 20px;
+    text-decoration: none;
+    display: block;
+    cursor: text;
+}
+
+#respond .textarea {
+    background: rgb(246, 246, 246) none repeat scroll 0% 0%;
+    border: 1px solid rgb(221, 221, 221);
+    box-shadow: 2px 2px 5px 0px rgb(238, 238, 238) inset;
+    width: 95%;
+    overflow: hidden;
+    text-decoration: none;
+    display: block;
+    height: 130px;
+    cursor: text;
+}
+
+h3#reply-title, h2.comments {
+    border-bottom: 1px dotted rgb(204, 204, 204);
+    font: 700 14px/14px "Open Sans Condensed", sans-serif ! important;
+    margin: 0px 0px 10px ! important;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+h3#reply-title {
+    display: none;
+}
+
+#sidebar-wrapper {
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.sidebar-widget {
+
+    font: 400 12px "Open Sans", sans-serif;
+    margin-bottom: 30px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.side {
+
+    width: 300px;
+}
+
+.tabs h4 a {
+    font: 700 14px/14px "Open Sans Condensed", sans-serif;
+    text-transform: uppercase;
+}
+
+.tabs h4 a:hover {
+    text-decoration: none;
+}
+
+.tabber-container {
+
+    width: 300px;
+}
+
+ul.tabs {
+    display: flex;
+
+    margin-bottom: -1px;
+    width: 100%;
+}
+
+ul.tabs li {
+    border-right: 1px solid rgb(255, 255, 255);
+    background: rgb(0, 166, 214) none repeat scroll 0% 0%;
+    color: rgb(255, 255, 255);
+    display: inline;
+
+    font: bold 12px/12px helvetica, arial, sans-serif;
+    padding: 7px;
+}
+
+ul.tabs li:hover {
+    background: rgb(0, 219, 134) none repeat scroll 0% 0%;
+}
+
+ul.tabs li h4 a {
+    color: rgb(255, 255, 255);
+}
+
+ul.tabs li.active {
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    border-left: 1px solid rgb(204, 204, 204);
+    border-right: 1px solid rgb(204, 204, 204);
+    border-top: 1px solid rgb(204, 204, 204);
+    position: relative;
+    z-index: 1000;
+}
+
+ul.tabs li.active:hover {
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+}
+
+.tabber-content {
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    border-top: 1px solid rgb(204, 204, 204);
+
+    padding-top: 10px;
+    width: 300px;
+}
+
+.tabber-content ul {
+    display: block;
+
+    width: 100%;
+}
+
+.tabber-content ul li {
+    display: flex;
+
+    padding: 10px;
+}
+
+.tabber-image {
+    border: 1px solid rgb(204, 204, 204);
+
+    margin-right: 10px;
+    padding: 2px;
+    width: 80px;
+    height: 89px;
+}
+
+.tabber-image img {
+    transition: all 0.3s ease 0s;
+}
+
+.tabber-image img:hover {
+    opacity: 0.85;
+}
+
+.tabber-text {
+
+    width: 184px;
+}
+
+.tabber-text p {
+    font: 400 12px/16px "Open Sans", sans-serif;
+}
+
+.middle-side {
+    display: none;
+}
+
+.tag-cloud {
+
+    width: 100%;
+}
+
+.tag-cloud a {
+    background: rgb(126, 132, 219) none repeat scroll 0% 0%;
+    color: rgb(255, 255, 255);
+
+    font: bold 12px/12px helvetica, arial, sans-serif;
+    margin: 4px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.tag-cloud a:hover {
+    background: rgb(0, 219, 134) none repeat scroll 0% 0%;
+    text-decoration: none;
+}
+
+.tag-cloud a:visited {
+    color: rgb(255, 255, 255);
+}
+
+#footer-bottom-wrapper {
+    background: rgb(85, 85, 85) none repeat scroll 0% 0%;
+
+    width: 100%;
+    display: block;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#footer-bottom {
+    color: rgb(170, 170, 170);
+    font: 400 10px/14px "Open Sans", sans-serif;
+    margin: 0px auto;
+    padding: 10px 20px;
+    position: relative;
+    width: 960px;
+}
+
+#footer-nav1 {
+
+    margin-bottom: 5px;
+}
+
+#footer-nav1 ul {
+    clear: both;
+    display: inline;
+    margin-bottom: 5px;
+}
+
+#footer-nav1 ul li {
+    border-right: 1px solid rgb(119, 119, 119);
+    display: inline;
+
+    margin: 0px 10px 5px 0px;
+    padding: 3px 10px 3px 0px;
+}
+
+#footer-nav1 ul li a {
+    color: rgb(204, 204, 204);
+    font: 700 12px/12px "Open Sans", sans-serif;
+}
+
+#copyright {
+
+    padding-bottom: 10px;
+    width: 95%;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .middle-160, .breadcrumb {
+        display: none;
+    }
+
+    #main-nav {
+        width: 768px;
+    }
+
+    #main-nav ul {
+        padding: 0px 10px;
+        width: 748px;
+    }
+
+    #main-nav ul li {
+        padding: 10px;
+    }
+
+    #main-nav ul li a {
+        font-size: 10px;
+        color: rgb(255, 255, 255);
+        font: 700 14px/1 "Open Sans Condensed", sans-serif;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .tag-cloud a {
+        display: inline-block;
+    }
+    .main-headline {
+        display: block;
+    }
+    #content {
+        padding: 20px 10px;
+        width: 748px;
+    }
+
+    #header, #footer-bottom {
+        width: 100%;
+    }
+
+    #main {
+    }
+
+    #post-area, #comments {
+        width: 420px;
+    }
+
+    .middle-side {
+        display: block;
+    }
+
+    .post-image {
+        width: 200px;
+        height: 224px;
+    }
+
+    #footer-bottom {
+        padding: 10px;
+    }
+
+    #footer-nav1 ul li:last-child {
+        border: 0px none;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 600px) {
+    #logo {
+
+        margin: 0 auto 0 0;
+        padding: 20px 0 0;
+    }
+    #main-header-wrapper {
+        height: auto;
+        background-position: center top ;
+    }
+    #header {
+        height: auto;
+        flex-direction: column;
+    }
+    #header-info {
+        margin: 20px 0px 10px;
+    }
+
+    .middle-160, .tabber-image, .side, .breadcrumb {
+        display: none;
+    }
+
+    #main-nav {
+        width: 600px;
+    }
+
+    #main-nav ul {
+        padding: 0px 10px;
+        width: 580px;
+    }
+
+    #main-nav ul li {
+        padding: 9px;
+    }
+
+    #main-nav ul li:last-child {
+        display: none;
+    }
+
+    #main-nav ul li a {
+        font: 700 13px/1 "Open Sans Condensed", sans-serif;
+    }
+
+    #content {
+        padding: 20px 10px;
+        width: 580px;
+    }
+
+    #header, #footer-bottom {
+        width: 580px;
+    }
+
+    #main {
+    }
+    .tag-cloud a {
+        display: inline-block;
+    }
+    #post-area, #comments {
+        width: 400px;
+    }
+
+    .post-image {
+        width: 200px;
+        height: 224px;
+    }
+
+    .middle-side {
+        display: block;
+    }
+
+    #sidebar-wrapper {
+        width: 160px;
+    }
+
+    ul.headlines-info li {
+        width: auto;
+    }
+
+    #footer-bottom {
+        padding: 10px;
+    }
+
+    #footer-nav1 ul li:last-child {
+        border: 0px none;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    #main-nav-wrapper {
+        display: none;
+    }
+
+    #logo {
+
+        margin: 0 auto 0;
+        text-align: center;
+        padding: 20px 0 0;
+    }
+
+    #site {
+        margin-top: 0;
+    }
+    #header, #footer-bottom {
+        flex-direction: column;
+        height: auto;
+        width: 460px;
+        padding-top: 10px;
+    }
+    #main-header-wrapper {
+        height: auto;
+        background-position: center top ;
+    }
+}
+
+@media screen and (max-width: 599px) and (min-width: 480px) {
+    #main-nav {
+        display: none;
+        height: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .middle-160, #sidebar-wrapper, .breadcrumb {
+        display: none;
+    }
+
+    #nav-mobi, #nav-mobi ul {
+        display: block;
+        width: 480px;
+    }
+
+    .flip {
+        margin-left: 10px;
+        width: 470px;
+    }
+
+    #nav-mobi ul li {
+        width: 216px;
+    }
+
+    #main {
+        max-width: 480px;
+        width: 100%;
+    }
+
+    #content {
+        padding: 20px 10px;
+        width: 460px;
+        margin: auto;
+
+    }
+
+
+    #header-info {
+
+        margin: 5px 0px 15px;
+    }
+
+    #post-area, #comments {
+        margin: 0;
+        width: 100%;
+    }
+
+    .post-image {
+        width: 200px;
+        height: 224px;
+    }
+
+    #footer-bottom {
+        padding: 10px;
+    }
+
+    #footer-nav1 ul li:last-child {
+        border: 0px none;
+    }
+}
+
+@media screen and (max-width: 479px) {
+
+    #sidebar-wrapper {
+        display: none;
+    }
+
+    #main-nav {
+        display: none;
+        height: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .middle-160, .breadcrumb {
+        display: none;
+    }
+
+    #nav-mobi, #nav-mobi ul {
+        display: block;
+        padding: 0px;
+        width: 320px;
+    }
+
+    .flip {
+        margin-left: 10px;
+        width: 310px;
+    }
+
+    #nav-mobi ul li {
+        width: 136px;
+    }
+
+    #content {
+        padding: 20px 10px;
+        width: 300px;
+    }
+
+    #main-header-wrapper {
+        text-align: center;
+    }
+
+    #header, #footer-bottom {
+        width: 300px;
+        padding-top: 5px;
+    }
+
+    #logo {
+
+        margin: 0px auto 10px;
+        max-width: 300px;
+        text-align: center;
+    }
+
+    #header-info {
+
+        max-width: 210px;
+        margin: 5px 0px 15px;
+    }
+
+    .search-wrapper {
+        border-top: 1px solid rgb(204, 204, 204);
+    }
+
+    #main {
+        margin: 0px;
+        padding: 0px;
+        width: 300px;
+    }
+
+    ul.headlines-info li {
+        width: auto;
+    }
+
+    #post-area, #comments {
+        margin: 0px;
+        width: 300px;
+    }
+
+    .post-image {
+        margin: 0px 0px 10px;
+        width: 294px;
+    }
+
+    #footer-bottom {
+        padding: 10px;
+
+        position: relative;
+    }
+
+    #footer-nav1 ul li:last-child {
+        border: 0px none;
+
+    }
+}
+
+.post-ratings {
+    width: 100%;
+}
+
+.post-ratings-image {
+    border: 0px none;
+}
+
+.post-ratings IMG {
+    border: 0px none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.size-img {
+    box-sizing: border-box;
+    border: 1px solid rgb(204, 204, 204);
+    padding: 2px;
+    background-color: rgb(255, 255, 255);
+}
+
+a {
+    cursor: pointer;
+}
+
+#comments img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.form-submit a {
+    background: rgb(0, 166, 214) none repeat scroll 0% 0%;
+    display: block;
+    font: 700 14px/14px "Open Sans Condensed", sans-serif;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    width: 85px;
+    margin-top: 5px;
+    color: white;
+}
+
+.form-submit a:hover {
+    text-decoration: none;
+}
+
+.content-area .prod {
+    width: 95%;
+    max-width: 450px;
+    display: block;
+    margin: auto;
+    border: none;
+}

@@ -1,0 +1,26 @@
+/* Code tidied up by ScrapBook */
+#tabber-widget { width: 100%; float: left; position: relative; }
+#sidebar #tabber-widget { width: 100%; float: left; }
+.tabberlive .tabbertabhide { display: none; }
+.tabber, .tabberlive { margin: 0px; padding: 0px; display: block; width: 100%; float: left; }
+#tabber-widget .tabbertab ul li ul li ul li {  }
+#tabber-widget .tabbertab ul { padding: 4% 0px 0px; }
+#tabber-widget .tabbertab ul li {  }
+#tabber-widget .tabbertab ul li ul { border: 0px none; padding: 0px ! important; width: 100%; }
+#tabber-widget .tabbertab ul li ul li {  }
+#container #tabber-widget .widget {  }
+#right-sidebar #tabber-widget .widget { margin: 1em 0px 1.5em ! important; }
+#right-sidebar ul.tabbernav { margin: 0px; position: relative; width: 100%; background-color: rgb(82, 192, 212); padding: 0px; float: left; box-shadow: 0px 2px 4px rgb(204, 204, 204); }
+#right-sidebar ul.tabbernav li { list-style: outside none none; padding: 0px; display: inline; font-size: 1.125em; font-weight: bold; float: left; text-transform: capitalize; }
+#right-sidebar ul.tabbernav li a { text-decoration: none; color: rgb(255, 255, 255); padding: 0.6em 1em; margin: 0px; float: left; }
+#right-sidebar ul.tabbernav li a:hover { text-decoration: none; color: rgb(255, 255, 255); background-color: rgb(38, 136, 153); padding: 0.6em 1em; margin: 0px; float: left; }
+#right-sidebar ul.tabbernav li.tabberactive a, #right-sidebar ul.tabbernav li.tabberactive a:hover { color: rgb(255, 255, 255); background-color: rgb(43, 154, 174); }
+.post-content ul.tabbernav { margin: 0px; position: relative; width: 96% ! important; padding: 2% 2% 0px ! important; float: left; border: 0px none ! important; }
+.post-content ul.tabbernav li { list-style: outside none none; padding: 0px; display: inline; font-size: 1.125em; font-weight: bold; float: left; margin: 0px ! important; text-transform: capitalize; }
+.post-content ul.tabbernav li a { text-decoration: none ! important; }
+.tabberlive .tabbertab { position: relative; }
+.tabberlive .tabbertab h2 {  }
+.tabberlive .tabbertab h3 { display: none; }
+#tab1.tabberlive {  }
+#tab2.tabberlive {  }
+#tab2.tabberlive .tabbertab { overflow: auto; }

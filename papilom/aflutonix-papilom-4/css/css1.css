@@ -1,0 +1,365 @@
+/* Code tidied up by ScrapBook */
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  unicode-range: U+460-52F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  unicode-range: U+100-24F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+.vk-avatar img { width: 48px; }
+.vk-comment-text { font-weight: normal; font-style: normal; }
+.vk-comment-date { font-weight: normal; font-style: normal; }
+.vk-comment-name { font-style: normal; }
+.comment-count { font-style: normal; }
+.button_page { background-color: rgb(242, 121, 9); display: block; margin: 0px auto; font: bold 19px Arial,Helvetica,sans-serif; min-width: 270px; max-width: 300px; text-decoration: none; color: rgb(255, 255, 255); position: relative; padding: 11px 20px 11px 11px; border-radius: 50px; -webkit-box-shadow: 0px 1px 0px rgb(158, 141, 132) inset, 0px 5px 0px 0px rgb(178, 90, 8), 0px 10px 5px rgb(153, 153, 153); box-shadow: 0px 1px 0px rgb(158, 141, 132) inset, 0px 5px 0px 0px rgb(178, 90, 8), 0px 10px 5px rgb(153, 153, 153); }
+.button_page:hover { opacity: 0.7; font: bold 19px Arial,Helvetica,sans-serif; color: rgb(229, 255, 255); }
+.button_page img { float: left; margin-top: -9px; width: 36px; margin-left: 4px; }
+img { outline: medium none; }
+.page_navigation a { padding: 3px 1px; border-radius: 3px; text-decoration: none; }
+
+.cenz-image {
+  display: inline-block;
+  background-image: url(../images/18_plus.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 80%;
+  border: 5px solid red;
+  cursor: pointer;
+}
+
+.cenz-image img {
+  width: 500px;
+  visibility: hidden;
+}
+
+.cenz-image.cenz-show {
+
+  border: none;
+}
+
+.cenz-image.cenz-show img {
+  visibility: visible;
+}
+
+.screenLock {
+  position: fixed;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7) none repeat scroll 0% 0%;
+  top: 0px;
+  left: 0px;
+  z-index: 11111111;
+  display: none;
+}
+
+.msg {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  padding-bottom: 30px;
+  text-align: center;
+  top: 150px;
+  left: 50%;
+  margin-left: -300px;
+  background: rgb(20, 143, 185) none repeat scroll 0% 0%;
+  border: 1px solid rgb(238, 238, 238);
+}
+
+.msg > h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+  margin-top: 45px;
+}
+
+.close {
+  position: absolute;
+  top: 1px;
+  right: 5px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.submit {
+  margin-top: 10px;
+  cursor: pointer;
+  height: 50px;
+  line-height: 50px;
+  max-width: 400px;
+  width: 90%;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 0;
+  background-color: firebrick;
+  color: rgb(255, 255, 255);
+  font-size: 26px;
+  border-radius: 3px;
+}
+
+.over-window {
+  font-family: 'Roboto', serif;
+  width: 650px;
+  z-index: 9999;
+  padding: 10px 0 0;
+  cursor: default;
+  background: #FFF none repeat scroll 0% 0%;
+  position: fixed;
+  top: 5%;
+  left: 55%;
+  margin: 0 0 0 -391px;
+  border: 3px solid #3e3e3e;
+}
+
+.ex-logo {
+  color: #111111;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  line-height: 38px;
+  margin: 15px auto 10px;
+  padding: 0px 15px;
+  text-align: center;
+  font-weight: bold !important;
+}
+
+.footer-button {
+  color: #AE1210;
+  font-family: "Roboto Condensed", Georgia, "Century Schoolbook L", serif;
+  font-size: 46px;
+  line-height: 56px;
+  margin: 5px auto 0px;
+  padding: 0px 15px;
+  text-align: center;
+}
+
+.footer-button a {
+  font-family: Arial;
+  border: none;
+  display: block;
+  margin: 5px auto 20px;
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+  text-align: center;
+  height: 51px;
+  line-height: 51px;
+  background: #e74c3c;
+  font-weight: normal;
+  border-bottom: 2px solid #c0392b;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 9px;
+  width: 380px;
+}
+
+.footer-button a:hover {
+  background: #e75c4e;
+}
+
+.footer-button a:hover {
+  color: #FFF;
+}
+
+.ppubtxt {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center !important;
+  font-size: 18px;
+  margin-bottom: 10px;
+  width: 650px;
+  padding: 0;
+  color: #111;
+  margin-top: 0;
+}
+
+.exit-slogan {
+  color: #222;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+  margin: 10px auto 5px;
+  padding: 0px 15px;
+  text-align: center;
+  font-weight: normal;
+  width: 550px;
+}
+
+.exitprod-img {
+  width: 230px;
+  margin: 15px 15px 0 15px;
+  float: left;
+  text-align: center;
+}
+
+.exit-form {
+  width: 370px;
+  float: left;
+}
+
+.exit-form-text {
+  margin: 10px 0 20px;
+}
+
+.exit-form-text .subhead {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29px;
+  color: #2d2e30;
+}
+
+.exit-form-text .subhead ul {
+  list-style: outside none none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: normal;
+  padding-left: 10px;
+}
+
+.exit-form-text .subhead ul li {
+  background: transparent url("../images/bul.png") no-repeat scroll 0px 10px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.exit-row {
+  width: 318px;
+  margin: 0 15px 24px 0;
+  position: relative;
+}
+
+.exit-row input {
+  margin: 0;
+  padding: 12px 6px 12px 40px;
+  height: 47px;
+  width: 270px;
+  border: none;
+  outline: none;
+}
+
+.exicon {
+  height: 47px;
+  width: 38px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: url("../../../../../krasota-zdorovie.com/agro_ua4/img/exitsprite.png") no-repeat;
+}
+
+.exicon.exicon-name {
+  background-position: -1267px 12px;
+}
+
+.exicon.exicon-phone {
+  background-position: -1267px -59px;
+}
+
+.overlay {
+  cursor: pointer;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: url("../../../../../krasota-zdorovie.com/agro_ua4/img/overlay-bg.png");
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.close-ex {
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: url("../images/close.png") no-repeat;
+}
+
+.send-exitform {
+  display: block;
+  cursor: pointer;
+  height: 54px;
+  width: 315px;
+  margin: 27px 0 0;
+  border: none;
+  outline: none;
+  background: url("../../../../../krasota-zdorovie.com/agro_ua4/img/btn1.png") no-repeat;
+  font-size: 28px;
+  color: #FFF;
+  margin-left: -23px;
+}
+
+.send-exitform:hover {
+  color: #000;
+  margin-left: -23px;
+}
+
+.exattent {
+  font-size: 14px;
+  color: #fff;
+  width: 340px;
+  margin: 14px 0 0 -6px;
+}
+
+.exit-row input.error {
+  border: none;
+}
+
+.clr {
+  clear: both;
+}
+
+.btn-order {
+  height: 40px;
+  border: 1px solid #ff0000;
+  box-shadow: inset -30px -30px 75px -10px #ff0000;
+  outline: 1px solid;
+  outline-color: #ff0000;
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+  font-size: 22px;
+}
+
+.btn-order:hover {
+  border: 1px solid;
+  box-shadow: inset 0 0 60px rgb(255, 0, 0), 0 0 15px rgba(255, 0, 0, 0.8);
+  outline-color: rgba(255, 0, 0, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388;
+}
+
+.btn-order a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-order a:visited {
+  color: white;
+}
+
+@media all and (max-width: 605px) {
+  .screenLock {
+    display: none;
+  }
+}
+
+
+

@@ -1,0 +1,50 @@
+/* Code tidied up by ScrapBook */
+.us_info_strana { font-weight: 600; }
+.us_info_text01 span { font-weight: bold; }
+.zd_usersinfo, .zd_usersinfo * { margin: 0px; padding: 0px; }
+.zd_usersinfo { z-index: 1000; font-family: "PFDRegular",sans-serif; color: rgb(0, 0, 0); text-align: center; width: 864px; margin: auto auto auto -432px; position: fixed; bottom: 0px; left: 50%; }
+.zd_usersinfo a { text-decoration: none; color: rgb(255, 255, 255); }
+.zd_usersinfo_top { background-image: url("pop_bot_bg1.png"); background-repeat: no-repeat; background-position: center top; font-size: 20px; padding: 10px 0px 7px 70px; display: none; }
+.fastDeliveryWidget { background-image: url("pop_bot_bg2.png"); background-repeat: no-repeat ! important; background-position: center bottom; font-size: 20px; margin-top: -1px; padding: 10px 39px 7px 50px; display: table; width: 100%; box-sizing: border-box; }
+.fastDeliveryWidget > * { display: table-cell; vertical-align: middle; margin-right: -4px; }
+.fastDeliveryWidget .icoEl_flag, .fastDeliveryWidget .icoEl_user2 { margin-left: 30px; }
+.icoEl_cart { box-sizing: border-box; border-radius: 5px; background: red none repeat scroll 0% 0%; padding: 3px 25px 3px 95px; position: relative; text-transform: uppercase; font-family: "PFDMedium",sans-serif; font-size: 10px; text-align: left; box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.5); text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5); line-height: 1.2; transition: background 0.15s ease-in-out 0s; }
+.icoEl_cart::after { content: ""; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background: transparent url("btn_top.png") no-repeat scroll center center / cover ; }
+.icoEl_cart i { position: absolute; opacity: 0; top: 0px; left: 0px; background: transparent linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.03) 1%, rgba(255, 255, 255, 0.6) 30%, rgba(255, 255, 255, 0.85) 50%, rgba(255, 255, 255, 0.85) 70%, rgba(255, 255, 255, 0.85) 71%, rgba(255, 255, 255, 0) 100%) repeat scroll 0% 0%; width: 25%; height: 100%; transform: skew(-20deg, 0deg); animation: 2s ease 3s normal none infinite running move; }
+@keyframes move {
+0% { left: 0px; opacity: 0; }
+6% { opacity: 0.4; }
+12% { opacity: 0.5; }
+19% { opacity: 0.6; }
+25% { left: 73%; opacity: 0; }
+50% { left: 74%; }
+100% { left: 75%; }
+}
+.icoEl_cart:hover { background-color: rgb(230, 0, 0); }
+.zd_usersinfo b { font-family: "PFDBold",sans-serif; }
+.icoEl_cart span { display: block; font-family: "PFDBold",sans-serif; font-size: 12px; }
+.icoEl_cart span span { display: block; font-family: "PFDBold",sans-serif; font-size: 18px; }
+.zd_usersinfo > :first-child b { display: inline-block; position: relative; }
+.icoEl_cart, .icoEl_user2, .icoEl_flag { display: table-cell; position: relative; }
+.icoEl_user2 { font-size: 18px; padding-left: 45px; padding-right: 16px; }
+.icoEl_user2 b { font-size: 21px; }
+.icoEl_flag { font-family: "PFDLight",sans-serif; font-size: 17px; padding-left: 56px; line-height: 1.2; font-weight: 100; letter-spacing: 0em; }
+.icoEl_flag span { display: block; text-transform: uppercase; font-family: "PFDMedium",sans-serif; }
+.zd_usersinfo [class^="icoEl_"]::before { content: ""; position: absolute; background-repeat: no-repeat; }
+.icoEl_user { position: absolute; width: 25px; height: 22px; left: -70px; top: 0px; background-image: url("30098012694a5b24c4b375020d1f8aae3a5581a8.png"); }
+.icoEl_user span { position: absolute; display: block; font-size: 11px; right: -18px; bottom: -7px; width: 20px; height: 20px; padding-top: 2px; box-sizing: border-box; background-color: rgb(255, 195, 0); text-align: center; border-radius: 50px; }
+.icoEl_cart::before { width: 35px; height: 35px; left: 23px; top: 2px; padding-right: 13px; border-right: 3px solid white; background-image: url("cca9e4d44cb74138fe38d4b9743c61f5b455cebb.png"); }
+.icoEl_user2::before { width: 29px; height: 24px; left: 25px; top: 8px; background-image: url("9909c730fd6d0875e401eb0e3d5dc5cc9c0e1c03.png"); }
+.icoEl_flag::before { width: 47px; height: 33px; left: 0px; top: 4px; background-position: center -7px; background-size: cover; }
+@media screen and (max-width: 790px) {
+  .b1, .b2, .b3 { display: none; }
+  .icoEl_cart, .icoEl_flag { display: inline-block; }
+  .zd_usersinfo { width: 100%; margin-left: 0px; left: 0px; }
+  .zd_usersinfo_top { display: block; position: absolute; background: transparent none repeat scroll 0% 0%; width: 100%; text-align: center; top: 8px; font-size: 11px; padding-left: 0px; }
+  .zd_usersinfo .icoEl_cart, .zd_usersinfo .icoEl_user2 { margin-left: 0px; margin-right: 0px; }
+  .fastDeliveryWidget { height: 50px; padding: 4px 0px 0px; background: rgb(255, 196, 0) none repeat scroll 0% 0%; width: 100%; box-sizing: border-box; display: block; }
+  .zd_usersinfo .icoEl_user2 { display: none; }
+  .icoEl_user { position: relative; float: left; left: 0px; margin-right: 20px; top: -5px; }
+  .zd_usersinfo .icoEl_flag { margin-left: -4px; padding-left: 58px; }
+  .icoEl_flag::before { left: 0px; }
+}

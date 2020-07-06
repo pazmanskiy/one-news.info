@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+#life_air_btn_new {
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 40px;
+    float: right;
+    margin-right: 328px;
+    background: url(../images/onair-ico.png) left top no-repeat;
+    font-family: Arial !important;
+    font-size: 11px !important;
+    font-weight: normal !important;
+    text-decoration: none;
+    color: #bdbdbd;
+    text-shadow: 0 1px 0 #000;
+    padding-top: 11px;
+    padding-left: 47px;
+    margin-top: -6px;
+}
+
+#channel_hover {
+    text-shadow: none !important;
+    width: 190px;
+    padding: 20px;
+    top: 43px;
+    left: 2px;
+    /* background: url(../images/hint_bg.png); */
+    position: absolute;
+    display: none;
+    z-index: 200;
+    box-shadow: 1px 1px 20px #ccc;
+}
+
+#channel_hover:after {
+    width: 8px;
+    height: 8px;
+    content: '';
+    display: block;
+    position: absolute;
+    background: url(../images/icons.png) 0 -68px no-repeat;
+    top: -8px;
+    left: 10px;
+}
+
+#channel_hover img{
+    max-width: 100%;
+}
+
+#channel_hover h3 {
+    font: normal 14px Arial, sans-serif !important;
+    padding-top: 10px;
+}
+
+#channel_hover h4 {
+    font: normal 11px Arial, sans-serif;
+    color: #666;
+    margin-bottom: 0;
+}
+
+#channel_hover .anons {
+    font: normal 12px Arial, sans-serif;
+    color: #000;
+    padding: 0 0 10px 0;
+    margin-top: 15px;
+}
+
+#channel_hover .time {
+    font-size: 12px;
+    padding-left: 30px;
+    background: url(../images/icons.png) 0px -35px no-repeat;
+    padding-bottom: 2px;
+    display: block;
+}
+
+div.page-brand-article-item div.inner_content {
+    padding-top: 30px;
+}

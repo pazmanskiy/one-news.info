@@ -1,0 +1,611 @@
+/* ::::: http://touchmy.cash/lp/c-dermic_1plus1_1grn/jquery.mCustomScrollbar.min.css ::::: */
+
+/* ::::: http://touchmy.cash/lp/c-dermic_1plus1_1grn/owl.carousel.min.css ::::: */
+
+/* ::::: http://touchmy.cash/lp/c-dermic_1plus1_1grn/style.css ::::: */
+
+@font-face {
+	font-family: "OneplusOne Regular";
+	font-style: normal;
+	font-weight: normal;
+	src: url('oneplusone2015-regular-webfont.eot') format("embedded-opentype"), url('oneplusone2015-regular-webfont.woff2') format("woff2"), url('oneplusone2015-regular-webfont.woff') format("woff"), url('oneplusone2015-regular-webfont.ttf') format("truetype"), url('oneplusone2015-regular-webfont.svg') format("svg");
+}
+@font-face {
+	font-family: "OneplusOne Heavy";
+	font-style: normal;
+	font-weight: normal;
+	src: url('oneplusone2015-heavy_1.eot') format("embedded-opentype"), url('oneplusone2015-heavy_1.woff2') format("woff2"), url('oneplusone2015-heavy_1.woff') format("woff"), url('oneplusone2015-heavy_1.ttf') format("truetype"), url('oneplusone2015-heavy_1.svg') format("svg");
+}
+@font-face {
+	font-family: "OneplusOne Bold";
+	src: url('oneplusone2015-bold.ttf') format("truetype");
+}
+@font-face {
+	font-family: "OneplusOne Light";
+	font-style: normal;
+	font-weight: normal;
+	src: url('oneplusone2015-light.eot') format("embedded-opentype"), url('oneplusone2015-light.woff2') format("woff2"), url('oneplusone2015-light.woff') format("woff"), url('oneplusone2015-light.ttf') format("truetype"), url('oneplusone2015-light.svg') format("svg");
+}
+@font-face {
+	font-family: "OneplusOne LI";
+	font-style: normal;
+	font-weight: normal;
+	src: url('oneplusone2015-lightitalic.eot') format("embedded-opentype"), url('oneplusone2015-lightitalic.woff') format("woff"), url('oneplusone2015-lightitalic.ttf') format("truetype");
+}
+@font-face {
+	font-family: "OnePlusOneTTF-Black";
+	font-style: normal;
+	font-weight: 900;
+	font-stretch: normal;
+	src: url('oneplusonettf-black_gdi.eot') format("embedded-opentype"), url('oneplusonettf-black_gdi.woff') format("woff"), url('oneplusonettf-black_gdi.ttf') format("truetype"), url('oneplusonettf-black_gdi.svg') format("svg");
+	unicode-range: U+20-2122;
+}
+@font-face {
+	font-family: "goloskraini_italicitalic";
+	src: url('goloskraini-italic-webfont.eot') format("embedded-opentype"), url('goloskraini-italic-webfont.woff2') format("woff2"), url('goloskraini-italic-webfont.woff') format("woff"), url('goloskraini-italic-webfont.ttf') format("truetype");
+}
+@font-face {
+	font-family: "goloskrainiregular";
+	src: url('goloskraini-webfont.eot') format("embedded-opentype"), url('goloskraini-webfont.woff2') format("woff2"), url('goloskraini-webfont.woff') format("woff"), url('goloskraini-webfont.ttf') format("truetype");
+}
+@font-face {
+	font-family: "OnePlusOne 2015 Light";
+	font-style: normal;
+	font-weight: normal;
+	src: url('oneplusone2015-light_001.eot') format("embedded-opentype"), url('oneplusone2015-light_001.woff2') format("woff2"), url('oneplusone2015-light_001.woff') format("woff"), url('oneplusone2015-light_001.ttf') format("truetype"), url('oneplusone2015-light_001.svg') format("svg");
+}
+@font-face {
+	font-family: "OnePlusOne 2015 Regular";
+	font-style: normal;
+	font-weight: normal;
+	src: url('oneplusone2015-regular.eot') format("embedded-opentype"), url('oneplusone2015-regular.woff2') format("woff2"), url('oneplusone2015-regular.woff') format("woff"), url('oneplusone2015-regular.ttf') format("truetype"), url('oneplusone2015-regular.svg') format("svg");
+}
+@font-face {
+	font-family: "OnePlusOneTTF Black_L";
+	font-style: normal;
+	font-weight: normal;
+	src: url('oneplusonettf-black2.eot') format("embedded-opentype"), url('oneplusonettf-black2.woff2') format("woff2"), url('oneplusonettf-black2.woff') format("woff"), url('oneplusonettf-black2.ttf') format("truetype"), url('oneplusonettf-black2.svg') format("svg");
+}
+@font-face {
+	font-family: "OneplusOneTTF Black";
+	font-style: normal;
+	font-weight: normal;
+	src: url('oneplusonettf-black.eot') format("embedded-opentype"), url('oneplusonettf-black.woff2') format("woff2"), url('oneplusonettf-black.woff') format("woff"), url('oneplusonettf-black.ttf') format("truetype"), url('oneplusonettf-black.svg') format("svg");
+}
+@font-face {
+	font-family: "OneplusOneTTF Light";
+	font-style: normal;
+	font-weight: normal;
+	src: url('oneplusonettf-light.eot') format("embedded-opentype"), url('oneplusonettf-light.woff2') format("woff2"), url('oneplusonettf-light.woff') format("woff"), url('oneplusonettf-light.ttf') format("truetype"), url('oneplusonettf-light.svg') format("svg");
+}
+* { padding: 0px; margin: 0px; box-sizing: border-box; }
+a { text-decoration: none; }
+li { transition: all 0.15s ease-in-out 0s; }
+li a { transition: all 0.5s ease 0s; }
+.nav-mobile { position: absolute; }
+.nav-mobile, .mob-sub-menu { visibility: hidden; height: 0px; }
+.head { position: fixed; width: 100%; top: 0px; z-index: 9999; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.inner { padding: 10px 55px; background-color: rgb(0, 0, 0); position: relative; }
+.logo { float: left; width: 90px; position: relative; }
+.logo a { display: block; width: 90px; height: 30px; outline: medium none; background: transparent url('1 1_logo.svg') no-repeat scroll 0px 0px; text-indent: -9000px; }
+ul { list-style: outside none none; }
+.head .nav-prime-top ul li { display: inline-block; color: rgb(255, 255, 255); margin-right: 40px; position: relative; }
+.head .nav-prime-top ul li:last-child { margin-right: 0px; }
+.head .nav-prime-top ul li a, .head .nav-prime-top ul li span { color: rgb(255, 255, 255); text-transform: uppercase; font-family: "OneplusOneTTF Black"; font-size: 16px; padding-bottom: 1px; border-bottom: medium none; line-height: 30px; cursor: pointer; }
+.head .nav-prime-top ul li a i, .head .nav-prime-top ul li span i { position: relative; margin-right: 3px; }
+.head .nav-prime-top ul li a:hover, .head .nav-prime-top ul li span:hover { color: rgb(255, 0, 48); }
+.head .nav-prime-top ul li.search i { margin-right: 3px; top: 2px; }
+.nav-main { float: left; clear: both; }
+.nav-wrapper { float: left; margin-left: 60px; min-width: 450px; }
+.nav-main-right { float: right; min-width: 220px; }
+.head .nav-prime-top .nav-main-right li { position: relative; padding: 0px; margin: 0px 0px 0px 40px; }
+.head .nav-prime-top .nav-main-right li:first-child { margin-left: 20px; }
+.head .nav-prime-top .nav-main-right li.langs ul li { float: left; margin-left: 0px; padding-right: 20px; }
+.head .nav-prime-top .nav-main-right li.langs ul li:last-child { padding-right: 0px; }
+.head .nav-prime-top .nav-main-right ul { visibility: hidden; opacity: 0; position: absolute; width: 130px; top: 107%; left: -70%; right: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border-radius: 5px; transition: opacity 0.2s ease-out 0s; box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.9) inset, 0px 1px 2px rgba(0, 0, 0, 0.1); z-index: 1; padding: 10px 22px; }
+.head .nav-prime-top .nav-main-right ul::after { content: ""; position: absolute; bottom: 100%; left: 50%; margin-left: -5px; width: 0px; height: 0px; border-bottom: 5px solid rgb(255, 255, 255); border-right: 5px solid transparent; border-left: 5px solid transparent; }
+.head .nav-prime-top .nav-main-right ul li { margin: 0px; padding-right: 25px; }
+.head .nav-prime-top .nav-main-right ul li:last-child { padding: 0px; }
+.head .nav-prime-top .nav-main-right ul li a { color: rgb(216, 216, 216); }
+.head .nav-prime-top .nav-main-right ul li a.active { color: rgb(114, 114, 114); }
+.nav-main-right li.langs:hover ul { visibility: visible; opacity: 1; }
+.nav-second { width: 100%; box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.15); background: rgba(255, 255, 255, 0.82) none repeat scroll 0% 0%; }
+.nav-middle { display: table; width: 100%; border-spacing: 0px; }
+.head .nav-middle li { display: table-cell; background-color: white; box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.15); position: relative; margin-right: -2px; text-align: center; min-width: 250px; }
+.head .nav-middle li:nth-child(2n) { left: -1px; }
+.head .nav-middle li:first-child { left: -2px; }
+.head .nav-middle li:last-child { left: 1px; }
+.head .nav-middle li:hover { background: rgb(242, 242, 242) none repeat scroll 0% 0%; }
+.head .nav-middle li:last-child { border: medium none; }
+.head .nav-middle li a, .head .nav-middle li span { font-family: "OnePlusOne Regular",sans-serif; line-height: 42px; height: 40px; position: relative; text-transform: uppercase; text-align: center; color: rgb(114, 114, 114); font-size: 14px; margin: 0px; display: block; overflow: hidden; padding: 0px 10px; }
+.head .nav-middle li a.active, .head .nav-middle li span.active { background-color: rgb(255, 0, 51); color: rgb(255, 255, 255); }
+.head .nav-middle li a.active i, .head .nav-middle li span.active i { display: none; }
+.head .nav-middle li a.active path, .head .nav-middle li span.active path {  }
+.head .nav-middle li:hover span.active path {  }
+.head .nav-middle li a:hover, .head .nav-middle li.active a:hover { color: rgb(255, 255, 255); background-color: rgb(255, 0, 51); }
+.head .nav-middle .sub-menu li:first-child, .head .nav-middle .sub-menu li:last-child { left: 0px; right: 0px; }
+.head .nav-middle li:hover .sub-menu li a { color: rgb(114, 114, 114); }
+.head .nav-middle li:hover svg .programs { fill: rgb(114, 114, 114); }
+.head .nav-middle li .sub-menu li { left: auto; }
+.head .nav-second i { left: 5px; top: 0px !important; position: relative; }
+.head .sub-menu { position: absolute; display: none; width: 100%; padding: 0px 0px 20px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; text-align: center; box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15); z-index: 10; }
+.head .sub-menu li { display: block; border-right: medium none; box-shadow: none; left: 0px; }
+.head .sub-menu li a { color: rgb(114, 114, 114); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.head .sub-menu li:hover { background: rgb(255, 0, 51) none repeat scroll 0% 0%; }
+.head .sub-menu li:hover a { color: rgb(255, 255, 255) !important; }
+.nav-second li:hover .sub-menu { display: block; }
+html { height: 100%; width: 100%; }
+body { width: 100%; height: 100%; font-size: 100%; text-rendering: optimizelegibility !important; font-family: "OneplusOne Light",sans-serif; background-color: rgb(242, 242, 242); line-height: 25px; }
+.wrapper { max-width: 1920px; margin: 0px auto; width: 100%; min-height: 100%; }
+.bold { font-weight: 900; }
+p, .main-content li, .main-content h2, .main-content h3 { font-size: 20px; font-weight: 100; font-family: "OneplusOne Light",sans-serif; line-height: 1.4; color: rgb(68, 68, 68); padding: 0px 0px 30px; }
+.clear::after { clear: both; content: ""; display: table; }
+.container { margin: 0px auto; background-color: rgb(255, 255, 255); padding: 0px 300px 20px; min-height: 100%; position: relative; }
+.row { margin: 0px -40px; clear: both; }
+.header { display: table; width: 100%; font-family: "OneplusOne Regular",sans-serif; }
+.row > .header {  }
+.navigator { width: 250px; padding: 40px 0px 0px 40px; }
+.navigator .day, .navigator .time { color: rgb(255, 0, 51); font-family: "OneplusOneTTF Black",sans-serif; padding: 0px; margin-left: -1px; }
+.navigator .day { font-size: 60px; line-height: 38px; }
+.navigator .day { font-size: 30px; line-height: 30px; text-transform: uppercase; padding-bottom: 0px; text-shadow: 2px 2px 6px black, 0px 0px 1em black; }
+.banner { padding-top: 0px; }
+.autor { float: right; margin: 0px 0px 20px; min-width: 215px; text-align: left; }
+.autor i { background: transparent none no-repeat scroll 50% center / 60px auto; width: 60px; height: 60px; border-radius: 50%; display: inline-block; margin-top: 0px; transition: all 0.3s ease 0s; position: relative; vertical-align: middle; }
+.autor:hover {  }
+.autor .name { font-family: "OneplusOneTTF Black",sans-serif; font-size: 20px; line-height: 20px; }
+.autor .proff { color: rgb(191, 191, 191); font-size: 15px; padding-top: 0px; font-family: "OneplusOne Light"; }
+.autor > div { display: inline-block; padding-left: 10px; width: auto; vertical-align: middle; }
+ol, ul { list-style-position: inside; }
+a { color: rgb(0, 0, 0); transition: background 0.5s ease 0s; outline: medium none; }
+button { outline: medium none; }
+button { border: medium none; background: transparent none repeat scroll 0% 0%; outline: medium none; }
+.widget-item { position: absolute; background-color: rgba(0, 0, 0, 0.96); height: 220px; width: 100%; bottom: 0px; }
+.widget-item .close { margin-left: 15px; }
+.video::before { content: ""; position: absolute; background: transparent url('play.svg') no-repeat scroll 0% 0%; width: 34px; height: 34px; left: 50%; margin-left: -17px; top: 50%; margin-top: -17px; z-index: 1; }
+.video:hover::before { background: transparent url('play_hover.svg') no-repeat scroll 0% 0%; }
+.top-news { margin: 0px -10px; }
+.top-news.landing { margin: 20px -20px 0px; }
+.top-news img { width: 100%; display: block; height: 100%; }
+.top-news img:hover { box-shadow: 0px 0px 0px 3px rgb(255, 0, 51) inset; }
+.box > a::before { content: ""; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%; transition: all 0.5s ease 0s; box-shadow: 0px 0px 0px 3px rgba(255, 255, 255, 0) inset; z-index: 2; }
+.box > a:hover::before { box-shadow: 0px 0px 0px 3px rgb(255, 0, 51) inset; }
+.square.link:hover .box > a::before, .colum.long .link:hover .box > a::before, .colum .long.link:hover .box > a::before, .two-inside:hover .box > a::before { box-shadow: 0px 0px 0px 3px rgb(255, 0, 51) inset; }
+@media all and (max-width: 1279px) {
+}
+.container .show-news, .container .show-video { width: 100%; height: 600px; background: transparent none no-repeat scroll center top / cover ; position: relative; margin-bottom: 0px; }
+.container .show-news .navigator, .container .show-video .navigator { position: absolute; bottom: 20px; right: 5px; width: 250px; }
+.container .show-news .navigator .time, .container .show-news .navigator .day, .container .show-video .navigator .time, .container .show-video .navigator .day { color: rgb(255, 255, 255); }
+.tv_presenters { padding-top: 0px; margin-left: 5.5%; margin-right: 5.5%; }
+.tv_presenters .autors { margin-top: 7px; text-align: center; margin-bottom: 7px; }
+.tv_presenters .autors .inblock { display: inline-block; text-align: center; }
+.tv_presenters .autors .autor { display: inline-block; margin: 10px; float: none; width: auto; }
+.tv_presenters .autors .autor:last-child {  }
+.tv_presenters .autors .autor .proff { line-height: 100%; }
+.tv_presenters .autors .autor > div { padding-left: 15px; padding-top: 12px; text-align: left; }
+.tv_presenters > .banner { margin-top: 0px; padding-top: 0px; }
+.top-news.landing.inbanner .colum:nth-child(4) { clear: left; }
+.container .header.show-news .navigator { left: 0px; width: auto; }
+p:empty { line-height: 0; padding: 0px; margin: 0px; }
+.button { position: relative; display: block; float: left; border: 1px solid rgb(114, 114, 114); border-radius: 5px; background-color: transparent; color: rgb(255, 255, 255); font-size: 14px; padding: 13px 12px 10px; text-transform: uppercase; cursor: pointer; font-family: "OneplusOne Light",sans-serif; line-height: 12px; transition: all 0.5s ease 0s; }
+.button.close { padding: 10px 12px; font-size: 20px; line-height: 15px; }
+.button:hover { border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); }
+.button:active {  }
+.button:disabled { border-color: rgb(114, 114, 114); color: rgb(114, 114, 114); }
+.footer { background-color: rgb(0, 0, 0); width: 100%; text-align: center; padding: 20px 50px; font-family: "OneplusOne Light",sans-serif; position: relative; }
+.footer .logos { margin-top: 15px; overflow: auto; }
+.footer .logos span { width: 11.1%; display: block; float: left; }
+.footer .logos a { margin: 0px; display: inline-block; text-indent: -99999px; vertical-align: middle; }
+.footer .logos a.tsn { background: transparent url('logos.svg') no-repeat scroll -2px 0px; width: 67px; height: 30px; }
+.footer .logos a.tet { background: transparent url('logos.svg') no-repeat scroll -4px -38px; width: 70px; height: 30px; }
+.footer .logos a.plus22 { background: transparent url('logos.svg') no-repeat scroll -3px -80px; width: 70px; height: 22px; }
+.footer .logos a.plusplus { background: transparent url('logos.svg') no-repeat scroll -132px -88px; width: 52px; height: 28px; }
+.footer .logos a.plusinter { background: transparent url('logos.svg') no-repeat scroll -124px 7px; width: 60px; height: 40px; }
+.footer .logos a.bigudi { background: transparent url('logos.svg') no-repeat scroll -121px -31.5px; width: 63px; height: 55px; }
+.footer .logos a.unian { background: transparent url('logos.svg') no-repeat scroll -117px -128px; width: 67px; height: 42px; }
+.footer .logos a.ovva { background: transparent url('logos.svg') no-repeat scroll -5px -145px; width: 71px; height: 25px; }
+.footer ul { margin: 40px 0px 20px; }
+.footer ul li { display: inline-block; position: relative; }
+.footer ul li::before { content: ""; position: absolute; top: 2px; right: 40px; bottom: 0px; left: 0px; display: block; background: rgb(255, 255, 255) none repeat scroll 0% 0%; width: 1px; height: 13px; }
+.footer ul li a { color: rgb(255, 255, 255); text-transform: uppercase; padding: 0px 20px; display: block; font-size: 14px; letter-spacing: 0.5px; line-height: 140%; font-family: "OnePlusOne Regular",sans-serif; }
+.footer ul li:first-child::before { display: none; }
+.footer .copyright { color: rgb(114, 114, 114); font-size: 12px; line-height: 20px; padding: 0px 0px 25px; }
+@media all and (min-width: 1010px) {
+	.footer .logos { margin: 15px 0px 0px; overflow: auto; display: table; width: 100%; }
+	.footer .logos span { display: table-cell; float: none; vertical-align: middle; }
+}
+@media all and (min-width: 1010px) and (max-width: 1278px) {
+	.footer .logos { margin: 15px -20px 0px; width: 104%; }
+}
+.label-p { font-family: "OneplusOne Light",sans-serif; line-height: 30px; font-size: 15px; color: rgb(0, 0, 0); padding: 5px 0px; text-align: center; display: inline-block; width: 220px; transition: all 0.5s ease 0s; }
+.label-p.yellow { background-color: rgb(255, 144, 0); color: rgb(255, 255, 255); }
+.navigator .yellow { font-family: "OneplusOne Bold",sans-serif; background-color: rgb(255, 144, 0); text-transform: uppercase; font-size: 14px; color: rgb(255, 255, 255); padding: 12px 10px 10px; line-height: 125%; text-align: left; margin-top: 10px; }
+.navigator .yellow:hover { background-color: rgb(255, 175, 64); }
+.navigator .yellow span { display: inline-block; width: auto; margin: 0px auto; }
+.items > .box:nth-child(2n+1) {  }
+.autor i::after, .users i::after { content: ""; position: absolute; display: block; z-index: 1; top: 0px; left: 0px; width: 100%; height: 100%; transition: all 0.3s ease 0s; background: transparent none repeat scroll 0% 0%; border-radius: 50%; }
+.result { width: 685px; margin: 60px auto 0px; padding-bottom: 15px; text-align: center; }
+.button.search { display: inline-block; float: none; height: 40px; width: 40px; border-color: rgb(212, 215, 218); vertical-align: middle; }
+.button.search svg.search-big { width: 22px; height: 22px; position: absolute; top: 50%; left: 50%; margin-top: -9px; margin-left: -10px; }
+.button.search svg.search-big path { fill: rgb(0, 0, 0); }
+.search-box { width: auto; }
+.search-box .form-group { display: inline-block; margin-bottom: 0px; vertical-align: middle; position: relative; line-height: 40px; height: 40px; }
+input { border: 2px solid rgb(212, 215, 218); border-radius: 5px; color: rgb(115, 131, 153); font-family: "OneplusOne LI",sans-serif; font-size: 19px; margin-right: 15px; padding: 7px 10px; display: inline-block; width: 625px; vertical-align: middle; letter-spacing: 0.3px; text-align: left; transition: all 0.3s linear 0s; }
+:-moz-placeholder { color: rgb(115, 131, 153); opacity: 1; transition: line-height 0.5s ease 0s; line-height: 25px; }
+*::-moz-placeholder { color: rgb(115, 131, 153); opacity: 1; transition: line-height 0.5s ease 0s; line-height: 25px; }
+.inputext:focus::-moz-placeholder { line-height: 100px; transition: line-height 0.5s ease 0s; }
+.inputext:focus:-moz-placeholder { line-height: 100px; transition: line-height 0.5s ease 0s; }
+.inputext:focus { outline-width: inherit; outline-style: inherit; outline-color: rgb(191, 191, 191); }
+.inputext:focus + .button.search, .widget-item.search .inputext:focus + .button.search { border-color: rgb(255, 0, 51); }
+.inputext:focus + .button.search path, .widget-item.search .inputext:focus + .button.search path { fill: rgb(255, 0, 51); }
+.widget-item.search .inputext:focus + .button.search:hover path { fill: rgb(255, 255, 255); }
+.button.search:hover, .widget-item.search .button.search:hover { background: rgb(255, 0, 51) none repeat scroll 0% 0%; border-color: rgb(255, 0, 51); }
+.button.search:hover svg.search-big path { fill: rgb(255, 255, 255); }
+.button.search span { display: none; }
+@media screen and (max-width: 1365px) and (min-width: 1200px), (max-width: 1365px) and (min-width: 731px) {
+}
+@media all and (max-width: 500px) {
+}
+@media screen and (min-width: 1200px) and (max-width: 1365px), (min-width: 731px) and (max-width: 1365px) {
+	.container { width: 970px; }
+	.tv_presenters .autors .autor { margin: 10px; }
+	.inner { padding: 10px 40px; }
+	.top-news, .top-news.landing { margin: 0px -10px; }
+	.top-news.landing.inbanner { margin: 20px -10px 0px; }
+	p, .main-content li { font-size: 18px; }
+	.label-p { font-size: 13px; width: 190px; }
+	.navigator { padding-top: 40px; }
+	.navigator .yellow { font-size: 14px; letter-spacing: 0px; padding: 8px 10px 6px; line-height: 20px; }
+	.navigator { width: 210px; }
+	.navigator .day { font-size: 25px; padding-bottom: 0px; line-height: 26px; }
+	.autor .name { font-size: 18px; }
+	.autor .proff { font-size: 13px; line-height: 20px; }
+	.autor i { width: 55px; height: 55px; }
+	.footer ul li a { font-size: 13px; }
+	.button { padding: 10px 12px 8px; }
+	.button.close { padding: 9px 10px 6px; font-size: 19px; margin-left: 10px; }
+	.result { padding-bottom: 10px; }
+	.container .show-news, .container .show-video { height: 505px; }
+	.footer .logos a { margin: 0px; }
+}
+@media screen and (min-width: 1200px) and (max-width: 1365px) {
+}
+@media all and (min-width: 1260px) and (max-width: 1350px) {
+	.top-news.landing.inbanner { margin: 20px -7.5px 0px; }
+	.landing .colum:nth-child(3n+3), .nwes-pattern .colum:nth-child(4n+4), .full-container .large-container .colum:nth-child(4n+4) { width: 300px; }
+	.landing.inbanner .colum:nth-child(3n+4) { width: 300px; }
+}
+@media screen and (max-width: 1240px) and (min-width: 1200px) {
+}
+.widget-item { height: auto; }
+.widget-item.search { padding: 60px 40px; height: auto; }
+.widget-item.search .result { margin: 0px auto; }
+.widget-item.search .button.search svg.search-big path { fill: rgb(255, 255, 255); }
+.widget-item.search input { width: 520px; }
+.widget-item.search .button.search { border: 1px solid rgb(114, 114, 114); }
+.widget-item.search .button.close { right: 40px; position: absolute; }
+@media screen and (max-width: 1365px) and (min-width: 1200px), (max-width: 1365px) and (min-width: 731px) {
+	.button.close { padding: 9px 10px 6px; font-size: 19px; margin-left: 10px; }
+	.widget-item.search .button.close { padding: 10px 12px; font-size: 20px; line-height: 15px; }
+}
+@media screen and (max-width: 1365px) {
+}
+@media all and (min-width: 1280px) and (max-width: 1365px) {
+}
+@media screen and (min-width: 1200px) and (max-width: 1365px), (min-width: 731px) and (max-width: 1365px) {
+}
+.widgets-holder-space { position: relative; display: none; }
+.widget-static-hide { display: none; }
+.widget-item { position: relative; display: block; overflow: hidden; }
+@media screen and (min-width: 731px) and (max-width: 1365px) {
+}
+@media screen and (max-width: 1399px) {
+}
+@media screen and (max-width: 730px) {
+}
+@media all and (max-width: 1023px) {
+}
+@media all and (max-width: 730px) {
+	.widget-item { display: none; }
+}
+.comTitle { padding: 5px 10px; background: rgb(156, 156, 156) none repeat scroll 0% 0%; color: rgb(255, 255, 255); }
+.photo img { margin: 3px 0px 0px; }
+.photo { float: left; margin-right: 10px; }
+.com-txt { padding-left: 58px; text-align: left; line-height: 20px; }
+.commit-text { margin-top: 25px; }
+img.photo-people { width: 48px; }
+.clear { clear: both; }
+a.link:link { color: rgb(205, 0, 0); text-decoration: underline; }
+a.link:visited { color: rgb(205, 0, 0); text-decoration: underline; }
+a.link:hover { color: rgb(205, 0, 0); text-decoration: underline; }
+a.link:active { color: rgb(205, 0, 0); text-decoration: underline; }
+.btn, .btn-large, button, input[type="submit"], .btn-flat { border: medium none; border-radius: 2px; display: inline-block; height: 40px; line-height: 40px; outline: 0px none; padding: 0px 2rem; text-transform: uppercase; vertical-align: middle; }
+.btn.disabled, .disabled.btn-large, button.disabled, input.disabled[type="submit"], .btn-floating.disabled, .btn-large.disabled, .btn:disabled, .btn-large:disabled, button:disabled, input[type="submit"]:disabled, .btn-large:disabled, .btn-floating:disabled { background-color: rgb(223, 223, 223) !important; box-shadow: none; color: rgb(159, 159, 159) !important; cursor: default; }
+.btn.disabled:hover, .disabled.btn-large:hover, button.disabled:hover, input.disabled[type="submit"]:hover, .btn-floating.disabled:hover, .btn-large.disabled:hover, .btn:disabled:hover, .btn-large:disabled:hover, button:disabled:hover, input[type="submit"]:disabled:hover, .btn-large:disabled:hover, .btn-floating:disabled:hover { background-color: rgb(223, 223, 223); color: rgb(159, 159, 159); }
+.btn, .btn-large, button, input[type="submit"] { text-decoration: none; color: rgb(255, 255, 255); background-color: rgb(255, 86, 0); text-align: center; letter-spacing: 0.5px; transition: all 0.2s ease-out 0s; cursor: pointer; }
+.btn:hover, .btn-large:hover, button:hover, input[type="submit"]:hover { background-color: rgb(255, 95, 0); }
+.btn-floating::before { border-radius: 0px; }
+.waves-effect, button, input[type="submit"] { position: relative; cursor: pointer; display: inline-block; overflow: hidden; -moz-user-select: none; vertical-align: middle; z-index: 1; will-change: opacity, transform; transition: all 0.3s ease-out 0s; }
+.btn:hover, .btn-large:hover, button:hover, input[type="submit"]:hover, .btn-large:hover, button:hover, input[type="submit"]:hover, footer.page-footer, .btn, .btn-large, button, input[type="submit"], .btn-large, button, input[type="submit"], span.badge, .slick-prev, .slick-next, .widget .tagcloud a { background: rgb(208, 36, 0) none repeat scroll 0% 0%; }
+.submit { margin-top: 35px; height: 100%; width: 100%; background-color: firebrick; color: rgb(255, 255, 255); font-size: 21px; border-radius: 3px; }
+button { position: relative; z-index: 100; }
+/* ::::: http://touchmy.cash/lp/c-dermic_1plus1_1grn/style-phones.css ::::: */
+
+@font-face {
+	font-family: "OneplusOne Regular";
+	font-style: normal;
+	font-weight: normal;
+	src: url('oneplusone2015-regular-webfont.eot') format("embedded-opentype"), url('oneplusone2015-regular-webfont.woff2') format("woff2"), url('oneplusone2015-regular-webfont.woff') format("woff"), url('oneplusone2015-regular-webfont.ttf') format("truetype"), url('oneplusone2015-regular-webfont.svg') format("svg");
+}
+@font-face {
+	font-family: "OneplusOne Heavy";
+	font-style: normal;
+	font-weight: normal;
+	src: url('oneplusone2015-heavy_1.eot') format("embedded-opentype"), url('oneplusone2015-heavy_1.woff2') format("woff2"), url('oneplusone2015-heavy_1.woff') format("woff"), url('oneplusone2015-heavy_1.ttf') format("truetype"), url('oneplusone2015-heavy_1.svg') format("svg");
+}
+@font-face {
+	font-family: "OneplusOne Bold";
+	src: url('oneplusone2015-bold.ttf') format("truetype");
+}
+@font-face {
+	font-family: "OneplusOne Light";
+	font-style: normal;
+	font-weight: normal;
+	src: url('oneplusone2015-light.eot') format("embedded-opentype"), url('oneplusone2015-light.woff2') format("woff2"), url('oneplusone2015-light.woff') format("woff"), url('oneplusone2015-light.ttf') format("truetype"), url('oneplusone2015-light.svg') format("svg");
+}
+@font-face {
+	font-family: "OneplusOne LI";
+	font-style: normal;
+	font-weight: normal;
+	src: url('oneplusone2015-lightitalic.eot') format("embedded-opentype"), url('oneplusone2015-lightitalic.woff') format("woff"), url('oneplusone2015-lightitalic.ttf') format("truetype");
+}
+@font-face {
+	font-family: "OnePlusOneTTF-Black";
+	font-style: normal;
+	font-weight: 900;
+	font-stretch: normal;
+	src: url('oneplusonettf-black_gdi.eot') format("embedded-opentype"), url('oneplusonettf-black_gdi.woff') format("woff"), url('oneplusonettf-black_gdi.ttf') format("truetype"), url('oneplusonettf-black_gdi.svg') format("svg");
+	unicode-range: U+20-2122;
+}
+@font-face {
+	font-family: "goloskraini_italicitalic";
+	src: url('goloskraini-italic-webfont.eot') format("embedded-opentype"), url('goloskraini-italic-webfont.woff2') format("woff2"), url('goloskraini-italic-webfont.woff') format("woff"), url('goloskraini-italic-webfont.ttf') format("truetype");
+}
+@font-face {
+	font-family: "goloskrainiregular";
+	src: url('goloskraini-webfont.eot') format("embedded-opentype"), url('goloskraini-webfont.woff2') format("woff2"), url('goloskraini-webfont.woff') format("woff"), url('goloskraini-webfont.ttf') format("truetype");
+}
+@font-face {
+	font-family: "OnePlusOne 2015 Light";
+	font-style: normal;
+	font-weight: normal;
+	src: url('oneplusone2015-light_001.eot') format("embedded-opentype"), url('oneplusone2015-light_001.woff2') format("woff2"), url('oneplusone2015-light_001.woff') format("woff"), url('oneplusone2015-light_001.ttf') format("truetype"), url('oneplusone2015-light_001.svg') format("svg");
+}
+@font-face {
+	font-family: "OnePlusOne 2015 Regular";
+	font-style: normal;
+	font-weight: normal;
+	src: url('oneplusone2015-regular.eot') format("embedded-opentype"), url('oneplusone2015-regular.woff2') format("woff2"), url('oneplusone2015-regular.woff') format("woff"), url('oneplusone2015-regular.ttf') format("truetype"), url('oneplusone2015-regular.svg') format("svg");
+}
+@font-face {
+	font-family: "OnePlusOneTTF Black_L";
+	font-style: normal;
+	font-weight: normal;
+	src: url('oneplusonettf-black2.eot') format("embedded-opentype"), url('oneplusonettf-black2.woff2') format("woff2"), url('oneplusonettf-black2.woff') format("woff"), url('oneplusonettf-black2.ttf') format("truetype"), url('oneplusonettf-black2.svg') format("svg");
+}
+@font-face {
+	font-family: "OneplusOneTTF Black";
+	font-style: normal;
+	font-weight: normal;
+	src: url('oneplusonettf-black.eot') format("embedded-opentype"), url('oneplusonettf-black.woff2') format("woff2"), url('oneplusonettf-black.woff') format("woff"), url('oneplusonettf-black.ttf') format("truetype"), url('oneplusonettf-black.svg') format("svg");
+}
+@font-face {
+	font-family: "OneplusOneTTF Light";
+	font-style: normal;
+	font-weight: normal;
+	src: url('oneplusonettf-light.eot') format("embedded-opentype"), url('oneplusonettf-light.woff2') format("woff2"), url('oneplusonettf-light.woff') format("woff"), url('oneplusonettf-light.ttf') format("truetype"), url('oneplusonettf-light.svg') format("svg");
+}
+@media all and (max-width: 1000px) {
+	.logo, .logo a { width: 60px; height: 20px; }
+	.footer { height: auto; }
+	.footer .logos { margin-top: 5px; }
+	.footer ul li a { font-size: 12px; color: rgb(141, 141, 141); }
+	.footer .footer-nav { margin: 5px 0px 10px; }
+	.footer .footer-nav li { margin-bottom: 10px; }
+	.footer .footer-nav li a:hover { text-decoration: underline; }
+	.footer ul li::before { background: rgb(141, 141, 141) none repeat scroll 0% 0%; top: 1px; display: none; }
+	.footer ul li:nth-child(2)::before {  }
+	.footer .logos a { margin: 5px 0px 20px; }
+	.footer .logos a.tsn { width: 54px; height: 23px; background-size: 139px auto; }
+	.footer .logos a.plusplus { background-position: -108px -70px; width: 43px; height: 24px; background-size: 152px auto; }
+	.footer .logos a.tet { background-position: -3px -33px; width: 63px; height: 25px; background-size: 161px auto; }
+	.footer .logos a.plus22 { background-position: 2px -61px; width: 58px; height: 18px; background-size: 142px auto; }
+	.footer .logos a.plusinter { background-position: -101px 4px; width: 51px; height: 30px; background-size: 153px auto; }
+	.footer .logos a.bigudi { background-position: -95px -25px; width: 50px; height: 40px; background-size: 145px auto; }
+	.footer .logos a.unian { background-position: -82px -89px; width: 50px; height: 32px; background-size: 132px auto; }
+	.footer .logos a.ovva { background-position: -4px -115px; width: 55px; height: 20px; background-size: 145px auto; }
+}
+@media all and (max-width: 730px) {
+	body { font-size: 16px; }
+	.widgets-holder-space { display: none; }
+	.feedback-form {width: 90%}
+	.button { font-size: 14px; padding: 10px 12px; }
+	.wrapper { box-shadow: none; }
+	.inner { padding: 0px; background: transparent none repeat scroll 0% 0%; }
+	.logo { background: rgb(0, 0, 0) none repeat scroll 0% 0%; padding: 10px 2.5vw; width: 100%; display: block; height: 40px; }
+	.head ul li { display: block; padding: 1px 0px; }
+	.head ul li a { letter-spacing: 0.3px; }
+	.nav-wrapper, .nav-main-right, .nav-second { display: none; }
+	.mob-menu { position: absolute; display: inline-block; right: 2.5vw; top: 12px; width: 20px; height: 20px; }
+	.mob-menu i { display: block; position: absolute; width: 20px; height: 1px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; margin-bottom: 6px; top: 0px; }
+	.mob-menu i:nth-child(2) { top: 7px; }
+	.mob-menu i:nth-child(3) { top: 14px; }
+	.mob-menu:hover { cursor: pointer; }
+	.mob-menu:hover i {  }
+	.head .nav-mobile { position: fixed; width: 100vw; left: -100%; overflow-y: auto; overflow-x: hidden; background: rgba(0, 0, 0, 0.9) none repeat scroll 0% 0%; padding-bottom: 30px; text-align: center; color: rgb(255, 255, 255); opacity: 0; transition: opacity 0.5s cubic-bezier(0.32, 0.31, 0.58, 0.49) 0s; visibility: visible; height: 100%; top: 40px; }
+	.head .nav-mobile ul li { margin-right: 0px; padding: 0px; display: block; }
+	.head .nav-mobile ul li a { font-size: 22px; }
+	.head .nav-mobile .nav-middl { margin: 20px 0px 10px; display: inline-block; }
+	.head .nav-mobile .nav-middl li { padding-bottom: 5px; }
+	.head .nav-mobile .langs { border-radius: 6px; border: 1px solid rgb(114, 114, 114); display: inline-block; margin-top: 20px; overflow: hidden; }
+	.head .nav-mobile .langs li { display: inline-block; transition: color 0.35s ease 0s; }
+	.head .nav-mobile .langs li:last-child { margin-left: -4px; }
+	.head .nav-mobile .langs a { color: rgb(114, 114, 114); font-family: "OneplusOne Light",sans-serif; font-size: 16px; text-transform: none; display: inline-block; padding: 0px 17px; }
+	.head .nav-mobile .langs a.active { background: rgb(114, 114, 114) none repeat scroll 0% 0%; color: rgb(0, 0, 0); }
+	.head .nav-prime-top .mob-sub-menu .nav-prev { position: absolute; display: block; width: 30px; height: 30px; top: 10px; left: 0px; z-index: 3; visibility: hidden; cursor: pointer; }
+	.head .nav-prime-top .mob-sub-menu .nav-prev path { fill: rgb(255, 255, 255); }
+	.head .nav-prime-top .mob-sub-menu .nav-prev:hover path { fill: rgb(255, 0, 51); }
+	.head .nav-prime-top .mob-sub-menu > ul, .head .nav-prime-top .mob-sub-menu > div { position: absolute; overflow: hidden; width: 100%; left: -100%; visibility: hidden; top: 50px; z-index: 2; text-align: center; transition: opacity 0.9s cubic-bezier(0.32, 0.31, 0.58, 0.49) 0s; padding: 0px 20px; }
+	.head .nav-prime-top .mob-sub-menu > ul li, .head .nav-prime-top .mob-sub-menu > ul p, .head .nav-prime-top .mob-sub-menu > div li, .head .nav-prime-top .mob-sub-menu > div p { left: -10%; position: relative; text-align: center; display: block; margin: 0px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+	.head .nav-prime-top .mob-sub-menu > ul li a, .head .nav-prime-top .mob-sub-menu > ul p a, .head .nav-prime-top .mob-sub-menu > div li a, .head .nav-prime-top .mob-sub-menu > div p a { font-family: "OneplusOneTTF Light",sans-serif; text-transform: uppercase; font-size: 22px; line-height: 33px; }
+	.head .nav-prime-top .mob-sub-menu > ul li.allplus, .head .nav-prime-top .mob-sub-menu > ul p.allplus, .head .nav-prime-top .mob-sub-menu > div li.allplus, .head .nav-prime-top .mob-sub-menu > div p.allplus { border: 1px solid rgb(114, 114, 114); display: inline-block; border-radius: 5px; padding: 5px 45px; margin-top: 50px; }
+	.head .nav-prime-top .mob-sub-menu > ul li.allplus a, .head .nav-prime-top .mob-sub-menu > ul p.allplus a, .head .nav-prime-top .mob-sub-menu > div li.allplus a, .head .nav-prime-top .mob-sub-menu > div p.allplus a { color: rgb(114, 114, 114); }
+	.head .nav-prime-top .mob-sub-menu > ul li.allplus:hover, .head .nav-prime-top .mob-sub-menu > ul p.allplus:hover, .head .nav-prime-top .mob-sub-menu > div li.allplus:hover, .head .nav-prime-top .mob-sub-menu > div p.allplus:hover { border: 1px solid rgb(255, 255, 255); }
+	.head .nav-prime-top .mob-sub-menu > ul li.allplus:hover a, .head .nav-prime-top .mob-sub-menu > ul p.allplus:hover a, .head .nav-prime-top .mob-sub-menu > div li.allplus:hover a, .head .nav-prime-top .mob-sub-menu > div p.allplus:hover a { color: rgb(255, 255, 255); }
+	.nav-content { left: -10%; transition: all 0.2s cubic-bezier(0.32, 0.31, 0.58, 0.49) 0s; position: relative; }
+	.head .nav-mobile .nav-botton { width: 50%; float: left; text-align: left; padding-left: 15px; }
+	.head .nav-mobile .nav-botton.first { text-align: right; padding-left: 0px; padding-right: 12px; }
+	.head .nav-mobile .nav-botton ul li { padding: 0px 0px 5px; cursor: pointer; position: static; }
+	.head .nav-mobile .nav-botton ul li a, .head .nav-mobile .nav-botton ul li span { color: rgb(255, 255, 255); font-size: 20px; font-family: "OneplusOneTTF Light",sans-serif; line-height: 33px; text-transform: uppercase; }
+	.head .nav-mobile .nav-botton ul li a:hover, .head .nav-mobile .nav-botton ul li span:hover { color: rgb(255, 0, 51); }
+	#menu_programms li { padding-bottom: 3px; }
+	.nav-mobile input, .nav-mobile .form-group { width: 80vw; height: 42px; font-size: 16px; line-height: 26px; background: transparent none repeat scroll 0% 0%; border-color: rgb(114, 114, 114); color: rgb(255, 255, 255); border-radius: 7px; max-width: 320px; }
+	.nav-mobile input .button.search, .nav-mobile .form-group .button.search { position: absolute; top: 0px; right: 0px; border: medium none; height: 42px; width: 42px; border-radius: 0px 6px 6px 0px; }
+	.nav-mobile input .button.search svg.search-big, .nav-mobile .form-group .button.search svg.search-big { height: 20px; width: 20px; }
+	.nav-mobile input .button.search svg.search-big path, .nav-mobile .form-group .button.search svg.search-big path { fill: rgb(255, 255, 255); }
+	:-moz-placeholder { color: rgb(255, 255, 255); }
+	*::-moz-placeholder { color: rgb(255, 255, 255); }
+	.inputext:focus + .button.search path { fill: rgb(255, 0, 51) !important; }
+	.button.search:hover svg.search-big path { fill: rgb(255, 255, 255) !important; }
+	.button.search span { display: none; }
+	.large-container, .container { width: 100%; padding: 40px 2.5% 20px; }
+	.top-news { margin: 0px; }
+	.video::before, .video:hover::before { width: 62px; height: 62px; margin-left: -31px; margin-top: -31px; background-size: 62px auto; }
+	.small-i.video::before, .small-i.video:hover::before { width: 34px; height: 34px; margin-left: -17px; margin-top: -17px; background-size: 31px auto; }
+	.colum::after, .square.link::after { clear: both; content: ""; display: table; }
+	.top-news.landing { margin: 30px 0px 0px; }
+	.row { margin: 0px -2.5vw; }
+	p, .main-content li { font-size: 16px; line-height: 25px; padding-left: 10px; margin-right: 10px; font-family: "OneplusOne Regular",sans-serif; }
+	.tv_presenters .autors { margin-top: 0px; }
+	.tv_presenters .autors .autor > div { padding-left: 0px; padding-top: 5px; position: relative; margin-left: 65px; display: block; }
+	.tv_presenters .autors .autor i { width: 50px; height: 50px; margin: 0px; float: left; }
+	.tv_presenters .autors .autor .name { font-size: 19px; }
+	.tv_presenters .autors .autor .proff { font-size: 14px; }
+	.container .show-news, .container .show-video { height: 375px; background-position: 50% 0%; background-size: cover; background-repeat: no-repeat; position: relative; margin-bottom: 10px; }
+	.container .show-news::after, .container .show-video::after { position: absolute; z-index: 1; display: block; width: 100%; height: 215px; background: transparent linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent) repeat scroll 0% 0%; content: ""; bottom: 0px; }
+	.container .show-news .navigator, .container .show-video .navigator { left: 2.5vw; bottom: 0px; padding-left: 10px; }
+	.show-news { margin-bottom: 20px; }
+	.show-news .navigator { bottom: 10px; z-index: 2; }
+	.show-news .navigator .day { font-size: 20px; line-height: 100%; padding-bottom: 0px; margin-left: 1px; }
+	.show-news .navigator .yellow { width: 130px; font-size: 8px; padding: 8px 10px; margin-top: 5px; }
+	.result { width: 100%; margin-top: 50px; }
+	.result input, .result .form-group { width: 100%; height: 35px; font-size: 16px; line-height: 26px; margin-right: 0px; }
+	.result .button.search { position: absolute; top: 0px; right: 0px; border: medium none; height: 35px; width: 35px; }
+	.result .button.search:hover { border-radius: 0px 5px 5px 0px; }
+	.result .button.search svg.search-big { height: 20px; width: 20px; margin-top: -8px; }
+	.container { padding-top: 30px; }
+	.footer { padding: 20px 10px; }
+	.footer .logos { text-align: center; }
+	.footer .logos span { width: 30%; display: inline-block; float: none; }
+	.tags, .allplus i { display: none; }
+	.tv_presenters { padding-top: 20px; }
+	.tv_presenters .autors .autor { padding: 10px; width: 100%; margin: 0px; }
+}
+@media all and (min-width: 730px) and (max-width: 1000px) {
+	.nav-mobile, .mob-menu { display: none; }
+	.navigator { width: 220px; padding-top: 35px; }
+	.logo a { display: inline-block; vertical-align: middle; }
+	.large-container, .container { width: 100%; padding: 85px 40px 20px; }
+	.inner {  }
+	.nav-wrapper { margin-left: 50px; min-width: 390px; }
+	.nav-main-right a span, .nav-main-right span span { display: none; }
+	.head .nav-prime-top .nav-main-right li { margin-left: 15px; }
+	.head ul.nav-main li { margin-right: 23px; float: left; display: inline-block; }
+	.head ul.nav-main li a, .head ul.nav-main li span { line-height: 10px; letter-spacing: 0.3px; font-size: 13.5px; }
+	.head .nav-prime-top .nav-main-right { min-width: 80px; text-align: right; margin-top: -1px; }
+	.head .nav-prime-top .nav-main-right li { margin-right: 0px; }
+	.head .nav-prime-top .nav-main-right li a { line-height: 15px; }
+	.head .nav-prime-top .nav-main-right svg { width: 15px; height: 15px; vertical-align: middle; }
+	.head .nav-prime-top .nav-main-right .search svg { width: 17px; height: 17px; }
+	.head .nav-main-right li:first-child { margin-left: 0px; }
+	.head .nav-middle li a, .head .nav-middle li span { font-size: 14px; }
+	.head .nav-middle li a i, .head .nav-middle li span i { display: none; }
+	.head .nav-middle li { min-width: 190px; }
+	.head .nav-main-right ul { left: -50%; margin-left: -46px; top: 28px; }
+	.top-news { margin: 0px -20px; }
+	.colum, .colum.inbanner, .landing .colum:nth-child(3n+3), .in-online .top-news.landing .colum { float: left; width: 50%; padding: 0px 20px; margin: 0px !important; }
+	.landing .colum:nth-child(3n+3), .top-news.landing.inbanner.news .colum:nth-child(3n+4), .top-news.landing.inbanner .colum { width: 50% !important; margin: 0px !important; }
+	.footer .logos a { margin: 0px 20px 15px; }
+	.footer ul li::before { display: block; }
+	.footer ul li a { color: rgb(255, 255, 255); }
+	.footer .footer-nav { margin: 30px 0px 20px; }
+	.button { font-size: 12px; padding: 9px 15px 7px; }
+	.button.close { padding: 8px 8px 5px; font-size: 17px; line-height: 15px; }
+	.autor { margin: 10px 0px 20px 5px; }
+	.container .show-news, .container .show-video { height: 555px; }
+	.top-news.landing.inbanner .colum:nth-child(3) { float: right; }
+	.top-news.landing.inbanner { margin: 25px -20px 0px; }
+	.banner { padding-top: 20px; font-size: 20px; line-height: 30px; }
+	.result { width: 685px; }
+	.button.search { width: 100px; }
+	.button.search svg { display: none; }
+	.button.search span { display: inline-block; color: rgb(0, 0, 0); font-size: 19px; letter-spacing: 0.3px; text-transform: none; }
+	.button.search:hover span { color: rgb(255, 255, 255); }
+	.form-group .button.search { display: block; }
+	.search-box input { width: 556px; float: left; }
+	.widget-item.search { padding: 90px 40px; height: auto; }
+	.widget-item.search .result { margin: 0px auto; }
+	.widget-item.search input { width: 520px; }
+	.widget-item.search .button.close { right: 40px; position: absolute; top: 40px; padding: 8px 8px 5px; font-size: 17px; line-height: 15px; }
+	.widget-item.search .button.search span { color: rgb(255, 255, 255); }
+	.container .show-news .navigator, .container .show-video .navigator { bottom: 40px; right: 0px; }
+	.container .show-news .navigator .day, .container .show-video .navigator .day { font-size: 34px; }
+	.container .show-news .navigator .yellow, .container .show-video .navigator .yellow { font-size: 14px; }
+	.footer .logos { text-align: center; display: table; width: 100%; }
+	.footer .logos span { width: auto; display: table-cell; float: none; }
+	.footer .logos span a { margin: 0px; }
+}
+@media all and (min-width: 1024px) and (max-width: 1200px) {
+	.footer .logos a:first-child { margin-left: 0px; }
+	.footer .logos a:last-child { margin-right: 0px; }
+	.footer .logos a { margin: 0px 20px; }
+	.large-container, .container { width: 100%; }
+	p { font-size: 20px; line-height: 30px; }
+	.head .nav-prime-top ul li { margin-right: 25px; }
+	.head .nav-prime-top .nav-main-right li { margin-left: 30px; margin-right: 0px; }
+	.nav-main-right { min-width: 180px; }
+	.large-container, .container { padding: 40px; }
+	.container { padding: 90px 40px 20px; width: 1024px; margin: 0px auto; }
+	.label-p { font-size: 15px; }
+	.container .show-news, .container .show-video { height: 530px; }
+	.widget-item.search { padding: 90px 40px; height: auto; }
+	.widget-item.search .result { margin: 0px auto; }
+	.widget-item.search .result .button.search span { color: rgb(255, 255, 255); }
+	.widget-item.search input { width: 520px; }
+	.widget-item.search .button.close { right: 40px; position: absolute; top: 40px; padding: 9px 10px 6px; font-size: 19px; margin-left: 10px; }
+	.tv_presenters .autors { margin-bottom: 40px; }
+	.button.search svg { display: none; }
+	.button.search span { display: inline-block; color: rgb(255, 255, 255); font-size: 19px; letter-spacing: 0.3px; text-transform: none; }
+	.result .button.search span { color: rgb(0, 0, 0); }
+	.button.search { width: 100px; }
+	.button.search:hover span { color: rgb(255, 255, 255); }
+	.search-box input { width: 556px; float: left; }
+	.footer { min-height: 280px; }
+	.form-group .button.search { display: block; }
+}
+@media all and (max-width: 1023px) {
+}
+@media all and (max-width: 730px) {
+	.widget-item { display: none; }
+}
+.screenLock { position: fixed; width: 100%; background: rgba(0, 0, 0, 0.7) none repeat scroll 0% 0%; top: 0px; left: 0px; z-index: 99999; display: none; }
+.msg { position: absolute; width: 1000px; height: auto; top: 150px; left: 45%; padding-bottom: 20px; margin-left: -380px; background: rgb(251, 251, 252) none repeat scroll 0% 0%; border: 2px solid rgb(246, 246, 246); }
+.close { position: absolute; top: 1px; right: 5px; font-size: 40px; cursor: pointer; }
+
+.feedback-form { display: block; width: 60%; box-sizing: border-box; padding: 15px 20px; margin: 10px auto; background-color: rgb(222, 222, 222); border-radius: 8px; min-height: 160px; }
+.feedback-label { text-align: center; font-style: normal; display: block; }
+.feedback-fio, .feedback-phone { width: 100%; box-sizing: border-box; display: block; outline: medium none; line-height: 30px; color: black; padding: 5px 10px; font-size: 16px; border: medium none; margin: 5px auto; border-radius: 2px; }
+.feedback-fio:hover, .feedback-phone:hover { outline: 2px solid rgb(142, 142, 142); }
+.feedback-fio:focus, .feedback-phone:focus { outline: 2px solid rgb(227, 142, 84); }
+.feedback-btn { width: 100%; box-sizing: border-box; display: block; outline: medium none; line-height: 30px; padding: 5px 10px; border: medium none; margin: 5px auto; border-radius: 2px; background-color: rgb(255, 102, 0); color: rgb(255, 255, 255); font-size: 18px; text-transform: uppercase; letter-spacing: 0.15em; }
+.feedback-btn:hover { background-color: rgb(255, 255, 255); color: rgb(255, 102, 0); transition: background-color 0.8s ease 0s, color 0.8s ease 0s; cursor: pointer; }
+

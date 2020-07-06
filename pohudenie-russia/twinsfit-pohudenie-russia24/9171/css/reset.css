@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/*  Сбрасываем все  */
+html, body, div, span, h1, h2, h3, h4, p, a, img, strong, sup, b, ul, li, form
+{vertical-align: baseline; background: transparent; text-align: left; text-indent: 0; font-size: 100%; text-decoration: none; list-style-type: none; list-style: none; outline: 0; border: 0; margin: 0; padding: 0}
+
+
+body    {line-height: 1; background-color: #fff; font: normal 15px/20px "Lucida Grande", "Lucida Sans Unicode", Lucida, arial, sans-serif}
+
+
+footer, header, nav {display:block}
+
+img     {vertical-align: middle}
+
+
+/*  quotes  */
+
+
+/*   Списки   */
+ul li       {display: block}
+
+
+
+nav ul, nav li { margin: 0; }
+
+
+/*	headers  */
+h1 						    {font-size: 138.5%}
+h2 						    {font-size: 123.1%}
+h3 						    {font-size: 108%}
+h1,h2,h3 				    {margin: 1em 0}
+h1,h2,h3,h4,strong    {font-weight:bold}
+
+
+/*  tables  */
+
+/* www.pathf.com/blogs/2008/05/formatting-quoted-code-in-blog-posts-css21-white-space-pre-wrap/ */
+/*pre {white-space: pre; white-space: pre-wrap; white-space: pre-line; word-wrap: break-word; padding: 15px}*/
+
+
+/* set sub, sup without affecting line-height: gist.github.com/413930*/
+sup { font-size: 75%; line-height: 0; position: relative; }
+sup { top: -0.5em; }
+
+/*  input, textarea, buttons, select, option  */
+
+input     {overflow: visible; vertical-align: middle} /* thnx ivannikolic! */
+
+:focus  {outline: 0}
+input::-moz-focus-inner {border: 0}
+
+input { margin: 0; }
